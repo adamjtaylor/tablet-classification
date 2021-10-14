@@ -54,9 +54,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://adamjtaylor.github.io/tablet-classification/" />
   <meta name="citation_pdf_url" content="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/e81edf68559748d4549c5dd94a15b27a6882fc5c/" />
-  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/e81edf68559748d4549c5dd94a15b27a6882fc5c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/e81edf68559748d4549c5dd94a15b27a6882fc5c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/fd6e1c3e84b512fbc046be025c43bd87e938aefb/" />
+  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/fd6e1c3e84b512fbc046be025c43bd87e938aefb/" />
+  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/fd6e1c3e84b512fbc046be025c43bd87e938aefb/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -78,9 +78,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://adamjtaylor.github.io/tablet-classification/v/e81edf68559748d4549c5dd94a15b27a6882fc5c/))
+([permalink](https://adamjtaylor.github.io/tablet-classification/v/fd6e1c3e84b512fbc046be025c43bd87e938aefb/))
 was automatically generated
-from [adamjtaylor/tablet-classification@e81edf6](https://github.com/adamjtaylor/tablet-classification/tree/e81edf68559748d4549c5dd94a15b27a6882fc5c)
+from [adamjtaylor/tablet-classification@fd6e1c3](https://github.com/adamjtaylor/tablet-classification/tree/fd6e1c3e84b512fbc046be025c43bd87e938aefb)
 on October 14, 2021.
 </em></small>
 
@@ -253,6 +253,111 @@ Cosmic ray removal was performed automatically by Renishaw Wire (version 5.3) an
 ### Classification 
 
 Spectra were collated into a 10-fold cross validation 1 with 10 repeats in a 4/1/5 (train/test/total) split.  To remove highly co-variate polymer peak sequences leading to overfitting, highly correlating variables (Pearson correlation > 0.9) were removed from DESI MSI data. Data were centered around the arithmetic mean and scaled to have a standard deviation of one. Underrepresented classes (for DESI MSI, the background class) were up sampled. Each training fold was applied to a range of classification algorithms using the tidymodels package. All models were implemented with their default parameters beyond setting to classification mode. The functions, engines and default parameters used for each model are provided in supplementary table 1. These models were then used to predict each testing fold. For each fold the F1 score was calculated. For DESI MSI the algorithm with the highest F1 score, a support vector machine with a polynomial kernel was selected for further model tuning on a single 4/1/5 validation split of the training data. For transmission Raman data a LDA model was selected. A final model was fitted on all the training data. These models were used to predict the test independent test sets. Cosine similarity between spectra were calculated using the cosine function from the coop package [@https://cran.r-project.org/package=coop]. Considering the angle between vectors, rather than magnitude, cosine similarity provides a useful and robust measure of spectral similarity for highly multivariate datasets [@doi:10.1021/acs.analchem.6b02139] 
+
+## Results and discussion
+
+### Acquisition of DESI-MS spectra from tablets
+
+Rich mass spectra were rapidly obtained from each tablet type when held under the DESI sprayer and MS inlet capillary (Figure 1A). DESI-MS spectra from tablet types A and D are dominated by repeating polymeric peaks above *m/z* ~700, indicating the presence of a polymer film coating while spectra from tablet types B and C are less complex, being dominated by  peaks below *m/z* 700. The maximum intensity of the spectra collected in the absence of a tablet (“background”) is lower than for spectra where a tablet is presence. 
+
+The polymeric peak sequences observed in tablet type A and D above *m/z* 700 are distinct from one another with several different peak sequences are observed (Figure 1B). Tablet types A and D both exhibit a clear sequence of peaks spaced by *m/z* ~44 the a signally charged unit difference from \[C~2~H~4~O]^+^. For both tablet types peaks above *m/z* 1000 are most intense. In tablet type A this predominantly consists of isotope clusters separated by *m/z* ~14.68, with peaks separated by *m/z* 0.33, indicating a 3+ charge state of the loss of \[C2H4O]. Conversely, in tablet type D the isotope clusters are separated by *m/z* ~11.01 with peak spacing of *m/z* ~0.25, indicating a 4+ charge state and the loss of \[C~2~H~4~O]. This indicates that while both are coated with a PEG-based polymer, the molecular weight or coating application may differ between the brand name and generic product. 
+
+All three active ingredients were annotated from a mean spectrum within 15 ppm mass accuracy. Boxplots of single scan intensity show distinct differences in active intensity between types (Figure 1C, 1D, 1E). Caffeine is present in tablet types A, B and D and absent from type C. Median intensity is highest for the uncoated tablet type B. Intensity for tablet type C is similar to that in the background. While aspirin is present in tablet types A and D, the detected intensity in type B is high. This may represent an isobaric compound also present in type B or carry over from sampling tablet type A. Paracetamol is present in, and detected in all table types, although is most intense in tablets without a film-coating (types B and C) which may otherwise mask signal from the underlying bulk material. Variance for all actives and tablet types was high, indicating the need for consistent sampling procedures and robust classification approaches. 
+
+### Acquisition of Transmission Raman spectra from tablets 
+
+Mean transmission Raman spectra for each tablet type (Figure 1F) show very similar profiles for tablet types A and D (the film coated aspirin, paracetamol, and caffeine tablets) and between types B (paracetamol and caffeine and C (paracetamol only). Peaks characteristic of each active ingredient are observed (Caffeine: 555 cm^-1^, Paracetamol: 858 cm^-1^, Aspirin: 1192 cm^-1^) [@doi:http://dx.doi.org/10.1016/j.vibspec.2007.12.016; @doi:http://dx.doi.org/10.3390/pharmaceutics6040651; @doi:http://dx.doi.org/10.1016/j.molstruc.2014.10.079]. However, no clear differences between tablets A and D were observed. As expected based on the tablet composition, the predominant spectral features relate to the actives rather than from the coating ingredients. 
+
+![
+    **Representative spectra from DESI MS and transmission Raman spectroscopy analysis of solid-oral dosage forms**
+     (A-C) DESI MS results. (A) Mean spectra for tablet types A, B, C & D and background. (B) Mean spectra for tablet types A (teal) and D (pink) for mass range *m/z* 1065 to *m/z* 1090. (C-E) Boxplots for peaks assigned as caffeine (C), aspirin (D) and paracetamol (E) for each tablet type and background. (F-L) Transmission Raman spectroscopy results. (F) Mean spectra for tablet type A-D from training data. Peaks for the active ingredients shown in G-L are highlighted with a vertical line.  (G-L) Mean spectra and (J-L) boxplots for peaks annotated as active ingredients (G & J)  Caffeine, 541 cm^-1^, (H & K) Paracetamol, 847 cm^-1^, and (I & L) Aspirin, 1181 cm^-1^). Boxplots show median (horizontal line), interquartile range (box) and range excluding outliers (whiskers). Points show single scan intensities. 
+] (
+    https://github.com/NICE-MSI/xtheme_med_manu/blob/637d341700f0602893985990cc1abd4a570e4e06/figures/fig1.pdf
+) {
+    fig:spectra
+}
+
+### Relative spectral similarity
+
+It is notable that for both DESI MS and Transmission Raman data assessment of active ingredients or film coating, or excipients alone cannot robustly separate all tablet types. We can objectively assess the relative overall spectral similarity between and within tablet types by calculating the cosine distance of each spectrum of the same modality from one another. The cosine similarity matrix for DESI MS (Figure 2A) reveals that the highest cosine similarities are between spectra from tablet type D (D vs. D, 0.97 +/- 0.03) and between spectra from tablet type A (A vs. A, 0.96 +/- 0.02). The low standard deviation of cosine similarity within these tablet types indicates the highly reproducible spectra achieved from these samples. Tablet types C and D have a lower mean cosine similarity and higher variance of similarity within their respective tablet types (B vs. B, 0.77 +/- 0.08. C vs. C 0.85 +/- 0.12). Tablet types B and C are relatively alike, with cosine similarity of 0.71. Conversely, tablet types A and D, are relatively dissimilar to one another (0.45 +/- 0.03) 
+
+For Transmission Raman spectroscopy, high cosine similarity is observed within tablet types (all greater than 0.97), However, spectral similarity between tablets A & D is notably higher than for DESI MSI (0.97 +/- 0.01). This is also seen in the high similarity between tables B and C (0.99 +/- 0.01), where the only visible spectral difference is for Caffeine, (541, cm^-1^, present in B, absent in C). All other peaks are visibly identical contributing to the high similarity value. 
+
+The visible differences between mean spectra and differences in cosine similarities suggest that this DESI MSI may be amenable for the training of classification algorithms to classify unseen data, but that transmission Raman spectroscopy may be more challenging. 
+
+![
+    **Relative spectral similarity and classification performance comparision**
+] (
+    https://github.com/NICE-MSI/xtheme_med_manu/blob/637d341700f0602893985990cc1abd4a570e4e06/figures/fig2.pdf
+) {
+    fig:similarity
+}
+
+### Assessment of different classification algorithms
+
+A wide range of classification algorithms are available and have been demonstrated for classification of spectrometric and spectroscopic data. Here we assessed a range of classification algorithms including linear discriminate analysis, tree-based methods, a simple neural network, and support vector machines. A 10-fold cross-validation enables the variance of each algorithm to be assessed. Figure 2B and 2E shows the F1 score of each algorithm for cross-validation for DESI MS and Transmission Raman. The F1 score summarizes the precision and recall of the model with equal weights.  
+
+For DESI MSI All tested algorithms performed well with mean F1 scores above 0.88. 4 algorithms provide a mean F1 score above 0.95, these include the two tree-based methods, random forest and boosted tree. However, the two highest performing algorithms are the support vector machines. The use of a SVM with a polynomial kernel provides a F1 score of 0.992 on the cross-validation training set.
+
+For transmission Raman data a linear discriminant analysis (LDA) model is most robust yielding a F1 measure greater than 0.95. Random forest, naïve Bayes and nearest neighbor models also performed well with F1 measures greater than 0.9 a similar level of performance. LDA cross validation was rapid, with the naïve Bayes model having the longest run time (Figure S1b). Unlike for DESI MS, here a SVM with a polynomial kernel performed less well with a F1 measure of 0.876. 
+
+The best performing models for each analytical technique (DESI: SVM-poly, Transmission Raman: LDA) were therefore taken forward for further exploration and testing. While not a limitation in a the relatively small datasets demonstrated here it is worth noting the range of training times required for 10-fold cross validation with 10 replicates, ranging from ~100 s for Transmission Raman with a boosted tree to ~500 s for DESI MS with naive Bayes (Figure S1). While a search grid for SVM hyperparameters (degree, cost and scale factor) was assessed, the default parameters proved optimal (Supplementary information B, Fig S3). There are no hyperparameters for the LDA. 
+
+### Test set classification performance
+
+#### DESI MS
+
+As a support vector machine with a polynomial kernel provided the highest classification performance in the cross-validation of the training set, a model based on this algorithm was trained using the entire training set. This model preserved 410 variables. This model was used to predict tablet type from each scan of an independent test set. The test set was acquired 1 week after the training set was collected, with the instrument in active use and recalibrated in the intervening period. In the test set, tablets not seen in the training set, but from the same type and batch were held under the DESI source for approximately 5 seconds. Scans were individually annotated for known tablet type based on known acquisition order and in reference to the total ion chromatogram (Figure S3a).  
+
+The trained SVM model was then used to predict the classification of each scan (Figure S3b). The classification algorithm performed well on the test set with an F1 score of 0.956. A confusion matrix for the ground truth vs. the predicted class (Figure 2C) shows the shows that most misclassifications are between the background and each tablet type. Selected correctly predicted spectra (Figure S3e) show notable characteristics, particularly in the polymer peak envelopes seen for tablet types A and D. A misclassification for one tablet type with another only occurs once (Scan 440, Figure S3f), where a scan labelled as tablet type D is misclassified as tablet type A. The spectrum shows two peaks characteristic of the background and a polymer envelope dissimilar to either tablet type demonstrating that classification performance is weak at the start and end of tablet sampling as the tablet is withdrawn from the source. Highlighting misclassifications on the total ion chromatogram (Figure S3c), shows that most misclassifications occur at the end of a tablet being presented to the mass spectrometer. Selected spectra from scans incorrectly predicted as background (Figure S3f, scans 184 and 380) shows base peaks at *m/z* 217.11 and 309.10 which are also seen in the mean spectra of the background (Figure S1a), highlighting the importance of accurate ground truth annotation in the assessment of classification models. 
+
+#### Transmission Raman  
+
+LDA trained on the whole Transmission Raman training set was used to classify an independently acquired test set of transmission Raman data from 24 tablets from the same batch. Classification performance was strong with an F1 score of 0.965 when using LDA (Figure 2F. Here classification is correct for tablet types B and C and A, which are classified correctly despite their high cosine similarity. However, in three cases tablet D misclassified as type A, and in one case type A misclassified as type D. This is somewhat unsurprising as they contain the same active ingredients and amounts, but differ in their film coating, as demonstrated by the notably different polymer profiles seen in the DESI-MS data. 
+
+### Variable importance
+
+#### DESI MS
+
+When assessing the classification performance of algorithms on multidimensional data it is useful to assess the variables that the model has placed importance on. Unlike some classification algorithms such as tree-based methods, support vector machines do not inherently provide a measure of variable importance. We therefore calculated a variance-based variable importance using a feature importance ranking measure (FIRM) approach (2 refs), based on quantifying the relative flatness of each feature. Most variables are seen to have relatively low importance to the model (importance < 0.05), although several variables are prominent in a spectrum of variable importance (Figure 3A). The 30 variables with the highest importance were selected and boxplots of their single scan intensity per tablet type plotted (Figure S5B). Several of these import variables show high intensity for a single class over all others. These include peaks characteristic of the background (*m/z* 588.42 & *m/z* 309.20), tablet type B (*m/z* 693.18, *m/z* 164.13). Other important variables may be of greater intensity in two types (e/g *m/z* 821.8 in A and D, *m/z* 445.04 and B and C), or be present in all but one tablet type (e.g *m/z* 1013.59). 
+
+Considering the importance of each variable and the relative intensity in each class enables and understanding of how the SVM charts a path to accurately divide the classes in multivariate space. 
+
+#### Transmission Raman spectroscopy 
+
+The variable importance of the LDA model was assessed by inspection of the LDA scaling values per wavenumber and component (Figure 3B and S5) and the LDA scores of the training set (Figure 3C). LD1 (proportion of trace: 98.8%) provides wide separation of coated tablet types A and D from uncoated tablets B and C. LD2 (proportion of trace: 0.9 %) broadly separates types C and D from one another. LD3 (proportion of trace: 0.2%) provides some separation between types A and D, although this separation is less distinct.  
+
+LDA scaling spectra highlight key features in the transmission Raman spectra that contribute to the classification. Features with a broad range of Raman shifts contribute to each component. Most of the LDA scaling spectral features are consistent with key active ingredient Raman peaks. For example, the highest scoring peak in LD1 occurs at 1159 cm-1 which corresponds to aspirin C-H ring bending [@doi:http://dx.doi.org/10.1016/j.molstruc.2014.10.079]. LD1 provides separation of tablet types A and D from B and C, and since A and D contain aspirin and B and C do not, strong weighting on wavenumbers consistent with aspirin Raman peaks would be expected. Several other LDA scaling spectral features are consistent with aspirin peak positions, such as 380, 786 and 1221 cm-1. Other LDA scaling spectral features are consistent with Raman peaks of several ingredients, for example 1555 cm-1 (LD3) which could correspond with spectral features present in all three active ingredients, paracetamol, aspirin, and caffeine, which have peaks centered at 1560, 1557, and 1554 cm-1 respectively [@doi:http://dx.doi.org/10.1016/j.vibspec.2007.12.016; @doi:http://dx.doi.org/10.3390/pharmaceutics6040651; @doi:http://dx.doi.org/10.1016/j.molstruc.2014.10.079].
+
+### Repeatability and reproducibility of DESI MS 
+
+In the same acquisition as the test set, tablets of type A (Anadin Extra) from a different manufacturing batch number as that analyzed in the training and test sets were profiled. The SVM model correctly classified 51 of 54 scans annotated as the tablet as being of type A (Supplementary figure S5). The three disagreements were between background and tablet type. 
+
+Spectral similarity between acquisitions date and tablet batch was assessed by cosine distance (Figure 5). Cosine distance between both date of acquisition and manufacturing batches were highly similar (Cosine distance >0.9) to the cosine distance of spectra within each data or batch. This suggests that sampling variance is higher than the variance between date of acquisition or manufacturing batch. In this work tablets were held manually, using tweezers. Sample variance may be reduced using a sample mounting system or guide to hold tablets in the same geometry respective to the DESI sprayer during acquisition. 
+
+Additional analysis (Supplementary information A) comparing DESI MSI cross-validation classification performance with reduced peak numbers (Figure S2A) and simulated lower mass resolving power (S2B) further demonstrate the robustness of classification performance for DESI MSI, and its potential application on compact mass spectrometers at-line or in the field. 
+
+## Conclusions
+
+DESI mass spectrometry and transmission Raman spectroscopy are effective methods to acquire characteristic spectral information from solid oral dosage forms containing information about active ingredients and tablet coating components. 
+These tools provide complementary information: transmission Raman is slightly biased in sensitivity towards the bulk of the tablet, whereas DESI-MS provides sensitive analysis of the surface coating. 
+A range of machine learning algorithms were found to be capable of classifying tablet type with high precision and recall. 
+Of these, support vector machines showed the strongest performance for DESI-MSI, while LDA was the most effective for transmission Raman data.  
+
+DESI-based classification was primarily based on differences in the tablet coatings, whereas transmission Raman was more sensitive to differences in the active pharmaceutical ingredients due to their higher total content. 
+Therefore, it may be advantageous to combine these two complementary analytical methods. 
+Raman spectroscopy’s non-destructive nature makes it potentially more suitable for in-line analysis than DESI-MS, the destructive nature, even if minimally, of which makes it unsuitable for tablets remaining in the supply chain. 
+Classification performance was retained on datasets of reduced peak number and simulated reduced mass resolving power, indicating the robustness of this approach and its potential applicability to compact mass spectrometers suitable for deployment in counterfeiting, QA/QC, or production line environments.  
+
+
+
+## Acknowledgements 
+
+The authors thank Ariadna Gonzalez and Caterina Minelli (NPL) for helpful discussion and guidance throughout the project. This work was funded by the UK Government’s Department for Business, Energy, and Industrial Strategy (BEIS), and the National Measurement System as part of NPL’s internal cross-theme project “Innovative Medicines Manufacturing.”  
+
+## Contributions 
+
+AT, JB and NB conceived and planned the experiments. AT and AB acquired DESI MS data. NB acquired transmission Raman spectroscopy data. AT performed preprocessing of DESI MS data. DT performed preprocessing of transmission Raman data. AT performed the classification and variable importance analysis. AT, DT, NB and JB interpreted the results. AT, AD, DT, JB and NB wrote the manuscript. All authors discussed the results contributed to the final manuscript.
 
 ## References {.page_break_before}
 
