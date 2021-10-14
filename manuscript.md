@@ -54,9 +54,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://adamjtaylor.github.io/tablet-classification/" />
   <meta name="citation_pdf_url" content="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/a6ee8ec15607e6ea006b81ccd653acf188b0f059/" />
-  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/a6ee8ec15607e6ea006b81ccd653acf188b0f059/" />
-  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/a6ee8ec15607e6ea006b81ccd653acf188b0f059/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/4629db6a93904ffaf715367af03d2fc61d48be92/" />
+  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/4629db6a93904ffaf715367af03d2fc61d48be92/" />
+  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/4629db6a93904ffaf715367af03d2fc61d48be92/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -78,9 +78,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://adamjtaylor.github.io/tablet-classification/v/a6ee8ec15607e6ea006b81ccd653acf188b0f059/))
+([permalink](https://adamjtaylor.github.io/tablet-classification/v/4629db6a93904ffaf715367af03d2fc61d48be92/))
 was automatically generated
-from [adamjtaylor/tablet-classification@a6ee8ec](https://github.com/adamjtaylor/tablet-classification/tree/a6ee8ec15607e6ea006b81ccd653acf188b0f059)
+from [adamjtaylor/tablet-classification@4629db6](https://github.com/adamjtaylor/tablet-classification/tree/4629db6a93904ffaf715367af03d2fc61d48be92)
 on October 14, 2021.
 </em></small>
 
@@ -128,7 +128,9 @@ on October 14, 2021.
 
 ## Abstract {.page_break_before}
 
+Discrepancies or defects in active ingredients, excipients and coatings that form solid oral dosage forms can both impact product quality and provide hallmarks of off-brand or counterfeit products. There is therefore a need for rapid and continuous analytical techniques that can assess and classify product differences of intact samples at- or near the production line, or in analytical labs, ideally without resorting to product dissolution.  
 
+Here we test the ability of two rapid ambient chemical characterization methods to discriminate between solid dosage forms: desorption electrospray ionization mass spectrometry and transmission Raman spectroscopy. These two techniques are highly complementary, offering greater sensitivity to the analysis of the surface and the tablet bulk, respectively. The data sets generated were then used to test a variety of classification algorithms including linear discriminate analysis, tree-based methods, a simple neural network, and support vector machines (SVM). The highest performing algorithms for DESI-MSI were the SVM, with an additional performance boost when used with a polynomial kernel. For transmission Raman data, a linear discriminant analysis (LDA) model was found to be the most effective. 
 
 
 This manuscript is a template (aka "rootstock") for [Manubot](https://manubot.org/ "Manubot"), a tool for writing scholarly manuscripts.
