@@ -1,5 +1,5 @@
 ---
-title: Manuscript Title
+title: Complementary classification of solid oral dosage forms in ambient conditions by desorption electrospray ionization mass spectrometry and transmission Raman spectroscopy
 keywords:
 - markdown
 - publishing
@@ -7,18 +7,22 @@ keywords:
 lang: en-US
 date-meta: '2021-10-14'
 author-meta:
-- John Doe
-- Jane Roe
+- Adam J Taylor
+- Dimitrios Tsikritsis
+- Alex Dexter
+- Amy Burton
+- Josephine Bunch
+- Natalie Belsey
 header-includes: |-
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
   Suggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html
   -->
   <meta name="dc.format" content="text/html" />
-  <meta name="dc.title" content="Manuscript Title" />
-  <meta name="citation_title" content="Manuscript Title" />
-  <meta property="og:title" content="Manuscript Title" />
-  <meta property="twitter:title" content="Manuscript Title" />
+  <meta name="dc.title" content="Complementary classification of solid oral dosage forms in ambient conditions by desorption electrospray ionization mass spectrometry and transmission Raman spectroscopy" />
+  <meta name="citation_title" content="Complementary classification of solid oral dosage forms in ambient conditions by desorption electrospray ionization mass spectrometry and transmission Raman spectroscopy" />
+  <meta property="og:title" content="Complementary classification of solid oral dosage forms in ambient conditions by desorption electrospray ionization mass spectrometry and transmission Raman spectroscopy" />
+  <meta property="twitter:title" content="Complementary classification of solid oral dosage forms in ambient conditions by desorption electrospray ionization mass spectrometry and transmission Raman spectroscopy" />
   <meta name="dc.date" content="2021-10-14" />
   <meta name="citation_publication_date" content="2021-10-14" />
   <meta name="dc.language" content="en-US" />
@@ -27,23 +31,32 @@ header-includes: |-
   <meta name="dc.publisher" content="Manubot" />
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
-  <meta name="citation_author" content="John Doe" />
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
+  <meta name="citation_author" content="Adam J Taylor" />
+  <meta name="citation_author_institution" content="National Physical Laboratory, Teddington, UK" />
+  <meta name="citation_author_institution" content="Sage Bionetworks, Seattle, WA, USA" />
   <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
-  <meta name="twitter:creator" content="@johndoe" />
-  <meta name="citation_author" content="Jane Roe" />
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
-  <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
+  <meta name="twitter:creator" content="@adamjtaylor" />
+  <meta name="citation_author" content="Dimitrios Tsikritsis" />
+  <meta name="citation_author_institution" content="National Physical Laboratory, Teddington, UK" />
+  <meta name="citation_author" content="Alex Dexter" />
+  <meta name="citation_author_institution" content="National Physical Laboratory, Teddington, UK" />
+  <meta name="citation_author" content="Amy Burton" />
+  <meta name="citation_author_institution" content="National Physical Laboratory, Teddington, UK" />
+  <meta name="citation_author" content="Josephine Bunch" />
+  <meta name="citation_author_institution" content="National Physical Laboratory, Teddington, UK" />
+  <meta name="citation_author_institution" content="Imperial College London, London, UK" />
+  <meta name="citation_author_institution" content="The Rosalind Frankilin Insitute, Harwell, UK" />
+  <meta name="citation_author" content="Natalie Belsey" />
+  <meta name="citation_author_institution" content="National Physical Laboratory, Teddington, UK" />
   <link rel="canonical" href="https://adamjtaylor.github.io/tablet-classification/" />
   <meta property="og:url" content="https://adamjtaylor.github.io/tablet-classification/" />
   <meta property="twitter:url" content="https://adamjtaylor.github.io/tablet-classification/" />
   <meta name="citation_fulltext_html_url" content="https://adamjtaylor.github.io/tablet-classification/" />
   <meta name="citation_pdf_url" content="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/9a448fe6edb477fb98065d5b83d206b1ca489cee/" />
-  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/9a448fe6edb477fb98065d5b83d206b1ca489cee/" />
-  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/9a448fe6edb477fb98065d5b83d206b1ca489cee/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/a6ee8ec15607e6ea006b81ccd653acf188b0f059/" />
+  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/a6ee8ec15607e6ea006b81ccd653acf188b0f059/" />
+  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/a6ee8ec15607e6ea006b81ccd653acf188b0f059/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -65,9 +78,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://adamjtaylor.github.io/tablet-classification/v/9a448fe6edb477fb98065d5b83d206b1ca489cee/))
+([permalink](https://adamjtaylor.github.io/tablet-classification/v/a6ee8ec15607e6ea006b81ccd653acf188b0f059/))
 was automatically generated
-from [adamjtaylor/tablet-classification@9a448fe](https://github.com/adamjtaylor/tablet-classification/tree/9a448fe6edb477fb98065d5b83d206b1ca489cee)
+from [adamjtaylor/tablet-classification@a6ee8ec](https://github.com/adamjtaylor/tablet-classification/tree/a6ee8ec15607e6ea006b81ccd653acf188b0f059)
 on October 14, 2021.
 </em></small>
 
@@ -75,25 +88,40 @@ on October 14, 2021.
 
 
 
-+ **John Doe**<br>
++ **Adam J Taylor**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [johndoe](https://github.com/johndoe)
+    [adamjtaylor](https://github.com/adamjtaylor)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [johndoe](https://twitter.com/johndoe)<br>
+    [adamjtaylor](https://twitter.com/adamjtaylor)<br>
   <small>
-     Department of Something, University of Whatever
-     · Funded by Grant XXXXXXXX
+     National Physical Laboratory, Teddington, UK; Sage Bionetworks, Seattle, WA, USA
   </small>
 
-+ **Jane Roe**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [janeroe](https://github.com/janeroe)<br>
++ **Dimitrios Tsikritsis**<br><br>
   <small>
-     Department of Something, University of Whatever; Department of Whatever, University of Something
+     National Physical Laboratory, Teddington, UK
+  </small>
+
++ **Alex Dexter**<br><br>
+  <small>
+     National Physical Laboratory, Teddington, UK
+  </small>
+
++ **Amy Burton**<br><br>
+  <small>
+     National Physical Laboratory, Teddington, UK
+  </small>
+
++ **Josephine Bunch**<br><br>
+  <small>
+     National Physical Laboratory, Teddington, UK; Imperial College London, London, UK; The Rosalind Frankilin Insitute, Harwell, UK
+  </small>
+
++ **Natalie Belsey**<br><br>
+  <small>
+     National Physical Laboratory, Teddington, UK
   </small>
 
 
