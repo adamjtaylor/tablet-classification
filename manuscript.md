@@ -54,9 +54,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://adamjtaylor.github.io/tablet-classification/" />
   <meta name="citation_pdf_url" content="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/7c2b5f3f2c760af192f0c997f9d51f0c72b96b52/" />
-  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/7c2b5f3f2c760af192f0c997f9d51f0c72b96b52/" />
-  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/7c2b5f3f2c760af192f0c997f9d51f0c72b96b52/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/109ace4a229026491219d1a4937c61f0c6483afd/" />
+  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/109ace4a229026491219d1a4937c61f0c6483afd/" />
+  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/109ace4a229026491219d1a4937c61f0c6483afd/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -78,9 +78,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://adamjtaylor.github.io/tablet-classification/v/7c2b5f3f2c760af192f0c997f9d51f0c72b96b52/))
+([permalink](https://adamjtaylor.github.io/tablet-classification/v/109ace4a229026491219d1a4937c61f0c6483afd/))
 was automatically generated
-from [adamjtaylor/tablet-classification@7c2b5f3](https://github.com/adamjtaylor/tablet-classification/tree/7c2b5f3f2c760af192f0c997f9d51f0c72b96b52)
+from [adamjtaylor/tablet-classification@109ace4](https://github.com/adamjtaylor/tablet-classification/tree/109ace4a229026491219d1a4937c61f0c6483afd)
 on October 14, 2021.
 </em></small>
 
@@ -157,6 +157,20 @@ Classification approaches for mass spectrometry applications are proving powerfu
 Notably, classification of rapid evaporative ionization MS enables real-time classification of tissue types during surgery [@doi:https://doi.org/10.1038/s41416-018-0048-3]. Classification of REIMS data has also found applications in food security [@doi:https://doi.org/10.1021/acs.jafc.6b01041] and bacterial speciation [@doi:https://doi.org/10.1021/ac5046752]. Classification approaches have also been widely employed in mass spectrometry imaging data, particularly in the classification of cancerous tissue [@doi:https://doi.org/10.1186/s13058-017-0845-2]
 
 ### Raman spectroscopy analysis of tablets
+
+Raman spectroscopy exploits the inelastic scattering of light by the sample to reveal valuable chemical and structural information. Information can be obtained from the sample in a non-destructive manner, making it a popular process analytical technology tool. Raman spectroscopy can be performed in a variety of sampling configurations/geometries, the most appropriate depending on the application. Confocal Raman microscopy can provide detailed chemical mapping with high spatial resolution, however this is generally reserved for forensic investigation rather than continuous monitoring, since it requires lengthy acquisition times. Sub-sampling issues associated with conventional backscattered Raman can be overcome by strategies such as sample rotation in conjunction with spectral averaging, or simultaneous wide angle illumination [@doi:https://doi.org/10.1039/C3AN36843B].  
+
+Matousek et al demonstrated the ability of transmission Raman spectroscopy to probe deep into turbid materials such as pharmaceutical tablets and provide information on their bulk properties [@doi:https://doi.org/10.1366/000370206779321463; @doi:https://doi.org/10.1016/j.jpba.2010.10.029]. In contrast to conventional backscattered Raman, in transmission Raman spectroscopy the beam passes through the full thickness of the tablet, sampling a much larger volume of the material, and consequently provides more representative sampling [@doi:https://doi.org/10.1366/000370207782597085] Although Raman scattering intensity is linear with concentration within the same confocal plane, transmission Raman signal intensity is slightly biased towards the bulk of the tablet relative to the exterior due to internal scattering [@doi:https://doi.org/10.1366/11-06259] . In contrast, DESI-MSI sampling is biased towards the surface/coating composition. Therefore, in combination, these two techniques should provide a powerful toolkit with which to assess compositional differences between pharmaceutical tablet formulations.  
+
+Raman spectra of complex mixtures such as solid dosage forms often have complicated spectra with overlapping peaks. For this reason, multivariate techniques are often applied to help identify the components of interest and changes in chemistry. The selection and use of unsupervised and/or supervised techniques on Raman spectra rely on factors such as prior knowledge of the raw component spectra, and the quantity and complexity of the spectra.[@doi:10.1016/j.trac.2020.116157]    
+
+As with mass spectrometry, classification of Raman spectroscopy data has been primarily focused on disease diagnostics [@doi:https://doi.org/10.1002/jrs.882; @doi:https://doi.org/10.1002/jbio.200810024; @doi:https://doi.org/10.1155/2016/1603609] and bacterial analysis [@doi:https://doi.org/10.1002/bip.20448; @doi:https://doi.org/10.1002/jrs.5343]. Other noteworthy examples of the use of classification in Raman spectroscopy include differentiation of narcotics [@doi:https://doi.org/10.1520/JFS15244J], pharmaceuticals [@doi:https://doi.org/10.1016/j.talanta.2010.01.046], [@doi:https://www.sciencedirect.com/science/article/abs/pii/S0731708506000926], and counterfeit tablets [@doi:https://doi.org/10.1002/jrs.1621]. 
+
+There have been relatively few comparisons of different classification methods for Raman spectroscopy data. Zheng et al. compared SVM, LDA and k-nearest neighbours (KNN) methods to classify renin hypertension from Raman data from serum [@doi:https://doi.org/10.1016/j.saa.2019.02.063]. They found that SVM and LDA performed similarly, and both outperformed the KNN algorithm.  Partial least squares (PLS) and PLS discriminant analysis are also commonly used methods in characterizing tablets, however care is required depending on the data quantity and the pre-preprocessing performed  [@doi:https://doi.org/10.1002/cem.2609]. Qun et al. tested the classification of expired drugs using PLS-DA, SVM and KNN, and reported that SVM gave the strongest performance [@doi:http://dx.doi.org/10.1016/j.jpba.2014.01.027]. Fransson et al tested the performance of multivariate methods including PLS, classical least squares (CLS) and multivariate curve resolution (MCR) for classification of pharmaceutical tablets [@doi:http://dx.doi.org/10.1002/cem.1330]. 
+
+
+### Objective
+In this study we set out to explore the potential of DESI-MSI and transmission Raman spectroscopy to distinguish commercially available pharmaceutical tablets with similar or different formulations. Pairing DESI with transmission Raman was of particular interest due to their complementarity and relative abilities to sensitively probe the surface vs the bulk of the tablets. Classification of tablets based on both active ingredients and excipients has the potential to be used for in-line quality control measures during pharmaceutical manufacturing, and for rapid counterfeit testing. As such we have tested a range of classification algorithms on their capability to differentiate these tablets using a range of pre-processing methods to determine the best approaches to use in different applications.  
 
 This manuscript is a template (aka "rootstock") for [Manubot](https://manubot.org/ "Manubot"), a tool for writing scholarly manuscripts.
 Use this template as a starting point for your manuscript.
