@@ -55,9 +55,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://adamjtaylor.github.io/tablet-classification/" />
   <meta name="citation_pdf_url" content="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/033ffbbb546774f35d56bb91e7f5d6ca442a6574/" />
-  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/033ffbbb546774f35d56bb91e7f5d6ca442a6574/" />
-  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/033ffbbb546774f35d56bb91e7f5d6ca442a6574/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/1dba1a57401e731d2a20c49a674b7b3ccd5ee2cb/" />
+  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/1dba1a57401e731d2a20c49a674b7b3ccd5ee2cb/" />
+  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/1dba1a57401e731d2a20c49a674b7b3ccd5ee2cb/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -79,9 +79,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://adamjtaylor.github.io/tablet-classification/v/033ffbbb546774f35d56bb91e7f5d6ca442a6574/))
+([permalink](https://adamjtaylor.github.io/tablet-classification/v/1dba1a57401e731d2a20c49a674b7b3ccd5ee2cb/))
 was automatically generated
-from [adamjtaylor/tablet-classification@033ffbb](https://github.com/adamjtaylor/tablet-classification/tree/033ffbbb546774f35d56bb91e7f5d6ca442a6574)
+from [adamjtaylor/tablet-classification@1dba1a5](https://github.com/adamjtaylor/tablet-classification/tree/1dba1a57401e731d2a20c49a674b7b3ccd5ee2cb)
 on October 14, 2021.
 </em></small>
 
@@ -391,7 +391,7 @@ Exploration of reduced peak number (A) and down-binning (B) for DESI MS classifi
 
 ![
 Model tuning grid for SVM-polynomial kernel for DESI MS data. 
-](https://github.com/adamjtaylor/tablet-classification/raw/main/content/figures/fig_tuning.png "S3){#fig:tuning tag="S3"}
+](https://github.com/adamjtaylor/tablet-classification/raw/main/content/figures/fig_tuning.png "S3"){#fig:tuning tag="S3"}
 
 ![
 **Classification of an independent test set of tablets by DESI MS and an SVM**  
