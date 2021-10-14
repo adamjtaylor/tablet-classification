@@ -54,9 +54,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://adamjtaylor.github.io/tablet-classification/" />
   <meta name="citation_pdf_url" content="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/c83b06d283d496abf7161ad9d063a9a9ef6586f7/" />
-  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/c83b06d283d496abf7161ad9d063a9a9ef6586f7/" />
-  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/c83b06d283d496abf7161ad9d063a9a9ef6586f7/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/6724291e857fb44d32324049427c6229b6eaab0e/" />
+  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/6724291e857fb44d32324049427c6229b6eaab0e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/6724291e857fb44d32324049427c6229b6eaab0e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -78,9 +78,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://adamjtaylor.github.io/tablet-classification/v/c83b06d283d496abf7161ad9d063a9a9ef6586f7/))
+([permalink](https://adamjtaylor.github.io/tablet-classification/v/6724291e857fb44d32324049427c6229b6eaab0e/))
 was automatically generated
-from [adamjtaylor/tablet-classification@c83b06d](https://github.com/adamjtaylor/tablet-classification/tree/c83b06d283d496abf7161ad9d063a9a9ef6586f7)
+from [adamjtaylor/tablet-classification@6724291](https://github.com/adamjtaylor/tablet-classification/tree/6724291e857fb44d32324049427c6229b6eaab0e)
 on October 14, 2021.
 </em></small>
 
@@ -209,7 +209,7 @@ ransson et al tested the performance of multivariate methods including PLS, clas
 In this study we set out to explore the potential of DESI-MSI and transmission Raman spectroscopy to distinguish commercially available pharmaceutical tablets with similar or different formulations. 
 Pairing DESI with transmission Raman spectroscopy was of particular interest due to their complementarity and relative abilities to sensitively probe the surface vs the bulk of the tablets. 
 Classification of tablets based on both active ingredients and excipients has the potential to be used for in-line quality control measures during pharmaceutical manufacturing, and for rapid counterfeit testing. 
-As such we have tested a range of classification algorithms on their capability to differentiate these tablets using a range of pre-processing methods to determine the best approaches to use in different applications.  
+As such we have tested a range of classification algorithms on their capability to differentiate these tablets using a range of pre-processing methods to determine the best approaches to use in different applications. 
 
 ## Experimnental
 

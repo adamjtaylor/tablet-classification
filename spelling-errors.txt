@@ -8,7 +8,7 @@ backscattered
 BEIS
 Belsey
 Bionetworks
-boxplots
+Boxplots
 Caterina
 Centre
 centroid
@@ -28,7 +28,7 @@ datasets
 deployable
 DESI
 desorbs
-desorption
+Desorption
 Dimitrios
 DT
 electroflow
