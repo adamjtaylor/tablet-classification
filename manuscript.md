@@ -54,9 +54,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://adamjtaylor.github.io/tablet-classification/" />
   <meta name="citation_pdf_url" content="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/be11099ec83754665d2a882b6711c98ef1dec92a/" />
-  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/be11099ec83754665d2a882b6711c98ef1dec92a/" />
-  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/be11099ec83754665d2a882b6711c98ef1dec92a/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/50d5f16176e02226312f536d3dae489ada0eb99c/" />
+  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/50d5f16176e02226312f536d3dae489ada0eb99c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/50d5f16176e02226312f536d3dae489ada0eb99c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -78,9 +78,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://adamjtaylor.github.io/tablet-classification/v/be11099ec83754665d2a882b6711c98ef1dec92a/))
+([permalink](https://adamjtaylor.github.io/tablet-classification/v/50d5f16176e02226312f536d3dae489ada0eb99c/))
 was automatically generated
-from [adamjtaylor/tablet-classification@be11099](https://github.com/adamjtaylor/tablet-classification/tree/be11099ec83754665d2a882b6711c98ef1dec92a)
+from [adamjtaylor/tablet-classification@50d5f16](https://github.com/adamjtaylor/tablet-classification/tree/50d5f16176e02226312f536d3dae489ada0eb99c)
 on October 14, 2021.
 </em></small>
 
@@ -269,13 +269,9 @@ All three active ingredients were annotated from a mean spectrum within 15 ppm m
 Mean transmission Raman spectra for each tablet type (Figure 1F) show very similar profiles for tablet types A and D (the film coated aspirin, paracetamol, and caffeine tablets) and between types B (paracetamol and caffeine and C (paracetamol only). Peaks characteristic of each active ingredient are observed (Caffeine: 555 cm^-1^, Paracetamol: 858 cm^-1^, Aspirin: 1192 cm^-1^) [@doi:http://dx.doi.org/10.1016/j.vibspec.2007.12.016; @doi:http://dx.doi.org/10.3390/pharmaceutics6040651; @doi:http://dx.doi.org/10.1016/j.molstruc.2014.10.079]. However, no clear differences between tablets A and D were observed. As expected based on the tablet composition, the predominant spectral features relate to the actives rather than from the coating ingredients. 
 
 ![
-    **Representative spectra from DESI MS and transmission Raman spectroscopy analysis of solid-oral dosage forms**
-     (A-C) DESI MS results. (A) Mean spectra for tablet types A, B, C & D and background. (B) Mean spectra for tablet types A (teal) and D (pink) for mass range *m/z* 1065 to *m/z* 1090. (C-E) Boxplots for peaks assigned as caffeine (C), aspirin (D) and paracetamol (E) for each tablet type and background. (F-L) Transmission Raman spectroscopy results. (F) Mean spectra for tablet type A-D from training data. Peaks for the active ingredients shown in G-L are highlighted with a vertical line.  (G-L) Mean spectra and (J-L) boxplots for peaks annotated as active ingredients (G & J)  Caffeine, 541 cm^-1^, (H & K) Paracetamol, 847 cm^-1^, and (I & L) Aspirin, 1181 cm^-1^). Boxplots show median (horizontal line), interquartile range (box) and range excluding outliers (whiskers). Points show single scan intensities. 
-] (
-    https://github.com/NICE-MSI/xtheme_med_manu/blob/637d341700f0602893985990cc1abd4a570e4e06/figures/fig1.pdf
-) {
-    fig:spectra
-}
+**Representative spectra from DESI MS and transmission Raman spectroscopy analysis of solid-oral dosage forms**
+(A-C) DESI MS results. (A) Mean spectra for tablet types A, B, C & D and background. (B) Mean spectra for tablet types A (teal) and D (pink) for mass range *m/z* 1065 to *m/z* 1090. (C-E) Boxplots for peaks assigned as caffeine (C), aspirin (D) and paracetamol (E) for each tablet type and background. (F-L) Transmission Raman spectroscopy results. (F) Mean spectra for tablet type A-D from training data. Peaks for the active ingredients shown in G-L are highlighted with a vertical line.  (G-L) Mean spectra and (J-L) boxplots for peaks annotated as active ingredients (G & J)  Caffeine, 541 cm^-1^, (H & K) Paracetamol, 847 cm^-1^, and (I & L) Aspirin, 1181 cm^-1^). Boxplots show median (horizontal line), interquartile range (box) and range excluding outliers (whiskers). Points show single scan intensities. 
+](https://github.com/NICE-MSI/xtheme_med_manu/raw/master/figures/fig1.pdf){fig:spectra}
 
 ### Relative spectral similarity
 
@@ -286,13 +282,9 @@ For Transmission Raman spectroscopy, high cosine similarity is observed within t
 The visible differences between mean spectra and differences in cosine similarities suggest that this DESI MSI may be amenable for the training of classification algorithms to classify unseen data, but that transmission Raman spectroscopy may be more challenging. 
 
 ![
-    **Relative spectral similarity and classification performance comparision**
-     (top row) Cosine similarity matrix for each scan of the training dataset from (A) DESI MS or (B) transmission Raman spectroscopy. (middle row) Cross validation F1 measures for (B) DESI MS and (E) transmission Raman spectroscopy. Bars and labels show mean +/- 1 SD for 10-folds with 10 repeats. (bottom row) Confusion matrix for the test set for (A) DESI MSI classified by a SFM with polynomial kernel or (F) transmission Raman Spectroscopy classified LDA. Colour and labels show proportion of correct classifications. 
-] (
-    https://github.com/NICE-MSI/xtheme_med_manu/blob/637d341700f0602893985990cc1abd4a570e4e06/figures/fig2.pdf
-) {
-    fig:similarity
-}
+**Relative spectral similarity and classification performance comparision**
+(top row) Cosine similarity matrix for each scan of the training dataset from (A) DESI MS or (B) transmission Raman spectroscopy. (middle row) Cross validation F1 measures for (B) DESI MS and (E) transmission Raman spectroscopy. Bars and labels show mean +/- 1 SD for 10-folds with 10 repeats. (bottom row) Confusion matrix for the test set for (A) DESI MSI classified by a SFM with polynomial kernel or (F) transmission Raman Spectroscopy classified LDA. Colour and labels show proportion of correct classifications. 
+](https://github.com/NICE-MSI/xtheme_med_manu/raw/master/figures/fig2.pdf){fig:similarity}
 
 ### Assessment of different classification algorithms
 
@@ -325,13 +317,9 @@ When assessing the classification performance of algorithms on multidimensional 
 Considering the importance of each variable and the relative intensity in each class enables and understanding of how the SVM charts a path to accurately divide the classes in multivariate space. 
 
 ![
-    **Variable importance for selected classification models**
-     (A) FIRM variable importance for SVM-poly classification of DESI MS data. 5 peaks with highest importance are highlighted. (B) Scaling values for each discriminant from LDA of transmission Raman data. Highest absolute loading variables are highlighted with red circles. (B) Boxplots showing LDA scores for the spectra from the transmission Raman training set.
-] (
-    https://github.com/NICE-MSI/xtheme_med_manu/blob/637d341700f0602893985990cc1abd4a570e4e06/figures/fig2.pdf
-) {
-    fig:variable-importance
-}
+**Variable importance for selected classification models**
+(A) FIRM variable importance for SVM-poly classification of DESI MS data. 5 peaks with highest importance are highlighted. (B) Scaling values for each discriminant from LDA of transmission Raman data. Highest absolute loading variables are highlighted with red circles. (B) Boxplots showing LDA scores for the spectra from the transmission Raman training set.
+](https://github.com/NICE-MSI/xtheme_med_manu/raw/master/figures/fig3.pdf){fig:variable-importance}
 
 
 #### Transmission Raman spectroscopy 
