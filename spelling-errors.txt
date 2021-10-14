@@ -28,7 +28,7 @@ datasets
 deployable
 DESI
 desorbs
-desorption
+Desorption
 Dimitrios
 DT
 electroflow
@@ -96,7 +96,7 @@ PID
 plc
 PLS
 polymorphs
-povidone
+Povidone
 prcma
 pre
 pregelatinised
