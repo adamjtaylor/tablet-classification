@@ -8,7 +8,7 @@ backscattered
 BEIS
 Belsey
 Bionetworks
-boxplots
+Boxplots
 Caterina
 Centre
 centroid
@@ -28,7 +28,7 @@ datasets
 deployable
 DESI
 desorbs
-Desorption
+desorption
 Dimitrios
 DT
 electroflow
@@ -59,7 +59,7 @@ kernlab
 KNN
 kV
 labelled
-Labelling
+labelling
 LD
 LDA
 Leica

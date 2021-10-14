@@ -54,9 +54,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://adamjtaylor.github.io/tablet-classification/" />
   <meta name="citation_pdf_url" content="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/81a542e5b5bb824efdb681abb38448b8e8298747/" />
-  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/81a542e5b5bb824efdb681abb38448b8e8298747/" />
-  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/81a542e5b5bb824efdb681abb38448b8e8298747/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/5e5d9d22b54c1884fa537f12f1b24c436ec25af5/" />
+  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/5e5d9d22b54c1884fa537f12f1b24c436ec25af5/" />
+  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/5e5d9d22b54c1884fa537f12f1b24c436ec25af5/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -78,9 +78,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://adamjtaylor.github.io/tablet-classification/v/81a542e5b5bb824efdb681abb38448b8e8298747/))
+([permalink](https://adamjtaylor.github.io/tablet-classification/v/5e5d9d22b54c1884fa537f12f1b24c436ec25af5/))
 was automatically generated
-from [adamjtaylor/tablet-classification@81a542e](https://github.com/adamjtaylor/tablet-classification/tree/81a542e5b5bb824efdb681abb38448b8e8298747)
+from [adamjtaylor/tablet-classification@5e5d9d2](https://github.com/adamjtaylor/tablet-classification/tree/5e5d9d22b54c1884fa537f12f1b24c436ec25af5)
 on October 14, 2021.
 </em></small>
 
@@ -350,6 +350,20 @@ Classification performance was retained on datasets of reduced peak number and s
 
 
 
+## Acknowledgements 
+
+The authors thank Ariadna Gonzalez and Caterina Minelli (NPL) for helpful discussion and guidance throughout the project. This work was funded by the UK Government’s Department for Business, Energy, and Industrial Strategy (BEIS), and the National Measurement System as part of NPL’s internal cross-theme project “Innovative Medicines Manufacturing.”  
+
+## Contributions 
+
+AT, JB and NB conceived and planned the experiments. AT and AB acquired DESI MS data. NB acquired transmission Raman spectroscopy data. AT performed preprocessing of DESI MS data. DT performed preprocessing of transmission Raman data. AT performed the classification and variable importance analysis. AT, DT, NB and JB interpreted the results. AT, AD, DT, JB and NB wrote the manuscript. All authors discussed the results contributed to the final manuscript.
+
+## References {.page_break_before}
+
+<!-- Explicitly insert bibliography here -->
+<div id="refs"></div>
+
+
 ## Supplementary information {.page_break_before}
 
 ### Notes
@@ -393,17 +407,3 @@ Variable importance plot for SVM with polynomial kernel trained on DESI MS data.
 ![
 (a) Spectra of LDA scaling values for each discriminant. Selected variables are highlighted with red circles. Boxplots showing LDA scores for the spectra contained in the training set. (c & d) Boxplots of transmission Raman intensity for the wavenumber bins with the two highest (c) and lowest (d) scaling values per discriminant. Boxplots show mean (bar), first and third quartiles (bar) and range between the lowest and highest values no further than 1.5 times the IQR from the box. Points show individual observations. 
 ](https://github.com/adamjtaylor/tablet-classification/raw/main/content/figures/fig_tr_importance.pdf){#fig:desi_vip tag="S7"}
-
-
-## Acknowledgements 
-
-The authors thank Ariadna Gonzalez and Caterina Minelli (NPL) for helpful discussion and guidance throughout the project. This work was funded by the UK Government’s Department for Business, Energy, and Industrial Strategy (BEIS), and the National Measurement System as part of NPL’s internal cross-theme project “Innovative Medicines Manufacturing.”  
-
-## Contributions 
-
-AT, JB and NB conceived and planned the experiments. AT and AB acquired DESI MS data. NB acquired transmission Raman spectroscopy data. AT performed preprocessing of DESI MS data. DT performed preprocessing of transmission Raman data. AT performed the classification and variable importance analysis. AT, DT, NB and JB interpreted the results. AT, AD, DT, JB and NB wrote the manuscript. All authors discussed the results contributed to the final manuscript.
-
-## References {.page_break_before}
-
-<!-- Explicitly insert bibliography here -->
-<div id="refs"></div>

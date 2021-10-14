@@ -83,9 +83,9 @@
   <meta name="citation_fulltext_html_url" content="https://adamjtaylor.github.io/tablet-classification/" />
   <meta name="citation_pdf_url" content="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/81a542e5b5bb824efdb681abb38448b8e8298747/" />
-  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/81a542e5b5bb824efdb681abb38448b8e8298747/" />
-  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/81a542e5b5bb824efdb681abb38448b8e8298747/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/5e5d9d22b54c1884fa537f12f1b24c436ec25af5/" />
+  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/5e5d9d22b54c1884fa537f12f1b24c436ec25af5/" />
+  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/5e5d9d22b54c1884fa537f12f1b24c436ec25af5/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -99,9 +99,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://adamjtaylor.github.io/tablet-classification/v/81a542e5b5bb824efdb681abb38448b8e8298747/">permalink</a>)
+(<a href="https://adamjtaylor.github.io/tablet-classification/v/5e5d9d22b54c1884fa537f12f1b24c436ec25af5/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/adamjtaylor/tablet-classification/tree/81a542e5b5bb824efdb681abb38448b8e8298747">adamjtaylor/tablet-classification@81a542e</a>
+from <a href="https://github.com/adamjtaylor/tablet-classification/tree/5e5d9d22b54c1884fa537f12f1b24c436ec25af5">adamjtaylor/tablet-classification@5e5d9d2</a>
 on October 14, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -320,52 +320,6 @@ Of these, support vector machines showed the strongest performance for DESI-MSI,
 Therefore, it may be advantageous to combine these two complementary analytical methods.
 Raman spectroscopy’s non-destructive nature makes it potentially more suitable for in-line analysis than DESI-MS, the destructive nature, even if minimally, of which makes it unsuitable for tablets remaining in the supply chain.
 Classification performance was retained on datasets of reduced peak number and simulated reduced mass resolving power, indicating the robustness of this approach and its potential applicability to compact mass spectrometers suitable for deployment in counterfeiting, QA/QC, or production line environments.</p>
-<h2 class="page_break_before" id="supplementary-information">Supplementary information</h2>
-<h3 id="notes">Notes</h3>
-<h4 id="note-a.-reducing-peaks-and-down-binning-data-for-desi-ms">Note A. Reducing peaks and down binning data for DESI MS</h4>
-<p>Given the notable spectra differences observed for DESI MS, it is unsurprising that strong classification performance is achieved. In this model comparison we included all detected peaks in the algorithm (although some will be removed automatically as they correlate strongly with other variables. To assess the number of features required to maintain good classification performance we performed 10-fold cross validation using an SVM with a polynomial kernel and default parameters (degree: 1, cost: 0.1, scale factor: 1) on datasets in which fewer peaks were selected (from top 1200 to top 5 peaks). F1 metric was seen to be maintained above 0.97 (Figure S2B), but starts to drop off below 100 peaks, with 5 peaks providing a mean F1 score of 0.61 with a greatly increased variance.</p>
-<p>Potential applications of tablet classification may demand the mass spectrometer to be located outside of an analytical chemistry laboratory, either at-line in a manufacturing environment, in an on-site QA/QC lab, on in the field. In these applications the use of a Q-ToF mass spectrometer may not be suitable due to size or cost. Compact, field-deployable mass spectrometers such as ion traps or single quadrupoles may offer reduced mass resolving power. To simulate reduced instrument performance, data were down binned at increasing bin width. No reduction in classification performance is observed when binning at 1 Dalton, simulating single quadrupole mass resolving power (Figure S2B). Classification performance is maintained even at 2 Dalton binning, indicating the applicability of this approach to low mass resolving power data from compact or portable mass spectrometers.</p>
-<h4 id="note-b.-model-tuning">Note B. Model tuning</h4>
-<p>The hyperparameters of the SVM were tuned on the validation split of the training set over a regular grid with five levels of degree (1 to 5), cost (0.001 to 1) and scale factor (0.001 to 1). All variables and 0.01 Da binning. The F1 measure of each combination is shown in Figure S3. First-degree (linear) and third-degree polynomials with cost and scale factors above 0.001 show high F1 score (all = 1.0) for the validation split. As the default SVM parameters in the kernlab implementation are within this range (degree: 1, cost: 1, scale factor: 1) they were selected to fit a final model using the whole training set.</p>
-<p>For Transmission Raman data the best performing classification approach, a linear discriminant analysis, as implemented by the MASS package has no parameters to optimize beyond the prior which was here set to the equal type probability. This would influence the suitability of the LDA for applications in cases such as defect or counterfeit detection where class probability is expected to be unbalanced with an unknown prior.</p>
-<h3 id="figures">Figures</h3>
-<div id="fig:timing" class="fignos">
-<figure>
-<embed src="https://github.com/adamjtaylor/tablet-classification/raw/main/content/figures/fig_timing.pdf" data-tag="S1" /><figcaption aria-hidden="true"><span>Figure S1:</span> Timings for 10-fold cross validation with 10 replicates for selected classification algorithms for DESI MS (red) and transmission Raman spectroscopy (teal) training data.</figcaption>
-</figure>
-</div>
-<div id="fig:downbin" class="fignos">
-<figure>
-<embed src="https://github.com/adamjtaylor/tablet-classification/raw/main/content/figures/fig_npeaks_downbin.pdf" data-tag="S2" /><figcaption aria-hidden="true"><span>Figure S2:</span> Exploration of reduced peak number (A) and down-binning (B) for DESI MS classification.<br />
-</figcaption>
-</figure>
-</div>
-<div id="fig:tuning" class="fignos">
-<figure>
-<embed src="https://github.com/adamjtaylor/tablet-classification/raw/main/content/figures/fig_tuning.pdf" data-tag="S3" /><figcaption aria-hidden="true"><span>Figure S3:</span> Model tuning grid for SVM-polynomial kernel for DESI MS data.</figcaption>
-</figure>
-</div>
-<div id="fig:tuning" class="fignos">
-<figure>
-<embed src="https://github.com/adamjtaylor/tablet-classification/raw/main/content/figures/fig_desi_validation_supplementary.pdf" data-tag="S4" /><figcaption aria-hidden="true"><span>Figure S4:</span> <strong>Classification of an independent test set of tablets by DESI MS and an SVM</strong><br />
-(a) Total ion chromatogram (TIC) plot showing the ground truth labelling per scan for four sampling events per tablet type. Labelling was performed manually in reference to known sampling order and TIC. (b) TIC plot showing tablet type predicted by the SVM for each scan. (c) TIC plot highlighting prediction accuracy per scan (correct: green circles, incorrect: pink triangles). (d) Confusion matrix for each scan of the test set, classified by the SVM. Colour and labels show proportion of correct classifications. (e-f) Spectra for selected scans (labelled in c) that are correctly (e). or incorrectly classified (f).</figcaption>
-</figure>
-</div>
-<div id="fig:replicate_similarity" class="fignos">
-<figure>
-<img src="https://github.com/adamjtaylor/tablet-classification/raw/main/content/figures/fig_replicate_similarity.png" data-tag="S5" alt="Figure S5: Cosine similarity matrix for DESI MS sampling of tablet type A from two batches on two days of analysis." /><figcaption aria-hidden="true"><span>Figure S5:</span> Cosine similarity matrix for DESI MS sampling of tablet type A from two batches on two days of analysis.</figcaption>
-</figure>
-</div>
-<div id="fig:desi_vip" class="fignos">
-<figure>
-<embed src="https://github.com/adamjtaylor/tablet-classification/raw/main/content/figures/fig_desi_importance.pdf" data-tag="S6" /><figcaption aria-hidden="true"><span>Figure S6:</span> Variable importance plot for SVM with polynomial kernel trained on DESI MS data. Peaks with the 30 highest variable importance are highlighted by a black dot). (b) Boxplots for peaks with the 30 highest variable importance values (Line: median, box: Q2 &amp; Q4, whiskers: range excluding outliers, points: single scan intensities).</figcaption>
-</figure>
-</div>
-<div id="fig:desi_vip" class="fignos">
-<figure>
-<embed src="https://github.com/adamjtaylor/tablet-classification/raw/main/content/figures/fig_tr_importance.pdf" data-tag="S7" /><figcaption aria-hidden="true"><span>Figure S7:</span> (a) Spectra of LDA scaling values for each discriminant. Selected variables are highlighted with red circles. Boxplots showing LDA scores for the spectra contained in the training set. (c &amp; d) Boxplots of transmission Raman intensity for the wavenumber bins with the two highest (c) and lowest (d) scaling values per discriminant. Boxplots show mean (bar), first and third quartiles (bar) and range between the lowest and highest values no further than 1.5 times the IQR from the box. Points show individual observations.</figcaption>
-</figure>
-</div>
 <h2 id="acknowledgements">Acknowledgements</h2>
 <p>The authors thank Ariadna Gonzalez and Caterina Minelli (NPL) for helpful discussion and guidance throughout the project. This work was funded by the UK Government’s Department for Business, Energy, and Industrial Strategy (BEIS), and the National Measurement System as part of NPL’s internal cross-theme project “Innovative Medicines Manufacturing.”</p>
 <h2 id="contributions">Contributions</h2>
@@ -532,6 +486,52 @@ Classification performance was retained on datasets of reduced peak number and s
 <div id="ref-10rOQ7EFT" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">53. </div><div class="csl-right-inline"><strong>High-pressure polymorphism of acetylsalicylic acid (aspirin): Raman spectroscopy</strong> <div class="csl-block">Ethan L Crowell, Zbigniew A Dreger, Yogendra M Gupta</div> <em>Journal of Molecular Structure</em> (2015-02) <a href="https://doi.org/f8mmdg">https://doi.org/f8mmdg</a> <div class="csl-block">DOI: <a href="http://dx.doi.org/10.1016/j.molstruc.2014.10.079">http://dx.doi.org/10.1016/j.molstruc.2014.10.079</a></div></div>
 </div>
+</div>
+<h2 class="page_break_before" id="supplementary-information">Supplementary information</h2>
+<h3 id="notes">Notes</h3>
+<h4 id="note-a.-reducing-peaks-and-down-binning-data-for-desi-ms">Note A. Reducing peaks and down binning data for DESI MS</h4>
+<p>Given the notable spectra differences observed for DESI MS, it is unsurprising that strong classification performance is achieved. In this model comparison we included all detected peaks in the algorithm (although some will be removed automatically as they correlate strongly with other variables. To assess the number of features required to maintain good classification performance we performed 10-fold cross validation using an SVM with a polynomial kernel and default parameters (degree: 1, cost: 0.1, scale factor: 1) on datasets in which fewer peaks were selected (from top 1200 to top 5 peaks). F1 metric was seen to be maintained above 0.97 (Figure S2B), but starts to drop off below 100 peaks, with 5 peaks providing a mean F1 score of 0.61 with a greatly increased variance.</p>
+<p>Potential applications of tablet classification may demand the mass spectrometer to be located outside of an analytical chemistry laboratory, either at-line in a manufacturing environment, in an on-site QA/QC lab, on in the field. In these applications the use of a Q-ToF mass spectrometer may not be suitable due to size or cost. Compact, field-deployable mass spectrometers such as ion traps or single quadrupoles may offer reduced mass resolving power. To simulate reduced instrument performance, data were down binned at increasing bin width. No reduction in classification performance is observed when binning at 1 Dalton, simulating single quadrupole mass resolving power (Figure S2B). Classification performance is maintained even at 2 Dalton binning, indicating the applicability of this approach to low mass resolving power data from compact or portable mass spectrometers.</p>
+<h4 id="note-b.-model-tuning">Note B. Model tuning</h4>
+<p>The hyperparameters of the SVM were tuned on the validation split of the training set over a regular grid with five levels of degree (1 to 5), cost (0.001 to 1) and scale factor (0.001 to 1). All variables and 0.01 Da binning. The F1 measure of each combination is shown in Figure S3. First-degree (linear) and third-degree polynomials with cost and scale factors above 0.001 show high F1 score (all = 1.0) for the validation split. As the default SVM parameters in the kernlab implementation are within this range (degree: 1, cost: 1, scale factor: 1) they were selected to fit a final model using the whole training set.</p>
+<p>For Transmission Raman data the best performing classification approach, a linear discriminant analysis, as implemented by the MASS package has no parameters to optimize beyond the prior which was here set to the equal type probability. This would influence the suitability of the LDA for applications in cases such as defect or counterfeit detection where class probability is expected to be unbalanced with an unknown prior.</p>
+<h3 id="figures">Figures</h3>
+<div id="fig:timing" class="fignos">
+<figure>
+<embed src="https://github.com/adamjtaylor/tablet-classification/raw/main/content/figures/fig_timing.pdf" data-tag="S1" /><figcaption aria-hidden="true"><span>Figure S1:</span> Timings for 10-fold cross validation with 10 replicates for selected classification algorithms for DESI MS (red) and transmission Raman spectroscopy (teal) training data.</figcaption>
+</figure>
+</div>
+<div id="fig:downbin" class="fignos">
+<figure>
+<embed src="https://github.com/adamjtaylor/tablet-classification/raw/main/content/figures/fig_npeaks_downbin.pdf" data-tag="S2" /><figcaption aria-hidden="true"><span>Figure S2:</span> Exploration of reduced peak number (A) and down-binning (B) for DESI MS classification.<br />
+</figcaption>
+</figure>
+</div>
+<div id="fig:tuning" class="fignos">
+<figure>
+<embed src="https://github.com/adamjtaylor/tablet-classification/raw/main/content/figures/fig_tuning.pdf" data-tag="S3" /><figcaption aria-hidden="true"><span>Figure S3:</span> Model tuning grid for SVM-polynomial kernel for DESI MS data.</figcaption>
+</figure>
+</div>
+<div id="fig:tuning" class="fignos">
+<figure>
+<embed src="https://github.com/adamjtaylor/tablet-classification/raw/main/content/figures/fig_desi_validation_supplementary.pdf" data-tag="S4" /><figcaption aria-hidden="true"><span>Figure S4:</span> <strong>Classification of an independent test set of tablets by DESI MS and an SVM</strong><br />
+(a) Total ion chromatogram (TIC) plot showing the ground truth labelling per scan for four sampling events per tablet type. Labelling was performed manually in reference to known sampling order and TIC. (b) TIC plot showing tablet type predicted by the SVM for each scan. (c) TIC plot highlighting prediction accuracy per scan (correct: green circles, incorrect: pink triangles). (d) Confusion matrix for each scan of the test set, classified by the SVM. Colour and labels show proportion of correct classifications. (e-f) Spectra for selected scans (labelled in c) that are correctly (e). or incorrectly classified (f).</figcaption>
+</figure>
+</div>
+<div id="fig:replicate_similarity" class="fignos">
+<figure>
+<img src="https://github.com/adamjtaylor/tablet-classification/raw/main/content/figures/fig_replicate_similarity.png" data-tag="S5" alt="Figure S5: Cosine similarity matrix for DESI MS sampling of tablet type A from two batches on two days of analysis." /><figcaption aria-hidden="true"><span>Figure S5:</span> Cosine similarity matrix for DESI MS sampling of tablet type A from two batches on two days of analysis.</figcaption>
+</figure>
+</div>
+<div id="fig:desi_vip" class="fignos">
+<figure>
+<embed src="https://github.com/adamjtaylor/tablet-classification/raw/main/content/figures/fig_desi_importance.pdf" data-tag="S6" /><figcaption aria-hidden="true"><span>Figure S6:</span> Variable importance plot for SVM with polynomial kernel trained on DESI MS data. Peaks with the 30 highest variable importance are highlighted by a black dot). (b) Boxplots for peaks with the 30 highest variable importance values (Line: median, box: Q2 &amp; Q4, whiskers: range excluding outliers, points: single scan intensities).</figcaption>
+</figure>
+</div>
+<div id="fig:desi_vip" class="fignos">
+<figure>
+<embed src="https://github.com/adamjtaylor/tablet-classification/raw/main/content/figures/fig_tr_importance.pdf" data-tag="S7" /><figcaption aria-hidden="true"><span>Figure S7:</span> (a) Spectra of LDA scaling values for each discriminant. Selected variables are highlighted with red circles. Boxplots showing LDA scores for the spectra contained in the training set. (c &amp; d) Boxplots of transmission Raman intensity for the wavenumber bins with the two highest (c) and lowest (d) scaling values per discriminant. Boxplots show mean (bar), first and third quartiles (bar) and range between the lowest and highest values no further than 1.5 times the IQR from the box. Points show individual observations.</figcaption>
+</figure>
 </div>
 <!-- default theme -->
 
