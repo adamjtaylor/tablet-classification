@@ -54,9 +54,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://adamjtaylor.github.io/tablet-classification/" />
   <meta name="citation_pdf_url" content="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/72dcec7f37414613416efe76eedcec93e1f47e32/" />
-  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/72dcec7f37414613416efe76eedcec93e1f47e32/" />
-  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/72dcec7f37414613416efe76eedcec93e1f47e32/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/7afa3ad167991babee0dec623e50bbaa0bd28cb7/" />
+  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/7afa3ad167991babee0dec623e50bbaa0bd28cb7/" />
+  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/7afa3ad167991babee0dec623e50bbaa0bd28cb7/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -78,9 +78,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://adamjtaylor.github.io/tablet-classification/v/72dcec7f37414613416efe76eedcec93e1f47e32/))
+([permalink](https://adamjtaylor.github.io/tablet-classification/v/7afa3ad167991babee0dec623e50bbaa0bd28cb7/))
 was automatically generated
-from [adamjtaylor/tablet-classification@72dcec7](https://github.com/adamjtaylor/tablet-classification/tree/72dcec7f37414613416efe76eedcec93e1f47e32)
+from [adamjtaylor/tablet-classification@7afa3ad](https://github.com/adamjtaylor/tablet-classification/tree/7afa3ad167991babee0dec623e50bbaa0bd28cb7)
 on October 14, 2021.
 </em></small>
 
@@ -134,7 +134,23 @@ Here we test the ability of two rapid ambient chemical characterization methods 
 
 
 ## Introduction
-Inconsistencies in active ingredients, excipients, the thickness and integrity of coatings and the presence of impurities in solid oral dosage forms all negatively affect their performance. Inferior quality attributes can be useful to identify off-brand or counterfeit products. There is a need for rapid and continuous analytical techniques that can assess and classify product differences of intact samples at- or near the production line, or in analytical labs, ideally without resorting to product dissolution [@doi:http://dx.doi.org/10.1016/j.xphs.2016.11.011]. Rapid measurement tools are particularly important to enable continuous monitoring, necessary to support the change from batch to continuous manufacturing. Analytical methods are required to monitor both the actives, coatings and consistency of the product: For example, in addition to the total API content, insight is also needed on degradation products, impurities, (co-) crystallinity/presence of polymorphs, and content uniformity. The ability to monitor tablet coating thickness and integrity is of great importance, particularly for functional coatings, such gastro-resistance, which would be compromised by insufficient thickness, or the occurrence of cracks in the film [@doi:http://dx.doi.org/10.1016/j.ijpharm.2013.01.062]. 
+Inconsistencies in active ingredients, excipients, the thickness and integrity of coatings and the presence of impurities in solid oral dosage forms all negatively affect their performance. Inferior quality attributes can be useful to identify off-brand or counterfeit products. There is a need for rapid and continuous analytical techniques that can assess and classify product differences of intact samples at- or near the production line, or in analytical labs, ideally without resorting to product dissolution [@doi:10.1016/j.xphs.2016.11.011]. Rapid measurement tools are particularly important to enable continuous monitoring, necessary to support the change from batch to continuous manufacturing. Analytical methods are required to monitor both the actives, coatings and consistency of the product: For example, in addition to the total API content, insight is also needed on degradation products, impurities, (co-) crystallinity/presence of polymorphs, and content uniformity. The ability to monitor tablet coating thickness and integrity is of great importance, particularly for functional coatings, such gastro-resistance, which would be compromised by insufficient thickness, or the occurrence of cracks in the film [@doi:10.1016/j.ijpharm.2013.01.062]. 
+
+Quantitative analysis of pharmaceutical tablets is routinely performed by HPLC which offers accurate and sensitive measurements of the active ingredient(s) and excipients, in addition to the presence of any contaminants. However, solution-based analytical methods are destructive and labor-intensive.  
+
+Mass spectrometric methods can provide unlabeled identification, both of expected ingredients in known samples and of contaminants or components of unknown formulations. Ambient ionization mass spectrometry approaches including DESI (desorption electrospray ionisation) and DART (direct analysis in real time) facilitate the desorption and ionization from the surface of samples at atmospheric conditions, without dissolution or additional sample preparation. They are therefore potentially useful tools for rapid assessment of solid oral dosage forms 
+
+Optical spectroscopy techniques offer rapid, non-destructive analysis, including polymorphic identification [@doi:10.1039/c0an00352b], and are also able to measure insoluble ingredients. They have consequently been exploited for in-line process analytical testing and as quality control tools [@doi:10.1016/j.xphs.2016.11.011]. For example, infra-red-based techniques (FTIR and DESI [@doi:10.1007/s00216-006-0950-z]; and NIR and Mid-IR spectroscopy classification of MDMA containing tablets [@doi:10.1016/j.talanta.2018.11.027] Near infrared is the most commonly used process analytical tool [@doi:10.1016/j.xphs.2016.11.011], however Raman spectroscopy provides complementary information and has grown in popularity in recent years, since it provides more distinct spectral features, and is better-suited to analysis in aqueous environments owing to the relatively weak strength of the Raman O-H band. Technological advancements have facilitated miniaturization, increased speed and reduced cost, resulting in more widespread implementation. [@doi:10.1016/j.addr.2015.04.003] 
+
+### Ambient ionisation mass spectrometry of tablets
+
+Desorption electrospray ionization uses a charged electrospray of organic solvent which, when directed at the sample surface in proximity to the mass spectrometry inlet, desorbs ions from the sample which may be taken up into a mass spectrometer [@doi:10.1126/science.1104404]. As this process takes place at ambient pressure and with a flexible geometry, the technique is suited for the analysis of a wide range of samples including explosives on surfaces [@doi:10.1039/b418697d], fingerprints [@doi:10.1039/c5an00112a], plants [@doi:10.1002/jms.2010] and tissues [@doi:10.1007/s00216-019-02151-z; @doi:10.1016/j.bbalip.2011.05.006]
+
+One of the early descriptions of DESI-MSI was in the profiling of tablets [@doi:10.1021/ac050989d]. Chen et al demonstrated the use of DESI-MS to profile tablets containing loratadine, folic acid, acetaminophen (paracetamol), aspirin, melatonin or caffeine. Optimization of DESI parameters including voltage, solvent delivery and capillary temperature facilitated analysis at up to three scans per second.  Subsequent studies using DESI-MS of tablets have focused on targeted analysis for active ingredients. For example, the identification MDMA and amphetamine derivatives in ecstasy tablets [@doi:http://dx.doi.org/10.1002/rcm.2280], counterfeit artesunate antimalarial tablets [@doi:https://doi.org/10.1007/s00216-006-0950-z; @doi:https://doi.org/10.1016/j.jasms.2007.11.016] and antiviral capsules [@doi:10.1039/b809471c].
+
+For ambient mass spectrometry to be deployable in the field for counterfeiting applications, or in manufacturing environments for QA/QC, the mass spectrometer must be compact. Several designs for small field-deployable mass spectrometers have been demonstrated with DESI MS sources [@doi:https://doi.org/10.1039/b517357d; @doi:https://doi.org/10.1021/acs.analchem.9b00520].
+
+Each of these applications has targeted expected components of the tablet of interest, predominantly active ingredients or excipients. However, in manufacturing QA/QC and counterfeit-detection applications, additional information on unexpected changes in active or excipient source or quality, as well as the introduction of contaminants may be of importance. Untargeted multivariate and machine learning approaches are therefore of interest to determine differences between samples using all spectral information. 
 
 This manuscript is a template (aka "rootstock") for [Manubot](https://manubot.org/ "Manubot"), a tool for writing scholarly manuscripts.
 Use this template as a starting point for your manuscript.
