@@ -54,9 +54,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://adamjtaylor.github.io/tablet-classification/" />
   <meta name="citation_pdf_url" content="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/c7feedf538f6473896f495cea4f4b6ef52d781b8/" />
-  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/c7feedf538f6473896f495cea4f4b6ef52d781b8/" />
-  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/c7feedf538f6473896f495cea4f4b6ef52d781b8/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/81a542e5b5bb824efdb681abb38448b8e8298747/" />
+  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/81a542e5b5bb824efdb681abb38448b8e8298747/" />
+  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/81a542e5b5bb824efdb681abb38448b8e8298747/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -78,9 +78,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://adamjtaylor.github.io/tablet-classification/v/c7feedf538f6473896f495cea4f4b6ef52d781b8/))
+([permalink](https://adamjtaylor.github.io/tablet-classification/v/81a542e5b5bb824efdb681abb38448b8e8298747/))
 was automatically generated
-from [adamjtaylor/tablet-classification@c7feedf](https://github.com/adamjtaylor/tablet-classification/tree/c7feedf538f6473896f495cea4f4b6ef52d781b8)
+from [adamjtaylor/tablet-classification@81a542e](https://github.com/adamjtaylor/tablet-classification/tree/81a542e5b5bb824efdb681abb38448b8e8298747)
 on October 14, 2021.
 </em></small>
 
@@ -271,7 +271,7 @@ Mean transmission Raman spectra for each tablet type (Figure 1F) show very simil
 ![
 **Representative spectra from DESI MS and transmission Raman spectroscopy analysis of solid-oral dosage forms**
 (A-C) DESI MS results. (A) Mean spectra for tablet types A, B, C & D and background. (B) Mean spectra for tablet types A (teal) and D (pink) for mass range *m/z* 1065 to *m/z* 1090. (C-E) Boxplots for peaks assigned as caffeine (C), aspirin (D) and paracetamol (E) for each tablet type and background. (F-L) Transmission Raman spectroscopy results. (F) Mean spectra for tablet type A-D from training data. Peaks for the active ingredients shown in G-L are highlighted with a vertical line.  (G-L) Mean spectra and (J-L) boxplots for peaks annotated as active ingredients (G & J)  Caffeine, 541 cm^-1^, (H & K) Paracetamol, 847 cm^-1^, and (I & L) Aspirin, 1181 cm^-1^). Boxplots show median (horizontal line), interquartile range (box) and range excluding outliers (whiskers). Points show single scan intensities. 
-](https://github.com/NICE-MSI/xtheme_med_manu/raw/master/figures/fig1.pdf){fig:spectra}
+](https://github.com/adamjtaylor/tablet-classification/raw/main/content/figures/fig1.pdf){fig:spectra}
 
 ### Relative spectral similarity
 
@@ -284,7 +284,7 @@ The visible differences between mean spectra and differences in cosine similarit
 ![
 **Relative spectral similarity and classification performance comparision**
 (top row) Cosine similarity matrix for each scan of the training dataset from (A) DESI MS or (B) transmission Raman spectroscopy. (middle row) Cross validation F1 measures for (B) DESI MS and (E) transmission Raman spectroscopy. Bars and labels show mean +/- 1 SD for 10-folds with 10 repeats. (bottom row) Confusion matrix for the test set for (A) DESI MSI classified by a SFM with polynomial kernel or (F) transmission Raman Spectroscopy classified LDA. Colour and labels show proportion of correct classifications. 
-](https://github.com/NICE-MSI/xtheme_med_manu/raw/master/figures/fig2.pdf){fig:similarity}
+](https://github.com/adamjtaylor/tablet-classification/raw/main/content/figures/fig2.pdf){fig:similarity}
 
 ### Assessment of different classification algorithms
 
@@ -319,7 +319,7 @@ Considering the importance of each variable and the relative intensity in each c
 ![
 **Variable importance for selected classification models**
 (A) FIRM variable importance for SVM-poly classification of DESI MS data. 5 peaks with highest importance are highlighted. (B) Scaling values for each discriminant from LDA of transmission Raman data. Highest absolute loading variables are highlighted with red circles. (B) Boxplots showing LDA scores for the spectra from the transmission Raman training set.
-](https://github.com/NICE-MSI/xtheme_med_manu/raw/master/figures/fig3.pdf){fig:variable-importance}
+]https://github.com/adamjtaylor/tablet-classification/raw/main/content/figures/fig3.pdf){fig:variable-importance}
 
 
 #### Transmission Raman spectroscopy 

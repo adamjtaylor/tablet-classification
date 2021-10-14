@@ -241,7 +241,7 @@ content/04.results.md:17:Boxplots
 content/04.results.md:17:DESI
 content/04.results.md:17:interquartile
 content/04.results.md:17:Raman
-content/04.results.md:18:MSI
+content/04.results.md:18:adamjtaylor
 content/04.results.md:22:DESI
 content/04.results.md:22:DESI
 content/04.results.md:22:excipients
@@ -264,7 +264,7 @@ content/04.results.md:30:Raman
 content/04.results.md:30:Raman
 content/04.results.md:30:Raman
 content/04.results.md:30:SFM
-content/04.results.md:31:MSI
+content/04.results.md:31:adamjtaylor
 content/04.results.md:35:DESI
 content/04.results.md:35:Raman
 content/04.results.md:35:spectrometric
@@ -319,7 +319,7 @@ content/04.results.md:65:LDA
 content/04.results.md:65:Raman
 content/04.results.md:65:Raman
 content/04.results.md:65:SVM
-content/04.results.md:66:MSI
+content/04.results.md:66:adamjtaylor
 content/04.results.md:69:Raman
 content/04.results.md:71:LDA
 content/04.results.md:71:LDA
