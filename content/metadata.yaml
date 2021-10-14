@@ -1,26 +1,43 @@
 ---
-title: "Manuscript Title"
+title: "Complementary classification of solid oral dosage forms in ambient conditions by desorption electrospray ionization mass spectrometry and transmission Raman spectroscopy"
 keywords:
   - markdown
   - publishing
   - manubot
 lang: en-US
 authors:
-  - github: johndoe
-    name: John Doe
-    initials: JD
+  - github: adamjtaylor
+    name: Adam J Taylor
+    initials: AJT
     orcid: XXXX-XXXX-XXXX-XXXX
-    twitter: johndoe
-    email: john.doe@something.com
+    twitter: adamjtaylor
+    email: adam.taylor@sagebase.org
     affiliations:
-      - Department of Something, University of Whatever
-    funders:
-      - Grant XXXXXXXX
-  - github: janeroe
-    name: Jane Roe
-    initials: JR
-    orcid: XXXX-XXXX-XXXX-XXXX
-    email: jane.roe@whatever.edu
+      - National Physical Laboratory, Teddington, UK
+      - Sage Bionetworks, Seattle, WA, USA
+  - name: Dimitrios Tsikritsis
+    initials: DT
+    email: dimitrios.tsikritsis@npl.co.uk
     affiliations:
-      - Department of Something, University of Whatever
-      - Department of Whatever, University of Something
+      - National Physical Laboratory, Teddington, UK
+  - name: Alex Dexter
+    initials: AD
+    email: alex.dexter@npl.co.uk
+    affiliations:
+      - National Physical Laboratory, Teddington, UK
+  - name: Amy Burton
+    initials: AB
+    affiliations:
+      - National Physical Laboratory, Teddington, UK
+  - name: Josephine Bunch
+    initials: JB
+    email: josephine.bunch@npl.co.uk
+    affiliations:
+      - National Physical Laboratory, Teddington, UK
+      - Imperial College London, London, UK
+      - The Rosalind Frankilin Insitute, Harwell, UK
+  - name: Natalie Belsey
+    initials: NB
+    email: natalie.belsey@npl.co.uk
+    affiliations:
+      - National Physical Laboratory, Teddington, UK
