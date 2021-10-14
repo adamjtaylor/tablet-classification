@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/adamjtaylor/tablet-classification/tree/gh-pages) branch hosts the contents of this directory at <https://adamjtaylor.github.io/tablet-classification/>.
-The permalink for this webpage version is <https://adamjtaylor.github.io/tablet-classification/v/be11099ec83754665d2a882b6711c98ef1dec92a/>.
+The permalink for this webpage version is <https://adamjtaylor.github.io/tablet-classification/v/50d5f16176e02226312f536d3dae489ada0eb99c/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://adamjtaylor.github.io/tablet-classification/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`be11099ec83754665d2a882b6711c98ef1dec92a`](https://github.com/adamjtaylor/tablet-classification/commit/be11099ec83754665d2a882b6711c98ef1dec92a).
+[`50d5f16176e02226312f536d3dae489ada0eb99c`](https://github.com/adamjtaylor/tablet-classification/commit/50d5f16176e02226312f536d3dae489ada0eb99c).
