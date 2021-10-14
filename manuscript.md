@@ -54,9 +54,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://adamjtaylor.github.io/tablet-classification/" />
   <meta name="citation_pdf_url" content="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/7afa3ad167991babee0dec623e50bbaa0bd28cb7/" />
-  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/7afa3ad167991babee0dec623e50bbaa0bd28cb7/" />
-  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/7afa3ad167991babee0dec623e50bbaa0bd28cb7/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/7c2b5f3f2c760af192f0c997f9d51f0c72b96b52/" />
+  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/7c2b5f3f2c760af192f0c997f9d51f0c72b96b52/" />
+  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/7c2b5f3f2c760af192f0c997f9d51f0c72b96b52/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -78,9 +78,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://adamjtaylor.github.io/tablet-classification/v/7afa3ad167991babee0dec623e50bbaa0bd28cb7/))
+([permalink](https://adamjtaylor.github.io/tablet-classification/v/7c2b5f3f2c760af192f0c997f9d51f0c72b96b52/))
 was automatically generated
-from [adamjtaylor/tablet-classification@7afa3ad](https://github.com/adamjtaylor/tablet-classification/tree/7afa3ad167991babee0dec623e50bbaa0bd28cb7)
+from [adamjtaylor/tablet-classification@7c2b5f3](https://github.com/adamjtaylor/tablet-classification/tree/7c2b5f3f2c760af192f0c997f9d51f0c72b96b52)
 on October 14, 2021.
 </em></small>
 
@@ -151,6 +151,12 @@ One of the early descriptions of DESI-MSI was in the profiling of tablets [@doi:
 For ambient mass spectrometry to be deployable in the field for counterfeiting applications, or in manufacturing environments for QA/QC, the mass spectrometer must be compact. Several designs for small field-deployable mass spectrometers have been demonstrated with DESI MS sources [@doi:https://doi.org/10.1039/b517357d; @doi:https://doi.org/10.1021/acs.analchem.9b00520].
 
 Each of these applications has targeted expected components of the tablet of interest, predominantly active ingredients or excipients. However, in manufacturing QA/QC and counterfeit-detection applications, additional information on unexpected changes in active or excipient source or quality, as well as the introduction of contaminants may be of importance. Untargeted multivariate and machine learning approaches are therefore of interest to determine differences between samples using all spectral information. 
+
+Classification approaches for mass spectrometry applications are proving powerful in a range of applications. The two most widespread applications of classification in mass spectrometry are in disease diagnosis and determination of bacterial type [@doi:https://doi.org/10.1016/j.aca.2014.03.039]. A range of classification algorithms have been applied to mass spectrometry and spectroscopy data. PLS-DA is most commonly reported, although a range of algorithms including neural networks, and support vector machines [@doi:10.1007/s00521-016-2736-3] have been reported. Several publications have evaluated different classification algorithms but unsurprisingly the optimal algorithm depends greatly on the nature of the input data. A summary of classification and other data analysis for proteomics can be found here [@doi:https://doi.org/10.1016/j.csbj.2020.07.009] and for metabolomics here [@doi:https://doi.org/10.1007/s11306-017-1242-7]. Classification approaches are becoming more accessible through modeling tools with consistent grammar and data structure, and their integration into mass spectrometry software [ScilsLab,Waters software] [@doi:https://doi.org/10.1007/s11306-017-1242-7]. 
+
+Notably, classification of rapid evaporative ionization MS enables real-time classification of tissue types during surgery [@doi:https://doi.org/10.1038/s41416-018-0048-3]. Classification of REIMS data has also found applications in food security [@doi:https://doi.org/10.1021/acs.jafc.6b01041] and bacterial speciation [@doi:https://doi.org/10.1021/ac5046752]. Classification approaches have also been widely employed in mass spectrometry imaging data, particularly in the classification of cancerous tissue [@doi:https://doi.org/10.1186/s13058-017-0845-2]
+
+### Raman spectroscopy analysis of tablets
 
 This manuscript is a template (aka "rootstock") for [Manubot](https://manubot.org/ "Manubot"), a tool for writing scholarly manuscripts.
 Use this template as a starting point for your manuscript.

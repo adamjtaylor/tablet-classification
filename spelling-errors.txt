@@ -28,6 +28,7 @@ electrospray
 elit
 enim
 esse
+evaporative
 Excepteur
 excipient
 excipients
@@ -52,6 +53,7 @@ Lorem
 magna
 MDMA
 melatonin
+metabolomics
 mollit
 MSI
 NIR
@@ -62,14 +64,19 @@ occaecat
 officia
 Pandoc’s
 pariatur
+PLS
 polymorphs
 proident
+proteomics
 qui
 quis
 Raman
+REIMS
 reprehenderit
+ScilsLab
 sed
 sint
+speciation
 spectrometric
 spectrometry
 sunt
