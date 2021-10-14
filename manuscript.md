@@ -54,9 +54,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://adamjtaylor.github.io/tablet-classification/" />
   <meta name="citation_pdf_url" content="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/50d5f16176e02226312f536d3dae489ada0eb99c/" />
-  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/50d5f16176e02226312f536d3dae489ada0eb99c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/50d5f16176e02226312f536d3dae489ada0eb99c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/c83b06d283d496abf7161ad9d063a9a9ef6586f7/" />
+  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/c83b06d283d496abf7161ad9d063a9a9ef6586f7/" />
+  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/c83b06d283d496abf7161ad9d063a9a9ef6586f7/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -78,9 +78,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://adamjtaylor.github.io/tablet-classification/v/50d5f16176e02226312f536d3dae489ada0eb99c/))
+([permalink](https://adamjtaylor.github.io/tablet-classification/v/c83b06d283d496abf7161ad9d063a9a9ef6586f7/))
 was automatically generated
-from [adamjtaylor/tablet-classification@50d5f16](https://github.com/adamjtaylor/tablet-classification/tree/50d5f16176e02226312f536d3dae489ada0eb99c)
+from [adamjtaylor/tablet-classification@c83b06d](https://github.com/adamjtaylor/tablet-classification/tree/c83b06d283d496abf7161ad9d063a9a9ef6586f7)
 on October 14, 2021.
 </em></small>
 
