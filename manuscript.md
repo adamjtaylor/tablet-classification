@@ -54,9 +54,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://adamjtaylor.github.io/tablet-classification/" />
   <meta name="citation_pdf_url" content="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/fd6e1c3e84b512fbc046be025c43bd87e938aefb/" />
-  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/fd6e1c3e84b512fbc046be025c43bd87e938aefb/" />
-  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/fd6e1c3e84b512fbc046be025c43bd87e938aefb/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/be11099ec83754665d2a882b6711c98ef1dec92a/" />
+  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/be11099ec83754665d2a882b6711c98ef1dec92a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/be11099ec83754665d2a882b6711c98ef1dec92a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -78,9 +78,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://adamjtaylor.github.io/tablet-classification/v/fd6e1c3e84b512fbc046be025c43bd87e938aefb/))
+([permalink](https://adamjtaylor.github.io/tablet-classification/v/be11099ec83754665d2a882b6711c98ef1dec92a/))
 was automatically generated
-from [adamjtaylor/tablet-classification@fd6e1c3](https://github.com/adamjtaylor/tablet-classification/tree/fd6e1c3e84b512fbc046be025c43bd87e938aefb)
+from [adamjtaylor/tablet-classification@be11099](https://github.com/adamjtaylor/tablet-classification/tree/be11099ec83754665d2a882b6711c98ef1dec92a)
 on October 14, 2021.
 </em></small>
 
@@ -287,6 +287,7 @@ The visible differences between mean spectra and differences in cosine similarit
 
 ![
     **Relative spectral similarity and classification performance comparision**
+     (top row) Cosine similarity matrix for each scan of the training dataset from (A) DESI MS or (B) transmission Raman spectroscopy. (middle row) Cross validation F1 measures for (B) DESI MS and (E) transmission Raman spectroscopy. Bars and labels show mean +/- 1 SD for 10-folds with 10 repeats. (bottom row) Confusion matrix for the test set for (A) DESI MSI classified by a SFM with polynomial kernel or (F) transmission Raman Spectroscopy classified LDA. Colour and labels show proportion of correct classifications. 
 ] (
     https://github.com/NICE-MSI/xtheme_med_manu/blob/637d341700f0602893985990cc1abd4a570e4e06/figures/fig2.pdf
 ) {
@@ -323,6 +324,16 @@ When assessing the classification performance of algorithms on multidimensional 
 
 Considering the importance of each variable and the relative intensity in each class enables and understanding of how the SVM charts a path to accurately divide the classes in multivariate space. 
 
+![
+    **Variable importance for selected classification models**
+     (A) FIRM variable importance for SVM-poly classification of DESI MS data. 5 peaks with highest importance are highlighted. (B) Scaling values for each discriminant from LDA of transmission Raman data. Highest absolute loading variables are highlighted with red circles. (B) Boxplots showing LDA scores for the spectra from the transmission Raman training set.
+] (
+    https://github.com/NICE-MSI/xtheme_med_manu/blob/637d341700f0602893985990cc1abd4a570e4e06/figures/fig2.pdf
+) {
+    fig:variable-importance
+}
+
+
 #### Transmission Raman spectroscopy 
 
 The variable importance of the LDA model was assessed by inspection of the LDA scaling values per wavenumber and component (Figure 3B and S5) and the LDA scores of the training set (Figure 3C). LD1 (proportion of trace: 98.8%) provides wide separation of coated tablet types A and D from uncoated tablets B and C. LD2 (proportion of trace: 0.9 %) broadly separates types C and D from one another. LD3 (proportion of trace: 0.2%) provides some separation between types A and D, although this separation is less distinct.  
@@ -348,6 +359,24 @@ DESI-based classification was primarily based on differences in the tablet coati
 Therefore, it may be advantageous to combine these two complementary analytical methods. 
 Raman spectroscopy’s non-destructive nature makes it potentially more suitable for in-line analysis than DESI-MS, the destructive nature, even if minimally, of which makes it unsuitable for tablets remaining in the supply chain. 
 Classification performance was retained on datasets of reduced peak number and simulated reduced mass resolving power, indicating the robustness of this approach and its potential applicability to compact mass spectrometers suitable for deployment in counterfeiting, QA/QC, or production line environments.  
+
+
+
+## Supplementary information
+
+### Notes
+
+#### Note A. Reducing peaks and down binning data for DESI MS 
+Given the notable spectra differences observed for DESI MS, it is unsurprising that strong classification performance is achieved. In this model comparison we included all detected peaks in the algorithm (although some will be removed automatically as they correlate strongly with other variables. To assess the number of features required to maintain good classification performance we performed 10-fold cross validation using an SVM with a polynomial kernel and default parameters (degree: 1, cost: 0.1, scale factor: 1) on datasets in which fewer peaks were selected (from top 1200 to top 5 peaks). F1 metric was seen to be maintained above 0.97 (Figure S2B), but starts to drop off below 100 peaks, with 5 peaks providing a mean F1 score of 0.61 with a greatly increased variance. 
+
+Potential applications of tablet classification may demand the mass spectrometer to be located outside of an analytical chemistry laboratory, either at-line in a manufacturing environment, in an on-site QA/QC lab, on in the field. In these applications the use of a Q-ToF mass spectrometer may not be suitable due to size or cost. Compact, field-deployable mass spectrometers such as ion traps or single quadrupoles may offer reduced mass resolving power. To simulate reduced instrument performance, data were down binned at increasing bin width. No reduction in classification performance is observed when binning at 1 Dalton, simulating single quadrupole mass resolving power (Figure S2B). Classification performance is maintained even at 2 Dalton binning, indicating the applicability of this approach to low mass resolving power data from compact or portable mass spectrometers. 
+
+#### Note B. Model tuning
+The hyperparameters of the SVM were tuned on the validation split of the training set over a regular grid with five levels of degree (1 to 5), cost (0.001 to 1) and scale factor (0.001 to 1). All variables and 0.01 Da binning. The F1 measure of each combination is shown in Figure S3. First-degree (linear) and third-degree polynomials with cost and scale factors above 0.001 show high F1 score (all = 1.0) for the validation split. As the default SVM parameters in the kernlab implementation are within this range (degree: 1, cost: 1, scale factor: 1) they were selected to fit a final model using the whole training set. 
+
+For Transmission Raman data the best performing classification approach, a linear discriminant analysis, as implemented by the MASS package has no parameters to optimize beyond the prior which was here set to the equal type probability. This would influence the suitability of the LDA for applications in cases such as defect or counterfeit detection where class probability is expected to be unbalanced with an unknown prior. 
+
+### Figures
 
 
 

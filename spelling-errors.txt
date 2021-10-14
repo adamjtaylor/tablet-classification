@@ -14,10 +14,11 @@ Centre
 centroid
 chromatogram
 CLS
+Colour
 comparision
 complementarity
 compositional
-confocal
+Confocal
 croscarmellose
 crystallinity
 datacube
@@ -27,7 +28,7 @@ datasets
 deployable
 DESI
 desorbs
-desorption
+Desorption
 Dimitrios
 DT
 electroflow
@@ -53,6 +54,7 @@ interquartile
 InVia
 ionisation
 JB
+kernlab
 KNN
 kV
 labelled
@@ -92,7 +94,7 @@ PID
 plc
 PLS
 polymorphs
-povidone
+Povidone
 prcma
 pre
 pregelatinised
@@ -100,6 +102,8 @@ preprocessing
 proteomics
 ProteoWizard
 Qontor
+quadrupole
+quadrupoles
 Qun
 Raman
 ransson
@@ -110,6 +114,7 @@ Renishaw
 reproducibility
 RStudio
 ScilsLab
+SFM
 speciation
 spectrometric
 spectrometry
