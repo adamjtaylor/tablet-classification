@@ -146,9 +146,9 @@
   <meta name="citation_fulltext_html_url" content="https://adamjtaylor.github.io/tablet-classification/" />
   <meta name="citation_pdf_url" content="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/109ace4a229026491219d1a4937c61f0c6483afd/" />
-  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/109ace4a229026491219d1a4937c61f0c6483afd/" />
-  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/109ace4a229026491219d1a4937c61f0c6483afd/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/7e88c1656e100ba2776d7ecbe65f794efcbdab27/" />
+  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/7e88c1656e100ba2776d7ecbe65f794efcbdab27/" />
+  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/7e88c1656e100ba2776d7ecbe65f794efcbdab27/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -169,9 +169,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://adamjtaylor.github.io/tablet-classification/v/109ace4a229026491219d1a4937c61f0c6483afd/">permalink</a>)
+(<a href="https://adamjtaylor.github.io/tablet-classification/v/7e88c1656e100ba2776d7ecbe65f794efcbdab27/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/adamjtaylor/tablet-classification/tree/109ace4a229026491219d1a4937c61f0c6483afd">adamjtaylor/tablet-classification@109ace4</a>
+from <a href="https://github.com/adamjtaylor/tablet-classification/tree/7e88c1656e100ba2776d7ecbe65f794efcbdab27">adamjtaylor/tablet-classification@7e88c16</a>
 on October 14, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -230,6 +230,74 @@ National Physical Laboratory, Teddington, UK
 <p>There have been relatively few comparisons of different classification methods for Raman spectroscopy data. Zheng et al. compared SVM, LDA and k-nearest neighbours (KNN) methods to classify renin hypertension from Raman data from serum <span class="citation" data-cites="JbHtbn3w">[<a href="#ref-JbHtbn3w" role="doc-biblioref">42</a>]</span>. They found that SVM and LDA performed similarly, and both outperformed the KNN algorithm. Partial least squares (PLS) and PLS discriminant analysis are also commonly used methods in characterizing tablets, however care is required depending on the data quantity and the pre-preprocessing performed <span class="citation" data-cites="151vumdHB">[<a href="#ref-151vumdHB" role="doc-biblioref">43</a>]</span>. Qun et al. tested the classification of expired drugs using PLS-DA, SVM and KNN, and reported that SVM gave the strongest performance <span class="citation" data-cites="eg7mpyL3">[<a href="#ref-eg7mpyL3" role="doc-biblioref">44</a>]</span>. Fransson et al tested the performance of multivariate methods including PLS, classical least squares (CLS) and multivariate curve resolution (MCR) for classification of pharmaceutical tablets <span class="citation" data-cites="1E3zgZaqr">[<a href="#ref-1E3zgZaqr" role="doc-biblioref">45</a>]</span>.</p>
 <h3 id="objective">Objective</h3>
 <p>In this study we set out to explore the potential of DESI-MSI and transmission Raman spectroscopy to distinguish commercially available pharmaceutical tablets with similar or different formulations. Pairing DESI with transmission Raman was of particular interest due to their complementarity and relative abilities to sensitively probe the surface vs the bulk of the tablets. Classification of tablets based on both active ingredients and excipients has the potential to be used for in-line quality control measures during pharmaceutical manufacturing, and for rapid counterfeit testing. As such we have tested a range of classification algorithms on their capability to differentiate these tablets using a range of pre-processing methods to determine the best approaches to use in different applications.</p>
+<h2 id="experimnental">Experimnental</h2>
+<h3 id="samples">Samples</h3>
+<p>Samples were selected from commercially available of-the-shelf products and purchased from a local supplier. Their names, active ingredients, listed excipients and MHRA product license numbers are included in Table <a href="#tbl:samples">1</a></p>
+<div id="tbl:samples" class="tablenos">
+<table id="tbl:samples">
+<caption><span>Table 1:</span> Details of the tablet types analysed. Letter codes for each type are used throughout
+</caption>
+<colgroup>
+<col style="width: 8%" />
+<col style="width: 19%" />
+<col style="width: 27%" />
+<col style="width: 25%" />
+<col style="width: 19%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Type</th>
+<th style="text-align: center;">Product name</th>
+<th style="text-align: center;">Active ingredients</th>
+<th style="text-align: center;">Listed excipients</th>
+<th style="text-align: center;">MHRA licence</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">A</td>
+<td style="text-align: center;">Anadin Extra Tablets</td>
+<td style="text-align: center;">300 mg Aspirin, 200 mg Paracetamol, 45 mg Caffeine</td>
+<td style="text-align: center;">Maize starch, microcrystalline cellulose (E460), hydrogenated vegetable oil, hydroxypropyl methylcellulose (E464), polyethylene glycol, pregelatinised starch and povidone</td>
+<td style="text-align: center;">PL 00165/5013R</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">B</td>
+<td style="text-align: center;">Tesco Paracetamol Extra Tablets</td>
+<td style="text-align: center;">500 mg Paracetamol, 65 mg Caffeine</td>
+<td style="text-align: center;">tarch, povidone k-30, povidone k-90, croscarmellose sodium, talc, stearic acid and magnesium stearate</td>
+<td style="text-align: center;">PL 08977/0025</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">C</td>
+<td style="text-align: center;">Tesco Paracetamol Tablets</td>
+<td style="text-align: center;">500 mg Paracetamol</td>
+<td style="text-align: center;">Potato Starch, pregelatinised starch, magnesium stearate, povidone, stearic acid and talc</td>
+<td style="text-align: center;">PL 08977/0014</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">D</td>
+<td style="text-align: center;">Tesco Extra Power Pain Control Tablets</td>
+<td style="text-align: center;">300 mg Aspirin, 200 mg Paracetamol, 45 mg Caffeine</td>
+<td style="text-align: center;">Povidone, hydroxypropylcellulose, stearic acid, microcrystalline cellulose, maize starch, pregelatinised starch, hydroxypropyl methylcellulose 5cPs, hydroxypropyl methylcellulose 15cPs, macrogol 4000</td>
+<td style="text-align: center;">PL 29831/0164</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="desi-ms">DESI MS</h3>
+<p>DESI-MS measurements were performed on a Synapt G2-Si Q-IM-ToF mass spectrometer (Waters Corp). The instrument was operated in ‘resolution mode’. The ion mobility cell was not used. Positive ion mode spectra were collected with a scan time of 1 second across a mass range of m/z 50 to m/z 1200. The instrument was fitted with a prototype DESI source (Waters Corp), with the sprayer configured for electroflow focusing with a fused silica capillary sitting approximately 1 mm behind a 200 µm steel orifice. Methanol with 5% water by volume was delivered at 2 µl/m by a pressure pump (Dolomite). Nitrogen gas was delivered at 0.2 MPa. The spray voltage was set at 5 kV. A heated inlet capillary was set to a calibrated temperature of 400°C using a PID (Waters Research Centre, Hungary). Tablets were sampled by holding the tablet 1-2 mm away from the DESI spray head using plastic tweezers. For training data, acquisition was started with the tablet already under the spray head, such that only data from the tablet surface was acquired, while validation data was collected continuously.</p>
+<h3 id="transmission-raman-spectroscopy">Transmission Raman spectroscopy</h3>
+<p>Transmission Raman spectra were acquired using a Renishaw InVia Qontor Raman microscope equipped with a 830 nm excitation source fibre-coupled to an InVia transmission Raman accessory (Renishaw plc, Wotton-under-Edge, Gloucestershire), in a temperature controlled environment. Light was collected in transmission with the x5 air objective lens (0.12 NA, N-PLAN, Leica). Tablets were carefully placed onto a flat silicon sample support with a hole just smaller than the tablet dimensions, so that the excitation beam was able to pass through the tablet but not the sample support. Six tablets were analysed of each type in pseudo-random order. Three measurement replicates were acquired, each complete data set was collected on three separate days.</p>
+<p>For all tablets, extended spectra were acquired using Renishaw Wire (version 5.3) software for the spectral range of 50 to 1800 cm<sup>-1</sup>, with an acquisition time of 30 seconds, and 5 accumulations. Laser power was set to 100% which has been measured at the sample to be approximately 117 mW. An internal silicon calibration reference spectrum was acquired each day to correct the Raman shift of the data.</p>
+<h3 id="data-analysis">Data analysis</h3>
+<p>All data were analyzed in R version 3.6.2 (2019-12-12) “Dark and Stormy Night” and RStudio Server version 1.2.5019. Analysis was conducted using the tidyverse <span class="citation" data-cites="NlIaXFuf">[<a href="#ref-NlIaXFuf" role="doc-biblioref">46</a>]</span> and tidymodels <span class="citation" data-cites="4zds2yP">[<a href="#ref-4zds2yP" role="doc-biblioref">47</a>]</span> metapackages. Raman data preprocessing was conducted in MATLAB 2020a. All analysis was performed on a Linux workstation (Intel Core i9-7900X CPU with 10 cores @ 3.30 GHz, 128G RAM, Ubuntu 16.04.6 LTS.</p>
+<h3 id="desi-preprocessing">DESI preprocessing</h3>
+<p>For model development and comparison, data were converted from Waters raw format to mzML format using ProteoWizard MSConvert version 3.0.19239-0ae547798. These were read into R using the mzR package. All spectra were re-binned onto the same mass axis with a bin width of m/z 0.01. A mean spectrum of all training data was peak picked using the findPeaks function from the prcma package with a peak intensity threshold of three times the median intensity of the spectrum. 1217 peaks were found. Each spectrum was then individually integrated across the found peak widths to form a datacube. Each scan of the validation dataset was similarly integrated across the peak widths from the training dataset. Reduced peak datacubes were generated by filtering for the top n most intense peaks. Down-binning to simulate reduced mass resolving power was performed by rounding m/z values and summing intensities within each rounded m/z bin.</p>
+<h3 id="transmission-raman-spectroscopy-preprocessing">Transmission Raman spectroscopy preprocessing</h3>
+<p>Cosmic ray removal was performed automatically by Renishaw Wire (version 5.3) and spectra exported to .txt format. The Raman spectra were baseline corrected using the msbackadj() Matlab function. The baseline was estimated within multiple shifted windows of width 20 separation units, then a spline approximation was used to regress the varying baseline to the window points. The estimated baseline for each spectrum was then subtracted from the corresponding original. The background subtracted spectra were read in R for subsequent processing and analysis. The data were normalized to total spectrum intensity and the Raman shift recalibrated using the weighted-mean centroid to the 520.7 cm-1 peak from the daily Si wafer sample spectrum as a reference. Extended spectra were truncated to a wavenumber range between 250 cm-1 and 1700 cm-1. Due to the limited number of wavenumber bins and the challenges of peak-picking Raman data, the continuous data were taken forward for classification.</p>
+<h3 id="classification">Classification</h3>
+<p>Spectra were collated into a 10-fold cross validation 1 with 10 repeats in a 4/1/5 (train/test/total) split. To remove highly co-variate polymer peak sequences leading to overfitting, highly correlating variables (Pearson correlation &gt; 0.9) were removed from DESI MSI data. Data were centered around the arithmetic mean and scaled to have a standard deviation of one. Underrepresented classes (for DESI MSI, the background class) were up sampled. Each training fold was applied to a range of classification algorithms using the tidymodels package. All models were implemented with their default parameters beyond setting to classification mode. The functions, engines and default parameters used for each model are provided in supplementary table 1. These models were then used to predict each testing fold. For each fold the F1 score was calculated. For DESI MSI the algorithm with the highest F1 score, a support vector machine with a polynomial kernel was selected for further model tuning on a single 4/1/5 validation split of the training data. For transmission Raman data a LDA model was selected. A final model was fitted on all the training data. These models were used to predict the test independent test sets. Cosine similarity between spectra were calculated using the cosine function from the coop package <span class="citation" data-cites="WsAj0wOM">[<a href="#ref-WsAj0wOM" role="doc-biblioref">48</a>, =coop]</span>. Considering the angle between vectors, rather than magnitude, cosine similarity provides a useful and robust measure of spectral similarity for highly multivariate datasets <span class="citation" data-cites="XgRF2vnB">[<a href="#ref-XgRF2vnB" role="doc-biblioref">49</a>]</span></p>
 <p>This manuscript is a template (aka “rootstock”) for <a href="https://manubot.org/" title="Manubot">Manubot</a>, a tool for writing scholarly manuscripts.
 Use this template as a starting point for your manuscript.</p>
 <p>The rest of this document is a full list of formatting elements/features supported by Manubot.
@@ -296,22 +364,22 @@ two spaces at end of line.</p>
 <p><a href="https://manubot.org" title="Manubot Homepage">Link with hover text</a></p>
 <p><a href="https://manubot.org">Link by reference</a></p>
 <h2 id="citations">Citations</h2>
-<p>Citation by DOI <span class="citation" data-cites="IhliSZDo">[<a href="#ref-IhliSZDo" role="doc-biblioref">46</a>]</span>.</p>
-<p>Citation by PubMed Central ID <span class="citation" data-cites="mSMVRkoc">[<a href="#ref-mSMVRkoc" role="doc-biblioref">47</a>]</span>.</p>
-<p>Citation by PubMed ID <span class="citation" data-cites="126Wi5Us4">[<a href="#ref-126Wi5Us4" role="doc-biblioref">48</a>]</span>.</p>
-<p>Citation by Wikidata ID <span class="citation" data-cites="QhC8yJ7V">[<a href="#ref-QhC8yJ7V" role="doc-biblioref">49</a>]</span>.</p>
-<p>Citation by ISBN <span class="citation" data-cites="zBPP9YKu">[<a href="#ref-zBPP9YKu" role="doc-biblioref">50</a>]</span>.</p>
-<p>Citation by URL <span class="citation" data-cites="1GGGHdsew">[<a href="#ref-1GGGHdsew" role="doc-biblioref">51</a>]</span>.</p>
-<p>Citation by alias <span class="citation" data-cites="PZMP42Ak">[<a href="#ref-PZMP42Ak" role="doc-biblioref">52</a>]</span>.</p>
-<p>Multiple citations can be put inside the same set of brackets <span class="citation" data-cites="IhliSZDo PZMP42Ak zBPP9YKu">[<a href="#ref-IhliSZDo" role="doc-biblioref">46</a>,<a href="#ref-zBPP9YKu" role="doc-biblioref">50</a>,<a href="#ref-PZMP42Ak" role="doc-biblioref">52</a>]</span>.
-Manubot plugins provide easier, more convenient visualization of and navigation between citations <span class="citation" data-cites="YuJbg3zO 126Wi5Us4 mSMVRkoc PZMP42Ak">[<a href="#ref-mSMVRkoc" role="doc-biblioref">47</a>,<a href="#ref-126Wi5Us4" role="doc-biblioref">48</a>,<a href="#ref-PZMP42Ak" role="doc-biblioref">52</a>,<a href="#ref-YuJbg3zO" role="doc-biblioref">53</a>]</span>.</p>
+<p>Citation by DOI <span class="citation" data-cites="IhliSZDo">[<a href="#ref-IhliSZDo" role="doc-biblioref">50</a>]</span>.</p>
+<p>Citation by PubMed Central ID <span class="citation" data-cites="mSMVRkoc">[<a href="#ref-mSMVRkoc" role="doc-biblioref">51</a>]</span>.</p>
+<p>Citation by PubMed ID <span class="citation" data-cites="126Wi5Us4">[<a href="#ref-126Wi5Us4" role="doc-biblioref">52</a>]</span>.</p>
+<p>Citation by Wikidata ID <span class="citation" data-cites="QhC8yJ7V">[<a href="#ref-QhC8yJ7V" role="doc-biblioref">53</a>]</span>.</p>
+<p>Citation by ISBN <span class="citation" data-cites="zBPP9YKu">[<a href="#ref-zBPP9YKu" role="doc-biblioref">54</a>]</span>.</p>
+<p>Citation by URL <span class="citation" data-cites="1GGGHdsew">[<a href="#ref-1GGGHdsew" role="doc-biblioref">55</a>]</span>.</p>
+<p>Citation by alias <span class="citation" data-cites="PZMP42Ak">[<a href="#ref-PZMP42Ak" role="doc-biblioref">56</a>]</span>.</p>
+<p>Multiple citations can be put inside the same set of brackets <span class="citation" data-cites="IhliSZDo PZMP42Ak zBPP9YKu">[<a href="#ref-IhliSZDo" role="doc-biblioref">50</a>,<a href="#ref-zBPP9YKu" role="doc-biblioref">54</a>,<a href="#ref-PZMP42Ak" role="doc-biblioref">56</a>]</span>.
+Manubot plugins provide easier, more convenient visualization of and navigation between citations <span class="citation" data-cites="YuJbg3zO 126Wi5Us4 mSMVRkoc PZMP42Ak">[<a href="#ref-mSMVRkoc" role="doc-biblioref">51</a>,<a href="#ref-126Wi5Us4" role="doc-biblioref">52</a>,<a href="#ref-PZMP42Ak" role="doc-biblioref">56</a>,<a href="#ref-YuJbg3zO" role="doc-biblioref">57</a>]</span>.</p>
 <p>Citation tags (i.e. aliases) can be defined in their own paragraphs using Markdown’s reference link syntax:</p>
 <h2 id="referencing-figures-tables-equations">Referencing figures, tables, equations</h2>
 <p>Figure <a href="#fig:square-image">1</a></p>
 <p>Figure <a href="#fig:wide-image">2</a></p>
 <p>Figure <a href="#fig:tall-image">3</a></p>
 <p>Figure <a href="#fig:vector-image">4</a></p>
-<p>Table <a href="#tbl:bowling-scores">1</a></p>
+<p>Table <a href="#tbl:bowling-scores">2</a></p>
 <p>Equation <a href="#eq:regular-equation">1</a></p>
 <p>Equation <a href="#eq:long-equation">2</a></p>
 <h2 id="quotes-and-code">Quotes and code</h2>
@@ -365,7 +433,7 @@ White background specified to serve as a backdrop for transparent sections of th
 <h2 id="tables">Tables</h2>
 <div id="tbl:bowling-scores" class="tablenos">
 <table id="tbl:bowling-scores">
-<caption><span>Table 1:</span> A table with a top caption and specified relative column widths.
+<caption><span>Table 2:</span> A table with a top caption and specified relative column widths.
 </caption>
 <thead>
 <tr class="header">
@@ -403,7 +471,7 @@ White background specified to serve as a backdrop for transparent sections of th
 </div>
 <div id="tbl:constant-digits" class="tablenos">
 <table id="tbl:constant-digits">
-<caption><span>Table 2:</span> A table too wide to fit within page.
+<caption><span>Table 3:</span> A table too wide to fit within page.
 </caption>
 <colgroup>
 <col style="width: 5%" />
@@ -439,9 +507,9 @@ White background specified to serve as a backdrop for transparent sections of th
 </tbody>
 </table>
 </div>
-<div id="tbl:845ed8db-41bb-4e73-a611-73b9bb810d6d" class="tablenos">
+<div id="tbl:f2adb953-f53e-4b1b-ac28-6399ccc289ae" class="tablenos">
 <table id="tbl:">
-<caption><span>Table 3:</span> A table with merged cells using the <code>attributes</code> plugin.
+<caption><span>Table 4:</span> A table with merged cells using the <code>attributes</code> plugin.
 </caption>
 <thead>
 <tr class="header">
@@ -658,29 +726,41 @@ useful for <em>warnings</em> - <a href="https://manubot.org/">manubot.org</a></s
 <div id="ref-1E3zgZaqr" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">45. </div><div class="csl-right-inline"><strong>Comparison of multivariate methods for quantitative determination with transmission Raman spectroscopy in pharmaceutical formulations</strong> <div class="csl-block">Magnus Fransson, Jonas Johansson, Anders Sparén, Olof Svensson</div> <em>Journal of Chemometrics</em> (2010-11) <a href="https://doi.org/fs46d5">https://doi.org/fs46d5</a> <div class="csl-block">DOI: <a href="http://dx.doi.org/10.1002/cem.1330">http://dx.doi.org/10.1002/cem.1330</a></div></div>
 </div>
+<div id="ref-NlIaXFuf" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">46. </div><div class="csl-right-inline"><strong>Welcome to the Tidyverse</strong> <div class="csl-block">Hadley Wickham, Mara Averick, Jennifer Bryan, Winston Chang, Lucy McGowan, Romain François, Garrett Grolemund, Alex Hayes, Lionel Henry, Jim Hester, … Hiroaki Yutani</div> <em>Journal of Open Source Software</em> (2019-11-21) <a href="https://doi.org/ggddkj">https://doi.org/ggddkj</a> <div class="csl-block">DOI: <a href="https://doi.org/10.21105/joss.01686">https://doi.org/10.21105/joss.01686</a></div></div>
+</div>
+<div id="ref-4zds2yP" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">47. </div><div class="csl-right-inline"><strong>Tidymodels</strong> <a href="https://www.tidymodels.org/">https://www.tidymodels.org/</a></div>
+</div>
+<div id="ref-WsAj0wOM" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">48. </div><div class="csl-right-inline"><a href="https://cran.r-project.org/package">https://cran.r-project.org/package</a></div>
+</div>
+<div id="ref-XgRF2vnB" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">49. </div><div class="csl-right-inline"><strong>Testing for Multivariate Normality in Mass Spectrometry Imaging Data: A Robust Statistical Approach for Clustering Evaluation and the Generation of Synthetic Mass Spectrometry Imaging Data Sets</strong> <div class="csl-block">Alex Dexter, Alan M Race, Iain B Styles, Josephine Bunch</div> <em>Analytical Chemistry</em> (2016-11-04) <a href="https://doi.org/f9cs8j">https://doi.org/f9cs8j</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1021/acs.analchem.6b02139">10.1021/acs.analchem.6b02139</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27641083">27641083</a></div></div>
+</div>
 <div id="ref-IhliSZDo" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">46. </div><div class="csl-right-inline"><strong>Sci-Hub provides access to nearly all scholarly literature</strong> <div class="csl-block">Daniel S Himmelstein, Ariel Rodriguez Romero, Jacob G Levernier, Thomas Anthony Munro, Stephen Reid McLaughlin, Bastian Greshake Tzovaras, Casey S Greene</div> <em>eLife</em> (2018-03-01) <a href="https://doi.org/ckcj">https://doi.org/ckcj</a> <div class="csl-block">DOI: <a href="https://doi.org/10.7554/elife.32822">10.7554/elife.32822</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29424689">29424689</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5832410">PMC5832410</a></div></div>
+<div class="csl-left-margin">50. </div><div class="csl-right-inline"><strong>Sci-Hub provides access to nearly all scholarly literature</strong> <div class="csl-block">Daniel S Himmelstein, Ariel Rodriguez Romero, Jacob G Levernier, Thomas Anthony Munro, Stephen Reid McLaughlin, Bastian Greshake Tzovaras, Casey S Greene</div> <em>eLife</em> (2018-03-01) <a href="https://doi.org/ckcj">https://doi.org/ckcj</a> <div class="csl-block">DOI: <a href="https://doi.org/10.7554/elife.32822">10.7554/elife.32822</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29424689">29424689</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5832410">PMC5832410</a></div></div>
 </div>
 <div id="ref-mSMVRkoc" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">47. </div><div class="csl-right-inline"><strong>Reproducibility of computational workflows is automated using continuous analysis</strong> <div class="csl-block">Brett K Beaulieu-Jones, Casey S Greene</div> <em>Nature biotechnology</em> (2017-04) <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6103790/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6103790/</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/nbt.3780">10.1038/nbt.3780</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/28288103">28288103</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6103790">PMC6103790</a></div></div>
+<div class="csl-left-margin">51. </div><div class="csl-right-inline"><strong>Reproducibility of computational workflows is automated using continuous analysis</strong> <div class="csl-block">Brett K Beaulieu-Jones, Casey S Greene</div> <em>Nature biotechnology</em> (2017-04) <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6103790/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6103790/</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/nbt.3780">10.1038/nbt.3780</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/28288103">28288103</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6103790">PMC6103790</a></div></div>
 </div>
 <div id="ref-126Wi5Us4" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">48. </div><div class="csl-right-inline"><strong>Bitcoin for the biological literature.</strong> <div class="csl-block">Douglas Heaven</div> <em>Nature</em> (2019-02) <a href="https://www.ncbi.nlm.nih.gov/pubmed/30718888">https://www.ncbi.nlm.nih.gov/pubmed/30718888</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/d41586-019-00447-9">10.1038/d41586-019-00447-9</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30718888">30718888</a></div></div>
+<div class="csl-left-margin">52. </div><div class="csl-right-inline"><strong>Bitcoin for the biological literature.</strong> <div class="csl-block">Douglas Heaven</div> <em>Nature</em> (2019-02) <a href="https://www.ncbi.nlm.nih.gov/pubmed/30718888">https://www.ncbi.nlm.nih.gov/pubmed/30718888</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/d41586-019-00447-9">10.1038/d41586-019-00447-9</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30718888">30718888</a></div></div>
 </div>
 <div id="ref-QhC8yJ7V" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">49. </div><div class="csl-right-inline"><strong>Plan S: Accelerating the transition to full and immediate Open Access to scientific publications</strong> <div class="csl-block">cOAlition S</div> (2018-09-04) <a href="https://www.wikidata.org/wiki/Q56458321">https://www.wikidata.org/wiki/Q56458321</a></div>
+<div class="csl-left-margin">53. </div><div class="csl-right-inline"><strong>Plan S: Accelerating the transition to full and immediate Open Access to scientific publications</strong> <div class="csl-block">cOAlition S</div> (2018-09-04) <a href="https://www.wikidata.org/wiki/Q56458321">https://www.wikidata.org/wiki/Q56458321</a></div>
 </div>
 <div id="ref-zBPP9YKu" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">50. </div><div class="csl-right-inline"><strong>Open access</strong> <div class="csl-block">Peter Suber</div> <em>MIT Press</em> (2012) <div class="csl-block">ISBN: 9780262517638</div></div>
+<div class="csl-left-margin">54. </div><div class="csl-right-inline"><strong>Open access</strong> <div class="csl-block">Peter Suber</div> <em>MIT Press</em> (2012) <div class="csl-block">ISBN: 9780262517638</div></div>
 </div>
 <div id="ref-1GGGHdsew" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">51. </div><div class="csl-right-inline"><strong>Open collaborative writing with Manubot</strong> <div class="csl-block">Daniel S Himmelstein, Vincent Rubinetti, David R Slochower, Dongbo Hu, Venkat S Malladi, Casey S Greene, Anthony Gitter</div> <em>Manubot</em> (2020-05-25) <a href="https://greenelab.github.io/meta-review/">https://greenelab.github.io/meta-review/</a></div>
+<div class="csl-left-margin">55. </div><div class="csl-right-inline"><strong>Open collaborative writing with Manubot</strong> <div class="csl-block">Daniel S Himmelstein, Vincent Rubinetti, David R Slochower, Dongbo Hu, Venkat S Malladi, Casey S Greene, Anthony Gitter</div> <em>Manubot</em> (2020-05-25) <a href="https://greenelab.github.io/meta-review/">https://greenelab.github.io/meta-review/</a></div>
 </div>
 <div id="ref-PZMP42Ak" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">52. </div><div class="csl-right-inline"><strong>Opportunities and obstacles for deep learning in biology and medicine</strong> <div class="csl-block">Travers Ching, Daniel S Himmelstein, Brett K Beaulieu-Jones, Alexandr A Kalinin, Brian T Do, Gregory P Way, Enrico Ferrero, Paul-Michael Agapow, Michael Zietz, Michael M Hoffman, … Casey S Greene</div> <em>Journal of The Royal Society Interface</em> (2018-04-04) <a href="https://doi.org/gddkhn">https://doi.org/gddkhn</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1098/rsif.2017.0387">10.1098/rsif.2017.0387</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29618526">29618526</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5938574">PMC5938574</a></div></div>
+<div class="csl-left-margin">56. </div><div class="csl-right-inline"><strong>Opportunities and obstacles for deep learning in biology and medicine</strong> <div class="csl-block">Travers Ching, Daniel S Himmelstein, Brett K Beaulieu-Jones, Alexandr A Kalinin, Brian T Do, Gregory P Way, Enrico Ferrero, Paul-Michael Agapow, Michael Zietz, Michael M Hoffman, … Casey S Greene</div> <em>Journal of The Royal Society Interface</em> (2018-04-04) <a href="https://doi.org/gddkhn">https://doi.org/gddkhn</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1098/rsif.2017.0387">10.1098/rsif.2017.0387</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29618526">29618526</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5938574">PMC5938574</a></div></div>
 </div>
 <div id="ref-YuJbg3zO" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">53. </div><div class="csl-right-inline"><strong>Open collaborative writing with Manubot</strong> <div class="csl-block">Daniel S Himmelstein, Vincent Rubinetti, David R Slochower, Dongbo Hu, Venkat S Malladi, Casey S Greene, Anthony Gitter</div> <em>PLOS Computational Biology</em> (2019-06-24) <a href="https://doi.org/c7np">https://doi.org/c7np</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1371/journal.pcbi.1007128">10.1371/journal.pcbi.1007128</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31233491">31233491</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6611653">PMC6611653</a></div></div>
+<div class="csl-left-margin">57. </div><div class="csl-right-inline"><strong>Open collaborative writing with Manubot</strong> <div class="csl-block">Daniel S Himmelstein, Vincent Rubinetti, David R Slochower, Dongbo Hu, Venkat S Malladi, Casey S Greene, Anthony Gitter</div> <em>PLOS Computational Biology</em> (2019-06-24) <a href="https://doi.org/c7np">https://doi.org/c7np</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1371/journal.pcbi.1007128">10.1371/journal.pcbi.1007128</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31233491">31233491</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6611653">PMC6611653</a></div></div>
 </div>
 </div>
 <!-- default theme -->
