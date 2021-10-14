@@ -1,9 +1,10 @@
 ---
 title: Complementary classification of solid oral dosage forms in ambient conditions by desorption electrospray ionization mass spectrometry and transmission Raman spectroscopy
 keywords:
-- markdown
-- publishing
-- manubot
+- desorption electrospray ionization mass spectrometry
+- transmission Raman spectroscopy
+- solid oral dosage form
+- classification
 lang: en-US
 date-meta: '2021-10-14'
 author-meta:
@@ -54,9 +55,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://adamjtaylor.github.io/tablet-classification/" />
   <meta name="citation_pdf_url" content="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/5e5d9d22b54c1884fa537f12f1b24c436ec25af5/" />
-  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/5e5d9d22b54c1884fa537f12f1b24c436ec25af5/" />
-  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/5e5d9d22b54c1884fa537f12f1b24c436ec25af5/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/146416d5cad4e4ea09f54add41b2713baaa7e73d/" />
+  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/146416d5cad4e4ea09f54add41b2713baaa7e73d/" />
+  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/146416d5cad4e4ea09f54add41b2713baaa7e73d/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -78,9 +79,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://adamjtaylor.github.io/tablet-classification/v/5e5d9d22b54c1884fa537f12f1b24c436ec25af5/))
+([permalink](https://adamjtaylor.github.io/tablet-classification/v/146416d5cad4e4ea09f54add41b2713baaa7e73d/))
 was automatically generated
-from [adamjtaylor/tablet-classification@5e5d9d2](https://github.com/adamjtaylor/tablet-classification/tree/5e5d9d22b54c1884fa537f12f1b24c436ec25af5)
+from [adamjtaylor/tablet-classification@146416d](https://github.com/adamjtaylor/tablet-classification/tree/146416d5cad4e4ea09f54add41b2713baaa7e73d)
 on October 14, 2021.
 </em></small>
 
