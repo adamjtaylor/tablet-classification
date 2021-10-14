@@ -54,9 +54,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://adamjtaylor.github.io/tablet-classification/" />
   <meta name="citation_pdf_url" content="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/4629db6a93904ffaf715367af03d2fc61d48be92/" />
-  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/4629db6a93904ffaf715367af03d2fc61d48be92/" />
-  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/4629db6a93904ffaf715367af03d2fc61d48be92/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/72dcec7f37414613416efe76eedcec93e1f47e32/" />
+  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/72dcec7f37414613416efe76eedcec93e1f47e32/" />
+  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/72dcec7f37414613416efe76eedcec93e1f47e32/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -78,9 +78,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://adamjtaylor.github.io/tablet-classification/v/4629db6a93904ffaf715367af03d2fc61d48be92/))
+([permalink](https://adamjtaylor.github.io/tablet-classification/v/72dcec7f37414613416efe76eedcec93e1f47e32/))
 was automatically generated
-from [adamjtaylor/tablet-classification@4629db6](https://github.com/adamjtaylor/tablet-classification/tree/4629db6a93904ffaf715367af03d2fc61d48be92)
+from [adamjtaylor/tablet-classification@72dcec7](https://github.com/adamjtaylor/tablet-classification/tree/72dcec7f37414613416efe76eedcec93e1f47e32)
 on October 14, 2021.
 </em></small>
 
@@ -132,6 +132,9 @@ Discrepancies or defects in active ingredients, excipients and coatings that for
 
 Here we test the ability of two rapid ambient chemical characterization methods to discriminate between solid dosage forms: desorption electrospray ionization mass spectrometry and transmission Raman spectroscopy. These two techniques are highly complementary, offering greater sensitivity to the analysis of the surface and the tablet bulk, respectively. The data sets generated were then used to test a variety of classification algorithms including linear discriminate analysis, tree-based methods, a simple neural network, and support vector machines (SVM). The highest performing algorithms for DESI-MSI were the SVM, with an additional performance boost when used with a polynomial kernel. For transmission Raman data, a linear discriminant analysis (LDA) model was found to be the most effective. 
 
+
+## Introduction
+Inconsistencies in active ingredients, excipients, the thickness and integrity of coatings and the presence of impurities in solid oral dosage forms all negatively affect their performance. Inferior quality attributes can be useful to identify off-brand or counterfeit products. There is a need for rapid and continuous analytical techniques that can assess and classify product differences of intact samples at- or near the production line, or in analytical labs, ideally without resorting to product dissolution [@doi:http://dx.doi.org/10.1016/j.xphs.2016.11.011]. Rapid measurement tools are particularly important to enable continuous monitoring, necessary to support the change from batch to continuous manufacturing. Analytical methods are required to monitor both the actives, coatings and consistency of the product: For example, in addition to the total API content, insight is also needed on degradation products, impurities, (co-) crystallinity/presence of polymorphs, and content uniformity. The ability to monitor tablet coating thickness and integrity is of great importance, particularly for functional coatings, such gastro-resistance, which would be compromised by insufficient thickness, or the occurrence of cracks in the film [@doi:http://dx.doi.org/10.1016/j.ijpharm.2013.01.062]. 
 
 This manuscript is a template (aka "rootstock") for [Manubot](https://manubot.org/ "Manubot"), a tool for writing scholarly manuscripts.
 Use this template as a starting point for your manuscript.
