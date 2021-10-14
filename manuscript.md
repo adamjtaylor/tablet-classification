@@ -54,9 +54,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://adamjtaylor.github.io/tablet-classification/" />
   <meta name="citation_pdf_url" content="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/109ace4a229026491219d1a4937c61f0c6483afd/" />
-  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/109ace4a229026491219d1a4937c61f0c6483afd/" />
-  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/109ace4a229026491219d1a4937c61f0c6483afd/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/7e88c1656e100ba2776d7ecbe65f794efcbdab27/" />
+  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/7e88c1656e100ba2776d7ecbe65f794efcbdab27/" />
+  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/7e88c1656e100ba2776d7ecbe65f794efcbdab27/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -78,9 +78,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://adamjtaylor.github.io/tablet-classification/v/109ace4a229026491219d1a4937c61f0c6483afd/))
+([permalink](https://adamjtaylor.github.io/tablet-classification/v/7e88c1656e100ba2776d7ecbe65f794efcbdab27/))
 was automatically generated
-from [adamjtaylor/tablet-classification@109ace4](https://github.com/adamjtaylor/tablet-classification/tree/109ace4a229026491219d1a4937c61f0c6483afd)
+from [adamjtaylor/tablet-classification@7e88c16](https://github.com/adamjtaylor/tablet-classification/tree/7e88c1656e100ba2776d7ecbe65f794efcbdab27)
 on October 14, 2021.
 </em></small>
 
@@ -171,6 +171,49 @@ There have been relatively few comparisons of different classification methods f
 
 ### Objective
 In this study we set out to explore the potential of DESI-MSI and transmission Raman spectroscopy to distinguish commercially available pharmaceutical tablets with similar or different formulations. Pairing DESI with transmission Raman was of particular interest due to their complementarity and relative abilities to sensitively probe the surface vs the bulk of the tablets. Classification of tablets based on both active ingredients and excipients has the potential to be used for in-line quality control measures during pharmaceutical manufacturing, and for rapid counterfeit testing. As such we have tested a range of classification algorithms on their capability to differentiate these tablets using a range of pre-processing methods to determine the best approaches to use in different applications.  
+
+## Experimnental
+
+### Samples
+
+Samples were selected from commercially available of-the-shelf products and purchased from a local supplier. Their names, active ingredients, listed excipients and MHRA product license numbers are included in Table @tbl:samples
+
+
+| Type | Product name | Active ingredients| Listed excipients | MHRA licence |
+|:-----|:------------:|:------------------:|:----------------:|:------------:|
+| A | Anadin Extra Tablets | 300 mg Aspirin, 200 mg Paracetamol, 45 mg Caffeine | Maize starch, microcrystalline cellulose (E460), hydrogenated vegetable oil, hydroxypropyl methylcellulose (E464), polyethylene glycol, pregelatinised starch and povidone  | PL 00165/5013R |
+| B | Tesco Paracetamol Extra Tablets | 500 mg Paracetamol, 65 mg Caffeine |tarch, povidone k-30, povidone k-90, croscarmellose sodium, talc, stearic acid and magnesium stearate | PL 08977/0025 |
+| C | Tesco Paracetamol Tablets | 500 mg Paracetamol | Potato Starch, pregelatinised starch, magnesium stearate, povidone, stearic acid and talc | PL 08977/0014 |
+| D | Tesco Extra Power Pain Control Tablets | 300 mg Aspirin, 200 mg Paracetamol, 45 mg Caffeine | Povidone, hydroxypropylcellulose, stearic acid, microcrystalline cellulose, maize starch, pregelatinised starch, hydroxypropyl methylcellulose 5cPs, hydroxypropyl methylcellulose 15cPs, macrogol 4000 | PL 29831/0164 
+
+Table: Details of the tablet types analysed. Letter codes for each type are used throughout
+{#tbl:samples}
+
+### DESI MS
+
+DESI-MS measurements were performed on a Synapt G2-Si Q-IM-ToF mass spectrometer (Waters Corp). The instrument was operated in ‘resolution mode’. The ion mobility cell was not used. Positive ion mode spectra were collected with a scan time of 1 second across a mass range of m/z 50 to m/z 1200. The instrument was fitted with a prototype DESI source (Waters Corp), with the sprayer configured for electroflow focusing with a fused silica capillary sitting approximately 1 mm behind a 200 µm steel orifice. Methanol with 5% water by volume was delivered at 2 µl/m by a pressure pump (Dolomite). Nitrogen gas was delivered at 0.2 MPa. The spray voltage was set at 5 kV. A heated inlet capillary was set to a calibrated temperature of 400°C using a PID (Waters Research Centre, Hungary). Tablets were sampled by holding the tablet 1-2 mm away from the DESI spray head using plastic tweezers. For training data, acquisition was started with the tablet already under the spray head, such that only data from the tablet surface was acquired, while validation data was collected continuously. 
+
+### Transmission Raman spectroscopy 
+
+Transmission Raman spectra were acquired using a Renishaw InVia Qontor Raman microscope equipped with a 830 nm excitation source fibre-coupled to an InVia transmission Raman accessory (Renishaw plc, Wotton-under-Edge, Gloucestershire), in a temperature controlled environment. Light was collected in transmission with the x5 air objective lens (0.12 NA, N-PLAN, Leica). Tablets were carefully placed onto a flat silicon sample support with a hole just smaller than the tablet dimensions, so that the excitation beam was able to pass through the tablet but not the sample support. Six tablets were analysed of each type in pseudo-random order. Three measurement replicates were acquired, each complete data set was collected on three separate days.  
+
+For all tablets, extended spectra were acquired using Renishaw Wire (version 5.3) software for the spectral range of 50 to 1800 cm^-1^, with an acquisition time of 30 seconds, and 5 accumulations. Laser power was set to 100% which has been measured at the sample to be approximately 117 mW. An internal silicon calibration reference spectrum was acquired each day to correct the Raman shift of the data.
+
+### Data analysis 
+
+All data were analyzed in R version 3.6.2 (2019-12-12) "Dark and Stormy Night" and RStudio Server version 1.2.5019. Analysis was conducted using the tidyverse [@doi:https://doi.org/10.21105/joss.01686] and tidymodels [@https://www.tidymodels.org] metapackages. Raman data preprocessing was conducted in MATLAB 2020a. All analysis was performed on a Linux workstation (Intel Core i9-7900X CPU with 10 cores @ 3.30 GHz, 128G RAM, Ubuntu 16.04.6 LTS. 
+
+### DESI preprocessing 
+
+For model development and comparison, data were converted from Waters raw format to mzML format using ProteoWizard MSConvert version 3.0.19239-0ae547798. These were read into R using the mzR package. All spectra were re-binned onto the same mass axis with a bin width of m/z 0.01. A mean spectrum of all training data was peak picked using the findPeaks function from the prcma package with a peak intensity threshold of three times the median intensity of the spectrum. 1217 peaks were found. Each spectrum was then individually integrated across the found peak widths to form a datacube. Each scan of the validation dataset was similarly integrated across the peak widths from the training dataset. Reduced peak datacubes were generated by filtering for the top n most intense peaks. Down-binning to simulate reduced mass resolving power was performed by rounding m/z values and summing intensities within each rounded m/z bin. 
+
+### Transmission Raman spectroscopy preprocessing 
+
+Cosmic ray removal was performed automatically by Renishaw Wire (version 5.3) and spectra exported to .txt format. The Raman spectra were baseline corrected using the msbackadj() Matlab function. The baseline was estimated within multiple shifted windows of width 20 separation units, then a spline approximation was used to regress the varying baseline to the window points. The estimated baseline for each spectrum was then subtracted from the corresponding original. The background subtracted spectra were read in R for subsequent processing and analysis. The data were normalized to total spectrum intensity and the Raman shift recalibrated using the weighted-mean centroid to the 520.7 cm-1 peak from the daily Si wafer sample spectrum as a reference. Extended spectra were truncated to a wavenumber range between 250 cm-1 and 1700 cm-1. Due to the limited number of wavenumber bins and the challenges of peak-picking Raman data, the continuous data were taken forward for classification. 
+
+### Classification 
+
+Spectra were collated into a 10-fold cross validation 1 with 10 repeats in a 4/1/5 (train/test/total) split.  To remove highly co-variate polymer peak sequences leading to overfitting, highly correlating variables (Pearson correlation > 0.9) were removed from DESI MSI data. Data were centered around the arithmetic mean and scaled to have a standard deviation of one. Underrepresented classes (for DESI MSI, the background class) were up sampled. Each training fold was applied to a range of classification algorithms using the tidymodels package. All models were implemented with their default parameters beyond setting to classification mode. The functions, engines and default parameters used for each model are provided in supplementary table 1. These models were then used to predict each testing fold. For each fold the F1 score was calculated. For DESI MSI the algorithm with the highest F1 score, a support vector machine with a polynomial kernel was selected for further model tuning on a single 4/1/5 validation split of the training data. For transmission Raman data a LDA model was selected. A final model was fitted on all the training data. These models were used to predict the test independent test sets. Cosine similarity between spectra were calculated using the cosine function from the coop package [@https://cran.r-project.org/package=coop]. Considering the angle between vectors, rather than magnitude, cosine similarity provides a useful and robust measure of spectral similarity for highly multivariate datasets [@doi:10.1021/acs.analchem.6b02139] 
 
 This manuscript is a template (aka "rootstock") for [Manubot](https://manubot.org/ "Manubot"), a tool for writing scholarly manuscripts.
 Use this template as a starting point for your manuscript.
