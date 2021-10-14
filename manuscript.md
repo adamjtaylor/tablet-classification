@@ -55,9 +55,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://adamjtaylor.github.io/tablet-classification/" />
   <meta name="citation_pdf_url" content="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/1c818dde487e29daab1fde55e27aa2227a8219af/" />
-  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/1c818dde487e29daab1fde55e27aa2227a8219af/" />
-  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/1c818dde487e29daab1fde55e27aa2227a8219af/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/5c37fd29d42df708f9530baef9fc53ec866c74f6/" />
+  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/5c37fd29d42df708f9530baef9fc53ec866c74f6/" />
+  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/5c37fd29d42df708f9530baef9fc53ec866c74f6/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -79,9 +79,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://adamjtaylor.github.io/tablet-classification/v/1c818dde487e29daab1fde55e27aa2227a8219af/))
+([permalink](https://adamjtaylor.github.io/tablet-classification/v/5c37fd29d42df708f9530baef9fc53ec866c74f6/))
 was automatically generated
-from [adamjtaylor/tablet-classification@1c818dd](https://github.com/adamjtaylor/tablet-classification/tree/1c818dde487e29daab1fde55e27aa2227a8219af)
+from [adamjtaylor/tablet-classification@5c37fd2](https://github.com/adamjtaylor/tablet-classification/tree/5c37fd29d42df708f9530baef9fc53ec866c74f6)
 on October 14, 2021.
 </em></small>
 
@@ -163,47 +163,47 @@ As this process takes place at ambient pressure and with a flexible geometry, th
 One of the early descriptions of DESI-MSI was in the profiling of tablets [@doi:10.1021/ac050989d]. 
 Chen et al demonstrated the use of DESI-MS to profile tablets containing loratadine, folic acid, acetaminophen (paracetamol), aspirin, melatonin or caffeine. 
 Optimization of DESI parameters including voltage, solvent delivery and capillary temperature facilitated analysis at up to three scans per second.  
-Subsequent studies using DESI-MS of tablets have focused on targeted analysis for active ingredients. For example, the identification MDMA and amphetamine derivatives in ecstasy tablets [@doi:http://dx.doi.org/10.1002/rcm.2280], counterfeit artesunate antimalarial tablets [@doi:https://doi.org/10.1007/s00216-006-0950-z; @doi:https://doi.org/10.1016/j.jasms.2007.11.016] and antiviral capsules [@doi:10.1039/b809471c].
+Subsequent studies using DESI-MS of tablets have focused on targeted analysis for active ingredients. For example, the identification MDMA and amphetamine derivatives in ecstasy tablets [@doi:10.1002/rcm.2280], counterfeit artesunate antimalarial tablets [@doi:10.1007/s00216-006-0950-z; @doi:10.1016/j.jasms.2007.11.016] and antiviral capsules [@doi:10.1039/b809471c].
 
 For ambient mass spectrometry to be deployable in the field for counterfeiting applications, or in manufacturing environments for QA/QC, the mass spectrometer must be compact. 
-Several designs for small field-deployable mass spectrometers have been demonstrated with DESI MS sources [@doi:https://doi.org/10.1039/b517357d; @doi:https://doi.org/10.1021/acs.analchem.9b00520].
+Several designs for small field-deployable mass spectrometers have been demonstrated with DESI MS sources [@doi:10.1039/b517357d; @doi:10.1021/acs.analchem.9b00520].
 
 Each of these applications has targeted expected components of the tablet of interest, predominantly active ingredients or excipients. 
 However, in manufacturing QA/QC and counterfeit-detection applications, additional information on unexpected changes in active or excipient source or quality, as well as the introduction of contaminants may be of importance. 
 Untargeted multivariate and machine learning approaches are therefore of interest to determine differences between samples using all spectral information. 
 
-Classification approaches for mass spectrometry applications are proving powerful in a range of applications. The two most widespread applications of classification in mass spectrometry are in disease diagnosis and determination of bacterial type [@doi:https://doi.org/10.1016/j.aca.2014.03.039]. 
+Classification approaches for mass spectrometry applications are proving powerful in a range of applications. The two most widespread applications of classification in mass spectrometry are in disease diagnosis and determination of bacterial type [@doi:10.1016/j.aca.2014.03.039]. 
 A range of classification algorithms have been applied to mass spectrometry and spectroscopy data. PLS-DA is most commonly reported, although a range of algorithms including neural networks, and support vector machines [@doi:10.1007/s00521-016-2736-3] have been reported. 
-Several publications have evaluated different classification algorithms but unsurprisingly the optimal algorithm depends greatly on the nature of the input data. A summary of classification and other data analysis for proteomics can be found here [@doi:https://doi.org/10.1016/j.csbj.2020.07.009] and for metabolomics here [@doi:https://doi.org/10.1007/s11306-017-1242-7]. 
-Classification approaches are becoming more accessible through modeling tools with consistent grammar and data structure, and their integration into mass spectrometry software [ScilsLab,Waters software] [@doi:https://doi.org/10.1007/s11306-017-1242-7]. 
+Several publications have evaluated different classification algorithms but unsurprisingly the optimal algorithm depends greatly on the nature of the input data. A summary of classification and other data analysis for proteomics can be found here [@doi:10.1016/j.csbj.2020.07.009] and for metabolomics here [@doi:10.1007/s11306-017-1242-7]. 
+Classification approaches are becoming more accessible through modeling tools with consistent grammar and data structure, and their integration into mass spectrometry software [ScilsLab,Waters software] [@doi:10.1007/s11306-017-1242-7]. 
 
-Notably, classification of rapid evaporative ionization MS enables real-time classification of tissue types during surgery [@doi:https://doi.org/10.1038/s41416-018-0048-3]. 
-Classification of REIMS data has also found applications in food security [@doi:https://doi.org/10.1021/acs.jafc.6b01041] and bacterial speciation [@doi:https://doi.org/10.1021/ac5046752]. 
-Classification approaches have also been widely employed in mass spectrometry imaging data, particularly in the classification of cancerous tissue [@doi:https://doi.org/10.1186/s13058-017-0845-2]
+Notably, classification of rapid evaporative ionization MS enables real-time classification of tissue types during surgery [@doi:10.1038/s41416-018-0048-3]. 
+Classification of REIMS data has also found applications in food security [@doi:10.1021/acs.jafc.6b01041] and bacterial speciation [@doi:10.1021/ac5046752]. 
+Classification approaches have also been widely employed in mass spectrometry imaging data, particularly in the classification of cancerous tissue [@doi:10.1186/s13058-017-0845-2]
 
 ### Raman spectroscopy analysis of tablets
 
 Raman spectroscopy exploits the inelastic scattering of light by the sample to reveal valuable chemical and structural information. Information can be obtained from the sample in a non-destructive manner, making it a popular process analytical technology tool. 
 Raman spectroscopy can be performed in a variety of sampling configurations/geometries, the most appropriate depending on the application. 
 Confocal Raman microscopy can provide detailed chemical mapping with high spatial resolution, however this is generally reserved for forensic investigation rather than continuous monitoring, since it requires lengthy acquisition times. 
-Sub-sampling issues associated with conventional backscattered Raman can be overcome by strategies such as sample rotation in conjunction with spectral averaging, or simultaneous wide angle illumination [@doi:https://doi.org/10.1039/C3AN36843B].  
+Sub-sampling issues associated with conventional backscattered Raman can be overcome by strategies such as sample rotation in conjunction with spectral averaging, or simultaneous wide angle illumination [@doi:10.1039/C3AN36843B].  
 
-Matousek et al demonstrated the ability of transmission Raman spectroscopy to probe deep into turbid materials such as pharmaceutical tablets and provide information on their bulk properties [@doi:https://doi.org/10.1366/000370206779321463; @doi:https://doi.org/10.1016/j.jpba.2010.10.029]. 
-In contrast to conventional backscattered Raman, in transmission Raman spectroscopy the beam passes through the full thickness of the tablet, sampling a much larger volume of the material, and consequently provides more representative sampling [@doi:https://doi.org/10.1366/000370207782597085].
- Although Raman scattering intensity is linear with concentration within the same confocal plane, transmission Raman signal intensity is slightly biased towards the bulk of the tablet relative to the exterior due to internal scattering [@doi:https://doi.org/10.1366/11-06259]. 
+Matousek et al demonstrated the ability of transmission Raman spectroscopy to probe deep into turbid materials such as pharmaceutical tablets and provide information on their bulk properties [@doi:10.1366/000370206779321463; @doi:10.1016/j.jpba.2010.10.029]. 
+In contrast to conventional backscattered Raman, in transmission Raman spectroscopy the beam passes through the full thickness of the tablet, sampling a much larger volume of the material, and consequently provides more representative sampling [@doi:10.1366/000370207782597085].
+ Although Raman scattering intensity is linear with concentration within the same confocal plane, transmission Raman signal intensity is slightly biased towards the bulk of the tablet relative to the exterior due to internal scattering [@doi:10.1366/11-06259]. 
  In contrast, DESI-MSI sampling is biased towards the surface/coating composition. Therefore, in combination, these two techniques should provide a powerful toolkit with which to assess compositional differences between pharmaceutical tablet formulations.  
 
 Raman spectra of complex mixtures such as solid dosage forms often have complicated spectra with overlapping peaks. 
 For this reason, multivariate techniques are often applied to help identify the components of interest and changes in chemistry. 
 The selection and use of unsupervised and/or supervised techniques on Raman spectra rely on factors such as prior knowledge of the raw component spectra, and the quantity and complexity of the spectra [@doi:10.1016/j.trac.2020.116157].
 
-As with mass spectrometry, classification of Raman spectroscopy data has been primarily focused on disease diagnostics [@doi:https://doi.org/10.1002/jrs.882; @doi:https://doi.org/10.1002/jbio.200810024; @doi:https://doi.org/10.1155/2016/1603609] and bacterial analysis [@doi:https://doi.org/10.1002/bip.20448; @doi:https://doi.org/10.1002/jrs.5343]. Other noteworthy examples of the use of classification in Raman spectroscopy include differentiation of narcotics [@doi:https://doi.org/10.1520/JFS15244J], pharmaceuticals [@doi:https://doi.org/10.1016/j.talanta.2010.01.046], [@doi:10.1016/j.jpba.2006.01.033], and counterfeit tablets [@doi:https://doi.org/10.1002/jrs.1621]. 
+As with mass spectrometry, classification of Raman spectroscopy data has been primarily focused on disease diagnostics [@doi:10.1002/jrs.882; @doi:10.1002/jbio.200810024; @doi:10.1155/2016/1603609] and bacterial analysis [@doi:10.1002/bip.20448; @doi:10.1002/jrs.5343]. Other noteworthy examples of the use of classification in Raman spectroscopy include differentiation of narcotics [@doi:10.1520/JFS15244J], pharmaceuticals [@doi:10.1016/j.talanta.2010.01.046], [@doi:10.1016/j.jpba.2006.01.033], and counterfeit tablets [@doi:10.1002/jrs.1621]. 
 
 There have been relatively few comparisons of different classification methods for Raman spectroscopy data. 
-Zheng et al. compared SVM, LDA and k-nearest neighbours (KNN) methods to classify renin hypertension from Raman data from serum [@doi:https://doi.org/10.1016/j.saa.2019.02.063]. 
-They found that SVM and LDA performed similarly, and both outperformed the KNN algorithm.  Partial least squares (PLS) and PLS discriminant analysis are also commonly used methods in characterizing tablets, however care is required depending on the data quantity and the pre-preprocessing performed  [@doi:https://doi.org/10.1002/cem.2609]. 
-Qun et al. tested the classification of expired drugs using PLS-DA, SVM and KNN, and reported that SVM gave the strongest performance [@doi:http://dx.doi.org/10.1016/j.jpba.2014.01.027]. F
-ransson et al tested the performance of multivariate methods including PLS, classical least squares (CLS) and multivariate curve resolution (MCR) for classification of pharmaceutical tablets [@doi:http://dx.doi.org/10.1002/cem.1330]. 
+Zheng et al. compared SVM, LDA and k-nearest neighbours (KNN) methods to classify renin hypertension from Raman data from serum [@doi:10.1016/j.saa.2019.02.063]. 
+They found that SVM and LDA performed similarly, and both outperformed the KNN algorithm.  Partial least squares (PLS) and PLS discriminant analysis are also commonly used methods in characterizing tablets, however care is required depending on the data quantity and the pre-preprocessing performed  [@doi:10.1002/cem.2609]. 
+Qun et al. tested the classification of expired drugs using PLS-DA, SVM and KNN, and reported that SVM gave the strongest performance [@doi:10.1016/j.jpba.2014.01.027]. F
+ransson et al tested the performance of multivariate methods including PLS, classical least squares (CLS) and multivariate curve resolution (MCR) for classification of pharmaceutical tablets [@doi:10.1002/cem.1330]. 
 
 
 ### Objective
@@ -241,7 +241,7 @@ For all tablets, extended spectra were acquired using Renishaw Wire (version 5.3
 
 ### Data analysis 
 
-All data were analyzed in R version 3.6.2 (2019-12-12) "Dark and Stormy Night" and RStudio Server version 1.2.5019. Analysis was conducted using the tidyverse [@doi:https://doi.org/10.21105/joss.01686] and tidymodels [@https://www.tidymodels.org] metapackages. Raman data preprocessing was conducted in MATLAB 2020a. All analysis was performed on a Linux workstation (Intel Core i9-7900X CPU with 10 cores @ 3.30 GHz, 128G RAM, Ubuntu 16.04.6 LTS. 
+All data were analyzed in R version 3.6.2 (2019-12-12) "Dark and Stormy Night" and RStudio Server version 1.2.5019. Analysis was conducted using the tidyverse [@doi:10.21105/joss.01686] and tidymodels [@https://www.tidymodels.org] metapackages. Raman data preprocessing was conducted in MATLAB 2020a. All analysis was performed on a Linux workstation (Intel Core i9-7900X CPU with 10 cores @ 3.30 GHz, 128G RAM, Ubuntu 16.04.6 LTS. 
 
 ### DESI preprocessing 
 
