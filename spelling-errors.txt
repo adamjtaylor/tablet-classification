@@ -59,7 +59,7 @@ kernlab
 KNN
 kV
 labelled
-labelling
+Labelling
 LD
 LDA
 Leica
@@ -96,7 +96,7 @@ PID
 plc
 PLS
 polymorphs
-Povidone
+povidone
 prcma
 pre
 pregelatinised
