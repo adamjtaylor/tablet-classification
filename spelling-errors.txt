@@ -18,7 +18,7 @@ Colour
 comparision
 complementarity
 compositional
-Confocal
+confocal
 croscarmellose
 crystallinity
 datacube
@@ -28,7 +28,7 @@ datasets
 deployable
 DESI
 desorbs
-Desorption
+desorption
 Dimitrios
 DT
 electroflow
@@ -53,11 +53,13 @@ Insitute
 interquartile
 InVia
 ionisation
+IQR
 JB
 kernlab
 KNN
 kV
 labelled
+Labelling
 LD
 LDA
 Leica
@@ -104,6 +106,7 @@ ProteoWizard
 Qontor
 quadrupole
 quadrupoles
+quartiles
 Qun
 Raman
 ransson

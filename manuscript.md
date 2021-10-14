@@ -54,9 +54,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://adamjtaylor.github.io/tablet-classification/" />
   <meta name="citation_pdf_url" content="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/6724291e857fb44d32324049427c6229b6eaab0e/" />
-  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/6724291e857fb44d32324049427c6229b6eaab0e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/6724291e857fb44d32324049427c6229b6eaab0e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/c7feedf538f6473896f495cea4f4b6ef52d781b8/" />
+  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/c7feedf538f6473896f495cea4f4b6ef52d781b8/" />
+  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/c7feedf538f6473896f495cea4f4b6ef52d781b8/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -78,9 +78,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://adamjtaylor.github.io/tablet-classification/v/6724291e857fb44d32324049427c6229b6eaab0e/))
+([permalink](https://adamjtaylor.github.io/tablet-classification/v/c7feedf538f6473896f495cea4f4b6ef52d781b8/))
 was automatically generated
-from [adamjtaylor/tablet-classification@6724291](https://github.com/adamjtaylor/tablet-classification/tree/6724291e857fb44d32324049427c6229b6eaab0e)
+from [adamjtaylor/tablet-classification@c7feedf](https://github.com/adamjtaylor/tablet-classification/tree/c7feedf538f6473896f495cea4f4b6ef52d781b8)
 on October 14, 2021.
 </em></small>
 
@@ -350,7 +350,7 @@ Classification performance was retained on datasets of reduced peak number and s
 
 
 
-## Supplementary information
+## Supplementary information {.page_break_before}
 
 ### Notes
 
@@ -366,6 +366,33 @@ For Transmission Raman data the best performing classification approach, a linea
 
 ### Figures
 
+![
+Timings for 10-fold cross validation with 10 replicates for selected classification algorithms for DESI MS (red) and transmission Raman spectroscopy (teal) training data.
+](https://github.com/adamjtaylor/tablet-classification/raw/main/content/figures/fig_timing.pdf){#fig:timing tag="S1"}
+
+![
+Exploration of reduced peak number (A) and down-binning (B) for DESI MS classification.  
+](https://github.com/adamjtaylor/tablet-classification/raw/main/content/figures/fig_npeaks_downbin.pdf){#fig:downbin tag="S2"}
+
+![
+Model tuning grid for SVM-polynomial kernel for DESI MS data. 
+](https://github.com/adamjtaylor/tablet-classification/raw/main/content/figures/fig_tuning.pdf){#fig:tuning tag="S3"}
+
+![
+**Classification of an independent test set of tablets by DESI MS and an SVM**  
+ (a) Total ion chromatogram (TIC) plot showing the ground truth labelling per scan for four sampling events per tablet type. Labelling was performed manually in reference to known sampling order and TIC. (b) TIC plot showing tablet type predicted by the SVM for each scan. (c) TIC plot highlighting prediction accuracy per scan (correct: green circles, incorrect: pink triangles). (d) Confusion matrix for each scan of the test set, classified by the SVM. Colour and labels show proportion of correct classifications. (e-f) Spectra for selected scans (labelled in c) that are correctly (e). or incorrectly classified (f).](https://github.com/adamjtaylor/tablet-classification/raw/main/content/figures/fig_desi_validation_supplementary.pdf){#fig:tuning tag="S4"}
+
+ ![
+Cosine similarity matrix for DESI MS sampling of tablet type A from two batches on two days of analysis.
+](https://github.com/adamjtaylor/tablet-classification/raw/main/content/figures/fig_replicate_similarity.png){#fig:replicate_similarity tag="S5"}
+
+![
+Variable importance plot for SVM with polynomial kernel trained on DESI MS data. Peaks with the 30 highest variable importance are highlighted by a black dot). (b) Boxplots for peaks with the 30 highest variable importance values (Line: median, box: Q2 & Q4, whiskers: range excluding outliers, points: single scan intensities).
+](https://github.com/adamjtaylor/tablet-classification/raw/main/content/figures/fig_desi_importance.pdf){#fig:desi_vip tag="S6"}
+
+![
+(a) Spectra of LDA scaling values for each discriminant. Selected variables are highlighted with red circles. Boxplots showing LDA scores for the spectra contained in the training set. (c & d) Boxplots of transmission Raman intensity for the wavenumber bins with the two highest (c) and lowest (d) scaling values per discriminant. Boxplots show mean (bar), first and third quartiles (bar) and range between the lowest and highest values no further than 1.5 times the IQR from the box. Points show individual observations. 
+](https://github.com/adamjtaylor/tablet-classification/raw/main/content/figures/fig_tr_importance.pdf){#fig:desi_vip tag="S7"}
 
 
 ## Acknowledgements 
