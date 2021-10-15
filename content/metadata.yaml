@@ -7,15 +7,12 @@ keywords:
   - classification
 lang: en-US
 authors:
-  - github: adamjtaylor
-    name: Adam J Taylor
+  - name: Adam J Taylor
     initials: AJT
-    orcid: XXXX-XXXX-XXXX-XXXX
-    twitter: adamjtaylor
     email: adam.taylor@sagebase.org
     affiliations:
       - National Physical Laboratory, Teddington, UK
-      - Sage Bionetworks, Seattle, WA, USA
+      - "Current affiliation: Sage Bionetworks, Seattle, WA, USA"
   - name: Dimitrios Tsikritsis
     initials: DT
     email: dimitrios.tsikritsis@npl.co.uk
@@ -30,6 +27,7 @@ authors:
     initials: AB
     affiliations:
       - National Physical Laboratory, Teddington, UK
+      - "Current affiliation: GlaxoSmithKline, Stevenage, UK"
   - name: Josephine Bunch
     initials: JB
     email: josephine.bunch@npl.co.uk
