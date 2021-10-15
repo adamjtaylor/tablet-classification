@@ -1,5 +1,4 @@
 Acknowledgements
-adamjtaylor
 Anadin
 analysed
 Ariadna
@@ -8,7 +7,7 @@ backscattered
 BEIS
 Belsey
 Bionetworks
-boxplots
+Boxplots
 Caterina
 Centre
 centroid
@@ -28,7 +27,7 @@ datasets
 deployable
 DESI
 desorbs
-desorption
+Desorption
 Dimitrios
 DT
 electroflow
@@ -42,6 +41,7 @@ findPeaks
 Frankilin
 FTIR
 gastro
+GlaxoSmithKline
 Gloucestershire
 Harwell
 HPLC
@@ -59,7 +59,7 @@ kernlab
 KNN
 kV
 labelled
-Labelling
+labelling
 LD
 LDA
 Leica
@@ -96,7 +96,7 @@ PID
 plc
 PLS
 polymorphs
-povidone
+Povidone
 prcma
 pre
 pregelatinised
@@ -123,6 +123,7 @@ spectrometric
 spectrometry
 stearate
 stearic
+Stevenage
 SVM
 Synapt
 tarch
@@ -138,5 +139,4 @@ Untargeted
 wavenumber
 wavenumbers
 Wotton
-XXXX
 Zheng

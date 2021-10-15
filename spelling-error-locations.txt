@@ -241,7 +241,6 @@ content/04.results.md:17:Boxplots
 content/04.results.md:17:DESI
 content/04.results.md:17:interquartile
 content/04.results.md:17:Raman
-content/04.results.md:18:adamjtaylor
 content/04.results.md:22:DESI
 content/04.results.md:22:DESI
 content/04.results.md:22:excipients
@@ -264,7 +263,6 @@ content/04.results.md:30:Raman
 content/04.results.md:30:Raman
 content/04.results.md:30:Raman
 content/04.results.md:30:SFM
-content/04.results.md:31:adamjtaylor
 content/04.results.md:35:DESI
 content/04.results.md:35:Raman
 content/04.results.md:35:spectrometric
@@ -319,7 +317,6 @@ content/04.results.md:65:LDA
 content/04.results.md:65:Raman
 content/04.results.md:65:Raman
 content/04.results.md:65:SVM
-content/04.results.md:66:adamjtaylor
 content/04.results.md:69:Raman
 content/04.results.md:71:LDA
 content/04.results.md:71:LDA
@@ -395,15 +392,11 @@ content/91.supplementary.md:13:LDA
 content/91.supplementary.md:13:Raman
 content/91.supplementary.md:18:DESI
 content/91.supplementary.md:18:Raman
-content/91.supplementary.md:19:adamjtaylor
 content/91.supplementary.md:22:DESI
-content/91.supplementary.md:23:adamjtaylor
 content/91.supplementary.md:26:DESI
 content/91.supplementary.md:26:SVM
-content/91.supplementary.md:27:adamjtaylor
 content/91.supplementary.md:30:DESI
 content/91.supplementary.md:30:SVM
-content/91.supplementary.md:31:adamjtaylor
 content/91.supplementary.md:31:chromatogram
 content/91.supplementary.md:31:Colour
 content/91.supplementary.md:31:labelled
@@ -412,11 +405,9 @@ content/91.supplementary.md:31:Labelling
 content/91.supplementary.md:31:SVM
 content/91.supplementary.md:31:SVM
 content/91.supplementary.md:34:DESI
-content/91.supplementary.md:35:adamjtaylor
 content/91.supplementary.md:38:Boxplots
 content/91.supplementary.md:38:DESI
 content/91.supplementary.md:38:SVM
-content/91.supplementary.md:39:adamjtaylor
 content/91.supplementary.md:42:Boxplots
 content/91.supplementary.md:42:Boxplots
 content/91.supplementary.md:42:Boxplots
@@ -426,4 +417,3 @@ content/91.supplementary.md:42:LDA
 content/91.supplementary.md:42:quartiles
 content/91.supplementary.md:42:Raman
 content/91.supplementary.md:42:wavenumber
-content/91.supplementary.md:43:adamjtaylor

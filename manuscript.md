@@ -34,15 +34,14 @@ header-includes: |-
   <meta name="citation_technical_report_institution" content="Manubot" />
   <meta name="citation_author" content="Adam J Taylor" />
   <meta name="citation_author_institution" content="National Physical Laboratory, Teddington, UK" />
-  <meta name="citation_author_institution" content="Sage Bionetworks, Seattle, WA, USA" />
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
-  <meta name="twitter:creator" content="@adamjtaylor" />
+  <meta name="citation_author_institution" content="Current affiliation: Sage Bionetworks, Seattle, WA, USA" />
   <meta name="citation_author" content="Dimitrios Tsikritsis" />
   <meta name="citation_author_institution" content="National Physical Laboratory, Teddington, UK" />
   <meta name="citation_author" content="Alex Dexter" />
   <meta name="citation_author_institution" content="National Physical Laboratory, Teddington, UK" />
   <meta name="citation_author" content="Amy Burton" />
   <meta name="citation_author_institution" content="National Physical Laboratory, Teddington, UK" />
+  <meta name="citation_author_institution" content="Current affiliation: GlaxoSmithKline, Stevenage, UK" />
   <meta name="citation_author" content="Josephine Bunch" />
   <meta name="citation_author_institution" content="National Physical Laboratory, Teddington, UK" />
   <meta name="citation_author_institution" content="Imperial College London, London, UK" />
@@ -55,9 +54,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://adamjtaylor.github.io/tablet-classification/" />
   <meta name="citation_pdf_url" content="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/715400b5f811484f0f1daa7c6d43162ee460466a/" />
-  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/715400b5f811484f0f1daa7c6d43162ee460466a/" />
-  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/715400b5f811484f0f1daa7c6d43162ee460466a/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/1b89ec171a2469a220f3f6acc5222e26e9925f49/" />
+  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/1b89ec171a2469a220f3f6acc5222e26e9925f49/" />
+  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/1b89ec171a2469a220f3f6acc5222e26e9925f49/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -83,15 +82,9 @@ manubot-clear-requests-cache: false
 
 
 
-+ **Adam J Taylor**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [adamjtaylor](https://github.com/adamjtaylor)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [adamjtaylor](https://twitter.com/adamjtaylor)<br>
++ **Adam J Taylor**<br><br>
   <small>
-     National Physical Laboratory, Teddington, UK; Sage Bionetworks, Seattle, WA, USA
+     National Physical Laboratory, Teddington, UK; Current affiliation: Sage Bionetworks, Seattle, WA, USA
   </small>
 
 + **Dimitrios Tsikritsis**<br><br>
@@ -106,7 +99,7 @@ manubot-clear-requests-cache: false
 
 + **Amy Burton**<br><br>
   <small>
-     National Physical Laboratory, Teddington, UK
+     National Physical Laboratory, Teddington, UK; Current affiliation: GlaxoSmithKline, Stevenage, UK
   </small>
 
 + **Josephine Bunch**<br><br>
