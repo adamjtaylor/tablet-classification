@@ -6,7 +6,7 @@ keywords:
 - solid oral dosage form
 - classification
 lang: en-US
-date-meta: '2021-10-14'
+date-meta: '2021-10-15'
 author-meta:
 - Adam J Taylor
 - Dimitrios Tsikritsis
@@ -24,8 +24,8 @@ header-includes: |-
   <meta name="citation_title" content="Complementary classification of solid oral dosage forms in ambient conditions by desorption electrospray ionization mass spectrometry and transmission Raman spectroscopy" />
   <meta property="og:title" content="Complementary classification of solid oral dosage forms in ambient conditions by desorption electrospray ionization mass spectrometry and transmission Raman spectroscopy" />
   <meta property="twitter:title" content="Complementary classification of solid oral dosage forms in ambient conditions by desorption electrospray ionization mass spectrometry and transmission Raman spectroscopy" />
-  <meta name="dc.date" content="2021-10-14" />
-  <meta name="citation_publication_date" content="2021-10-14" />
+  <meta name="dc.date" content="2021-10-15" />
+  <meta name="citation_publication_date" content="2021-10-15" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -55,9 +55,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://adamjtaylor.github.io/tablet-classification/" />
   <meta name="citation_pdf_url" content="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/5c37fd29d42df708f9530baef9fc53ec866c74f6/" />
-  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/5c37fd29d42df708f9530baef9fc53ec866c74f6/" />
-  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/5c37fd29d42df708f9530baef9fc53ec866c74f6/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/bb8904f554304c787b67a44586a232aa51bce92d/" />
+  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/bb8904f554304c787b67a44586a232aa51bce92d/" />
+  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/bb8904f554304c787b67a44586a232aa51bce92d/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,13 +77,7 @@ manubot-clear-requests-cache: false
 
 
 
-<small><em>
-This manuscript
-([permalink](https://adamjtaylor.github.io/tablet-classification/v/5c37fd29d42df708f9530baef9fc53ec866c74f6/))
-was automatically generated
-from [adamjtaylor/tablet-classification@5c37fd2](https://github.com/adamjtaylor/tablet-classification/tree/5c37fd29d42df708f9530baef9fc53ec866c74f6)
-on October 14, 2021.
-</em></small>
+
 
 ## Authors
 
@@ -267,7 +261,7 @@ All three active ingredients were annotated from a mean spectrum within 15 ppm m
 
 ### Acquisition of Transmission Raman spectra from tablets 
 
-Mean transmission Raman spectra for each tablet type (Figure 1F) show very similar profiles for tablet types A and D (the film coated aspirin, paracetamol, and caffeine tablets) and between types B (paracetamol and caffeine and C (paracetamol only). Peaks characteristic of each active ingredient are observed (Caffeine: 555 cm^-1^, Paracetamol: 858 cm^-1^, Aspirin: 1192 cm^-1^) [@doi:http://dx.doi.org/10.1016/j.vibspec.2007.12.016; @doi:http://dx.doi.org/10.3390/pharmaceutics6040651; @doi:http://dx.doi.org/10.1016/j.molstruc.2014.10.079]. However, no clear differences between tablets A and D were observed. As expected based on the tablet composition, the predominant spectral features relate to the actives rather than from the coating ingredients. 
+Mean transmission Raman spectra for each tablet type (Figure 1F) show very similar profiles for tablet types A and D (the film coated aspirin, paracetamol, and caffeine tablets) and between types B (paracetamol and caffeine and C (paracetamol only). Peaks characteristic of each active ingredient are observed (Caffeine: 555 cm^-1^, Paracetamol: 858 cm^-1^, Aspirin: 1192 cm^-1^) [@doi:10.1016/j.vibspec.2007.12.016; @doi:10.3390/pharmaceutics6040651; @doi:10.1016/j.molstruc.2014.10.079]. However, no clear differences between tablets A and D were observed. As expected based on the tablet composition, the predominant spectral features relate to the actives rather than from the coating ingredients. 
 
 ![
 **Representative spectra from DESI MS and transmission Raman spectroscopy analysis of solid-oral dosage forms**
@@ -327,7 +321,7 @@ Considering the importance of each variable and the relative intensity in each c
 
 The variable importance of the LDA model was assessed by inspection of the LDA scaling values per wavenumber and component (Figure 3B and S5) and the LDA scores of the training set (Figure 3C). LD1 (proportion of trace: 98.8%) provides wide separation of coated tablet types A and D from uncoated tablets B and C. LD2 (proportion of trace: 0.9 %) broadly separates types C and D from one another. LD3 (proportion of trace: 0.2%) provides some separation between types A and D, although this separation is less distinct.  
 
-LDA scaling spectra highlight key features in the transmission Raman spectra that contribute to the classification. Features with a broad range of Raman shifts contribute to each component. Most of the LDA scaling spectral features are consistent with key active ingredient Raman peaks. For example, the highest scoring peak in LD1 occurs at 1159 cm-1 which corresponds to aspirin C-H ring bending [@doi:http://dx.doi.org/10.1016/j.molstruc.2014.10.079]. LD1 provides separation of tablet types A and D from B and C, and since A and D contain aspirin and B and C do not, strong weighting on wavenumbers consistent with aspirin Raman peaks would be expected. Several other LDA scaling spectral features are consistent with aspirin peak positions, such as 380, 786 and 1221 cm-1. Other LDA scaling spectral features are consistent with Raman peaks of several ingredients, for example 1555 cm-1 (LD3) which could correspond with spectral features present in all three active ingredients, paracetamol, aspirin, and caffeine, which have peaks centered at 1560, 1557, and 1554 cm-1 respectively [@doi:http://dx.doi.org/10.1016/j.vibspec.2007.12.016; @doi:http://dx.doi.org/10.3390/pharmaceutics6040651; @doi:http://dx.doi.org/10.1016/j.molstruc.2014.10.079].
+LDA scaling spectra highlight key features in the transmission Raman spectra that contribute to the classification. Features with a broad range of Raman shifts contribute to each component. Most of the LDA scaling spectral features are consistent with key active ingredient Raman peaks. For example, the highest scoring peak in LD1 occurs at 1159 cm-1 which corresponds to aspirin C-H ring bending [@doi:10.1016/j.molstruc.2014.10.079]. LD1 provides separation of tablet types A and D from B and C, and since A and D contain aspirin and B and C do not, strong weighting on wavenumbers consistent with aspirin Raman peaks would be expected. Several other LDA scaling spectral features are consistent with aspirin peak positions, such as 380, 786 and 1221 cm-1. Other LDA scaling spectral features are consistent with Raman peaks of several ingredients, for example 1555 cm-1 (LD3) which could correspond with spectral features present in all three active ingredients, paracetamol, aspirin, and caffeine, which have peaks centered at 1560, 1557, and 1554 cm-1 respectively [@doi:10.1016/j.vibspec.2007.12.016; @doi:10.3390/pharmaceutics6040651; @doi:10.1016/j.molstruc.2014.10.079].
 
 ### Repeatability and reproducibility of DESI MS 
 
