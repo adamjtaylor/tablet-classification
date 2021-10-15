@@ -17,7 +17,7 @@ Colour
 comparision
 complementarity
 compositional
-Confocal
+confocal
 croscarmellose
 crystallinity
 datacube
@@ -96,7 +96,7 @@ PID
 plc
 PLS
 polymorphs
-Povidone
+povidone
 prcma
 pre
 pregelatinised
