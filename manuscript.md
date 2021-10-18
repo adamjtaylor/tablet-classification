@@ -54,9 +54,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://adamjtaylor.github.io/tablet-classification/" />
   <meta name="citation_pdf_url" content="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/94e41b008292960fad640a3d41458318ad9bdbaa/" />
-  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/94e41b008292960fad640a3d41458318ad9bdbaa/" />
-  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/94e41b008292960fad640a3d41458318ad9bdbaa/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/e0bab183baec5d78c3fa472e25e3f68d1966761a/" />
+  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/e0bab183baec5d78c3fa472e25e3f68d1966761a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/e0bab183baec5d78c3fa472e25e3f68d1966761a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -272,7 +272,7 @@ The visible differences between mean spectra and differences in cosine similarit
 ![
 **Relative spectral similarity and classification performance comparision**
 (top row) Cosine similarity matrix for each scan of the training dataset from (A) DESI MS or (B) transmission Raman spectroscopy. (middle row) Cross validation F1 measures for (B) DESI MS and (E) transmission Raman spectroscopy. Bars and labels show mean +/- 1 SD for 10-folds with 10 repeats. (bottom row) Confusion matrix for the test set for (A) DESI MSI classified by a SFM with polynomial kernel or (F) transmission Raman Spectroscopy classified LDA. Colour and labels show proportion of correct classifications. 
-](https://github.com/adamjtaylor/tablet-classification/raw/main/content/figures/fig2.png "Figure 2"){#fig:similarity}
+](https://github.com/adamjtaylor/tablet-classification/raw/main/content/figures/fig2.png "Figure 2"){#fig:similarity width="75%"}
 
 ### Assessment of different classification algorithms
 
@@ -307,7 +307,7 @@ Considering the importance of each variable and the relative intensity in each c
 ![
 **Variable importance for selected classification models**
 (A) FIRM variable importance for SVM-poly classification of DESI MS data. 5 peaks with highest importance are highlighted. (B) Scaling values for each discriminant from LDA of transmission Raman data. Highest absolute loading variables are highlighted with red circles. (B) Boxplots showing LDA scores for the spectra from the transmission Raman training set.
-](https://github.com/adamjtaylor/tablet-classification/raw/main/content/figures/fig3.png "Figure 3"){#fig:variable-importance}
+](https://github.com/adamjtaylor/tablet-classification/raw/main/content/figures/fig3.png "Figure 3"){#fig:variable-importance width="75%"}
 
 
 #### Transmission Raman spectroscopy 
