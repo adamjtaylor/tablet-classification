@@ -54,9 +54,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://adamjtaylor.github.io/tablet-classification/" />
   <meta name="citation_pdf_url" content="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/52197e552dc5ef6ea9226a727fead639cc57e8f9/" />
-  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/52197e552dc5ef6ea9226a727fead639cc57e8f9/" />
-  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/52197e552dc5ef6ea9226a727fead639cc57e8f9/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/98fac018d0f97d221de3f789a58acb31ac407dfa/" />
+  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/98fac018d0f97d221de3f789a58acb31ac407dfa/" />
+  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/98fac018d0f97d221de3f789a58acb31ac407dfa/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -82,8 +82,7 @@ manubot-clear-requests-cache: false
 
 
 
-+ **Adam J Taylor**<br>
-    · [adam.taylor@sagebase.org]("mailto:adam.taylor@sagebase.org"))<br>
++ **Adam J Taylor**<br><br>
   <small>
      National Physical Laboratory, Teddington, UK; Current affiliation: Sage Bionetworks, Seattle, WA, USA
   </small>
@@ -109,7 +108,7 @@ manubot-clear-requests-cache: false
   </small>
 
 + **Natalie Belsey**<br>
-    · [natalie.belsey@npl.co.uk]("mailto:natalie.belsey@npl.co.uk"))<br>
+    [natalie.belsey@npl.co.uk]("mailto:natalie.belsey@npl.co.uk")<br>
   <small>
      National Physical Laboratory, Teddington, UK
   </small>

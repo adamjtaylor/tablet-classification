@@ -17,7 +17,7 @@ Colour
 comparision
 complementarity
 compositional
-confocal
+Confocal
 croscarmellose
 crystallinity
 datacube
@@ -59,7 +59,7 @@ kernlab
 KNN
 kV
 labelled
-Labelling
+labelling
 LD
 LDA
 Leica
