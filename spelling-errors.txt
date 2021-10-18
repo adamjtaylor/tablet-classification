@@ -27,7 +27,7 @@ datasets
 deployable
 DESI
 desorbs
-desorption
+Desorption
 Dimitrios
 DT
 electroflow
@@ -59,7 +59,7 @@ kernlab
 KNN
 kV
 labelled
-labelling
+Labelling
 LD
 LDA
 Leica
