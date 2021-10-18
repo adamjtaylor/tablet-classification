@@ -15,12 +15,10 @@ authors:
       - "Current affiliation: Sage Bionetworks, Seattle, WA, USA"
   - name: Dimitrios Tsikritsis
     initials: DT
-    email: dimitrios.tsikritsis@npl.co.uk
     affiliations:
       - National Physical Laboratory, Teddington, UK
   - name: Alex Dexter
     initials: AD
-    email: alex.dexter@npl.co.uk
     affiliations:
       - National Physical Laboratory, Teddington, UK
   - name: Amy Burton
@@ -30,7 +28,6 @@ authors:
       - "Current affiliation: GlaxoSmithKline, Stevenage, UK"
   - name: Josephine Bunch
     initials: JB
-    email: josephine.bunch@npl.co.uk
     affiliations:
       - National Physical Laboratory, Teddington, UK
       - Imperial College London, London, UK
