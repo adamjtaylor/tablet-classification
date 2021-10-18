@@ -96,7 +96,7 @@ PID
 plc
 PLS
 polymorphs
-Povidone
+povidone
 prcma
 pre
 pregelatinised

@@ -54,9 +54,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://adamjtaylor.github.io/tablet-classification/" />
   <meta name="citation_pdf_url" content="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/e0bab183baec5d78c3fa472e25e3f68d1966761a/" />
-  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/e0bab183baec5d78c3fa472e25e3f68d1966761a/" />
-  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/e0bab183baec5d78c3fa472e25e3f68d1966761a/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/3c16bf227f7e475b0f64bef2263f86b4cf4ac191/" />
+  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/3c16bf227f7e475b0f64bef2263f86b4cf4ac191/" />
+  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/3c16bf227f7e475b0f64bef2263f86b4cf4ac191/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -140,12 +140,12 @@ Optical spectroscopy techniques offer rapid, non-destructive analysis, including
 They have consequently been exploited for in-line process analytical testing and as quality control tools [@doi:10.1016/j.xphs.2016.11.011]. 
 For example, infra-red-based techniques (FTIR and DESI [@doi:10.1007/s00216-006-0950-z]; and NIR and Mid-IR spectroscopy classification of MDMA containing tablets [@doi:10.1016/j.talanta.2018.11.027].
 Near infrared is the most commonly used process analytical tool [@doi:10.1016/j.xphs.2016.11.011], however Raman spectroscopy provides complementary information and has grown in popularity in recent years, since it provides more distinct spectral features, and is better-suited to analysis in aqueous environments owing to the relatively weak strength of the Raman O-H band. 
-Technological advancements have facilitated miniaturization, increased speed and reduced cost, resulting in more widespread implementation. [@doi:10.1016/j.addr.2015.04.003] 
+Technological advancements have facilitated miniaturization, increased speed and reduced cost, resulting in more widespread implementation [@doi:10.1016/j.addr.2015.04.003]. 
 
 ### Ambient ionisation mass spectrometry of tablets
 
 Desorption electrospray ionization uses a charged electrospray of organic solvent which, when directed at the sample surface in proximity to the mass spectrometry inlet, desorbs ions from the sample which may be taken up into a mass spectrometer [@doi:10.1126/science.1104404]. 
-As this process takes place at ambient pressure and with a flexible geometry, the technique is suited for the analysis of a wide range of samples including explosives on surfaces [@doi:10.1039/b418697d], fingerprints [@doi:10.1039/c5an00112a], plants [@doi:10.1002/jms.2010] and tissues [@doi:10.1007/s00216-019-02151-z; @doi:10.1016/j.bbalip.2011.05.006]
+As this process takes place at ambient pressure and with a flexible geometry, the technique is suited for the analysis of a wide range of samples including explosives on surfaces [@doi:10.1039/b418697d], fingerprints [@doi:10.1039/c5an00112a], plants [@doi:10.1002/jms.2010] and tissues [@doi:10.1007/s00216-019-02151-z; @doi:10.1016/j.bbalip.2011.05.006].
 
 One of the early descriptions of DESI-MSI was in the profiling of tablets [@doi:10.1021/ac050989d]. 
 Chen et al demonstrated the use of DESI-MS to profile tablets containing loratadine, folic acid, acetaminophen (paracetamol), aspirin, melatonin or caffeine. 
@@ -166,7 +166,7 @@ Classification approaches are becoming more accessible through modeling tools wi
 
 Notably, classification of rapid evaporative ionization MS enables real-time classification of tissue types during surgery [@doi:10.1038/s41416-018-0048-3]. 
 Classification of REIMS data has also found applications in food security [@doi:10.1021/acs.jafc.6b01041] and bacterial speciation [@doi:10.1021/ac5046752]. 
-Classification approaches have also been widely employed in mass spectrometry imaging data, particularly in the classification of cancerous tissue [@doi:10.1186/s13058-017-0845-2]
+Classification approaches have also been widely employed in mass spectrometry imaging data, particularly in the classification of cancerous tissue [@doi:10.1186/s13058-017-0845-2].
 
 ### Raman spectroscopy analysis of tablets
 
@@ -189,7 +189,7 @@ As with mass spectrometry, classification of Raman spectroscopy data has been pr
 There have been relatively few comparisons of different classification methods for Raman spectroscopy data. 
 Zheng et al. compared SVM, LDA and k-nearest neighbours (KNN) methods to classify renin hypertension from Raman data from serum [@doi:10.1016/j.saa.2019.02.063]. 
 They found that SVM and LDA performed similarly, and both outperformed the KNN algorithm.  Partial least squares (PLS) and PLS discriminant analysis are also commonly used methods in characterizing tablets, however care is required depending on the data quantity and the pre-preprocessing performed  [@doi:10.1002/cem.2609]. 
-Qun et al. tested the classification of expired drugs using PLS-DA, SVM and KNN, and reported that SVM gave the strongest performance [@doi:10.1016/j.jpba.2014.01.027]. F
+Qun et al. tested the classification of expired drugs using PLS-DA, SVM and KNN, and reported that SVM gave the strongest performance [@doi:10.1016/j.jpba.2014.01.027].
 ransson et al tested the performance of multivariate methods including PLS, classical least squares (CLS) and multivariate curve resolution (MCR) for classification of pharmaceutical tablets [@doi:10.1002/cem.1330]. 
 
 
@@ -203,7 +203,7 @@ As such we have tested a range of classification algorithms on their capability 
 
 ### Samples
 
-Samples were selected from commercially available of-the-shelf products and purchased from a local supplier. Their names, active ingredients, listed excipients and MHRA product license numbers are included in Table @tbl:samples
+Samples were selected from commercially available of-the-shelf products and purchased from a local supplier. Their names, active ingredients, listed excipients and MHRA product license numbers are included in Table @tbl:samples.
 
 
 | Type | Product name | Active ingredients| Listed excipients | MHRA licence |
@@ -263,7 +263,7 @@ Mean transmission Raman spectra for each tablet type (Figure 1F) show very simil
 
 ### Relative spectral similarity
 
-It is notable that for both DESI MS and Transmission Raman data assessment of active ingredients or film coating, or excipients alone cannot robustly separate all tablet types. We can objectively assess the relative overall spectral similarity between and within tablet types by calculating the cosine distance of each spectrum of the same modality from one another. The cosine similarity matrix for DESI MS (Figure 2A) reveals that the highest cosine similarities are between spectra from tablet type D (D vs. D, 0.97 +/- 0.03) and between spectra from tablet type A (A vs. A, 0.96 +/- 0.02). The low standard deviation of cosine similarity within these tablet types indicates the highly reproducible spectra achieved from these samples. Tablet types C and D have a lower mean cosine similarity and higher variance of similarity within their respective tablet types (B vs. B, 0.77 +/- 0.08. C vs. C 0.85 +/- 0.12). Tablet types B and C are relatively alike, with cosine similarity of 0.71. Conversely, tablet types A and D, are relatively dissimilar to one another (0.45 +/- 0.03) 
+It is notable that for both DESI MS and Transmission Raman data assessment of active ingredients or film coating, or excipients alone cannot robustly separate all tablet types. We can objectively assess the relative overall spectral similarity between and within tablet types by calculating the cosine distance of each spectrum of the same modality from one another. The cosine similarity matrix for DESI MS (Figure 2A) reveals that the highest cosine similarities are between spectra from tablet type D (D vs. D, 0.97 +/- 0.03) and between spectra from tablet type A (A vs. A, 0.96 +/- 0.02). The low standard deviation of cosine similarity within these tablet types indicates the highly reproducible spectra achieved from these samples. Tablet types C and D have a lower mean cosine similarity and higher variance of similarity within their respective tablet types (B vs. B, 0.77 +/- 0.08. C vs. C 0.85 +/- 0.12). Tablet types B and C are relatively alike, with cosine similarity of 0.71. Conversely, tablet types A and D, are relatively dissimilar to one another (0.45 +/- 0.03). 
 
 For Transmission Raman spectroscopy, high cosine similarity is observed within tablet types (all greater than 0.97), However, spectral similarity between tablets A & D is notably higher than for DESI MSI (0.97 +/- 0.01). This is also seen in the high similarity between tables B and C (0.99 +/- 0.01), where the only visible spectral difference is for Caffeine, (541, cm^-1^, present in B, absent in C). All other peaks are visibly identical contributing to the high similarity value. 
 
