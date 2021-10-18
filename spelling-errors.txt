@@ -7,7 +7,7 @@ backscattered
 BEIS
 Belsey
 Bionetworks
-Boxplots
+boxplots
 Caterina
 Centre
 centroid
@@ -96,7 +96,7 @@ PID
 plc
 PLS
 polymorphs
-Povidone
+povidone
 prcma
 pre
 pregelatinised
