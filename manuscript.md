@@ -54,9 +54,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://adamjtaylor.github.io/tablet-classification/" />
   <meta name="citation_pdf_url" content="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/70dda511c5a18dce83e22b0092bf0e7665db3221/" />
-  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/70dda511c5a18dce83e22b0092bf0e7665db3221/" />
-  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/70dda511c5a18dce83e22b0092bf0e7665db3221/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/48a0503d3d586ae1832031657ce42a8c6921843e/" />
+  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/48a0503d3d586ae1832031657ce42a8c6921843e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/48a0503d3d586ae1832031657ce42a8c6921843e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -386,7 +386,7 @@ Model tuning grid for SVM-polynomial kernel for DESI MS data.
 
 ![
 Cosine similarity matrix for DESI MS sampling of tablet type A from two batches on two days of analysis.
-](https://github.com/adamjtaylor/tablet-classification/raw/main/content/figures/fig_repliacate_similarity.png "S5"){#fig:replicate_similarity tag="S5" width="50%"}{.page_break_before}
+](https://github.com/adamjtaylor/tablet-classification/raw/main/content/figures/fig_repliacate_similarity.png "S5"){#fig:replicate_similarity tag="S5" width="50%" .page_break_before}
 
 ![
 Variable importance plot for SVM with polynomial kernel trained on DESI MS data. Peaks with the 30 highest variable importance are highlighted by a black dot). (b) Boxplots for peaks with the 30 highest variable importance values (Line: median, box: Q2 & Q4, whiskers: range excluding outliers, points: single scan intensities).

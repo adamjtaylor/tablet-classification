@@ -7,7 +7,7 @@ backscattered
 BEIS
 Belsey
 Bionetworks
-boxplots
+Boxplots
 Caterina
 Centre
 centroid
