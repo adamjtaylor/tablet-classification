@@ -54,9 +54,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://adamjtaylor.github.io/tablet-classification/" />
   <meta name="citation_pdf_url" content="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/98fac018d0f97d221de3f789a58acb31ac407dfa/" />
-  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/98fac018d0f97d221de3f789a58acb31ac407dfa/" />
-  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/98fac018d0f97d221de3f789a58acb31ac407dfa/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/90d083b1c895d8d274b3785f745f0682685fdb0e/" />
+  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/90d083b1c895d8d274b3785f745f0682685fdb0e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/90d083b1c895d8d274b3785f745f0682685fdb0e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -383,7 +383,7 @@ Model tuning grid for SVM-polynomial kernel for DESI MS data.
 
 ![
 **Classification of an independent test set of tablets by DESI MS and an SVM**  
- (a) Total ion chromatogram (TIC) plot showing the ground truth labelling per scan for four sampling events per tablet type. Labelling was performed manually in reference to known sampling order and TIC. (b) TIC plot showing tablet type predicted by the SVM for each scan. (c) TIC plot highlighting prediction accuracy per scan (correct: green circles, incorrect: pink triangles). (d) Confusion matrix for each scan of the test set, classified by the SVM. Colour and labels show proportion of correct classifications. (e-f) Spectra for selected scans (labelled in c) that are correctly (e). or incorrectly classified (f).](https://github.com/adamjtaylor/tablet-classification/raw/main/content/figures/fig_desi_validation_supplementary.png "S4"){#fig:tuning tag="S4" width="75%"}
+ (a) Total ion chromatogram (TIC) plot showing the ground truth labelling per scan for four sampling events per tablet type. Labelling was performed manually in reference to known sampling order and TIC. (b) TIC plot showing tablet type predicted by the SVM for each scan. (c) TIC plot highlighting prediction accuracy per scan (correct: green circles, incorrect: pink triangles). (d) Confusion matrix for each scan of the test set, classified by the SVM. Colour and labels show proportion of correct classifications. (e-f) Spectra for selected scans (labelled in c) that are correctly (e). or incorrectly classified (f).](https://github.com/adamjtaylor/tablet-classification/raw/main/content/figures/fig_desi_validation_supplementary.png "S4"){#fig:tuning tag="S4" width="75%" .page_break_before}
 
 ![
 Cosine similarity matrix for DESI MS sampling of tablet type A from two batches on two days of analysis.
@@ -391,8 +391,8 @@ Cosine similarity matrix for DESI MS sampling of tablet type A from two batches 
 
 ![
 Variable importance plot for SVM with polynomial kernel trained on DESI MS data. Peaks with the 30 highest variable importance are highlighted by a black dot). (b) Boxplots for peaks with the 30 highest variable importance values (Line: median, box: Q2 & Q4, whiskers: range excluding outliers, points: single scan intensities).
-](https://github.com/adamjtaylor/tablet-classification/raw/main/content/figures/fig_desi_importance.png "S6"){#fig:desi_vip tag="S6" width="75%"}
+](https://github.com/adamjtaylor/tablet-classification/raw/main/content/figures/fig_desi_importance.png "S6"){#fig:desi_vip tag="S6" width="75%" .page_break_before}
 
 ![
 (a) Spectra of LDA scaling values for each discriminant. Selected variables are highlighted with red circles. Boxplots showing LDA scores for the spectra contained in the training set. (c & d) Boxplots of transmission Raman intensity for the wavenumber bins with the two highest (c) and lowest (d) scaling values per discriminant. Boxplots show mean (bar), first and third quartiles (bar) and range between the lowest and highest values no further than 1.5 times the IQR from the box. Points show individual observations. 
-](https://github.com/adamjtaylor/tablet-classification/raw/main/content/figures/fig_tr_importance.png "S7"){#fig:tr_vip tag="S7" width="75%"}
+](https://github.com/adamjtaylor/tablet-classification/raw/main/content/figures/fig_tr_importance.png "S7"){#fig:tr_vip tag="S7" width="75%" .page_break_before}

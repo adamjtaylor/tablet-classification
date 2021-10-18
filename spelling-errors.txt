@@ -17,7 +17,7 @@ Colour
 comparision
 complementarity
 compositional
-Confocal
+confocal
 croscarmellose
 crystallinity
 datacube
