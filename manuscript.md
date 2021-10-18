@@ -54,9 +54,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://adamjtaylor.github.io/tablet-classification/" />
   <meta name="citation_pdf_url" content="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/add49aef656b618e2082de56a4d2f0c1269b0a42/" />
-  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/add49aef656b618e2082de56a4d2f0c1269b0a42/" />
-  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/add49aef656b618e2082de56a4d2f0c1269b0a42/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/efca080355cff5d55b32889df4f21d996333b16d/" />
+  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/efca080355cff5d55b32889df4f21d996333b16d/" />
+  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/efca080355cff5d55b32889df4f21d996333b16d/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
