@@ -6,7 +6,7 @@ keywords:
 - solid oral dosage form
 - classification
 lang: en-US
-date-meta: '2021-10-15'
+date-meta: '2021-10-18'
 author-meta:
 - Adam J Taylor
 - Dimitrios Tsikritsis
@@ -24,8 +24,8 @@ header-includes: |-
   <meta name="citation_title" content="Complementary classification of solid oral dosage forms in ambient conditions by desorption electrospray ionization mass spectrometry and transmission Raman spectroscopy" />
   <meta property="og:title" content="Complementary classification of solid oral dosage forms in ambient conditions by desorption electrospray ionization mass spectrometry and transmission Raman spectroscopy" />
   <meta property="twitter:title" content="Complementary classification of solid oral dosage forms in ambient conditions by desorption electrospray ionization mass spectrometry and transmission Raman spectroscopy" />
-  <meta name="dc.date" content="2021-10-15" />
-  <meta name="citation_publication_date" content="2021-10-15" />
+  <meta name="dc.date" content="2021-10-18" />
+  <meta name="citation_publication_date" content="2021-10-18" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -54,9 +54,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://adamjtaylor.github.io/tablet-classification/" />
   <meta name="citation_pdf_url" content="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/1b89ec171a2469a220f3f6acc5222e26e9925f49/" />
-  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/1b89ec171a2469a220f3f6acc5222e26e9925f49/" />
-  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/1b89ec171a2469a220f3f6acc5222e26e9925f49/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/94e41b008292960fad640a3d41458318ad9bdbaa/" />
+  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/94e41b008292960fad640a3d41458318ad9bdbaa/" />
+  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/94e41b008292960fad640a3d41458318ad9bdbaa/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />

@@ -27,7 +27,7 @@ datasets
 deployable
 DESI
 desorbs
-Desorption
+desorption
 Dimitrios
 DT
 electroflow
