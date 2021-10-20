@@ -7,7 +7,7 @@ backscattered
 BEIS
 Belsey
 Bionetworks
-boxplots
+Boxplots
 Caterina
 Centre
 centroid
@@ -17,7 +17,7 @@ Colour
 comparision
 complementarity
 compositional
-confocal
+Confocal
 croscarmellose
 crystallinity
 datacube
@@ -27,7 +27,7 @@ datasets
 deployable
 DESI
 desorbs
-desorption
+Desorption
 Dimitrios
 DT
 electroflow
@@ -35,7 +35,6 @@ electrospray
 evaporative
 excipient
 excipients
-Experimnental
 fibre
 findPeaks
 Frankilin
@@ -59,7 +58,7 @@ kernlab
 KNN
 kV
 labelled
-labelling
+Labelling
 LD
 LDA
 Leica

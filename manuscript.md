@@ -6,7 +6,7 @@ keywords:
 - solid oral dosage form
 - classification
 lang: en-US
-date-meta: '2021-10-18'
+date-meta: '2021-10-20'
 author-meta:
 - Adam J Taylor
 - Dimitrios Tsikritsis
@@ -24,8 +24,8 @@ header-includes: |-
   <meta name="citation_title" content="Complementary classification of solid oral dosage forms in ambient conditions by desorption electrospray ionization mass spectrometry and transmission Raman spectroscopy" />
   <meta property="og:title" content="Complementary classification of solid oral dosage forms in ambient conditions by desorption electrospray ionization mass spectrometry and transmission Raman spectroscopy" />
   <meta property="twitter:title" content="Complementary classification of solid oral dosage forms in ambient conditions by desorption electrospray ionization mass spectrometry and transmission Raman spectroscopy" />
-  <meta name="dc.date" content="2021-10-18" />
-  <meta name="citation_publication_date" content="2021-10-18" />
+  <meta name="dc.date" content="2021-10-20" />
+  <meta name="citation_publication_date" content="2021-10-20" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -54,9 +54,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://adamjtaylor.github.io/tablet-classification/" />
   <meta name="citation_pdf_url" content="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/90d083b1c895d8d274b3785f745f0682685fdb0e/" />
-  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/90d083b1c895d8d274b3785f745f0682685fdb0e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/90d083b1c895d8d274b3785f745f0682685fdb0e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/03292b0925f8d8d5e1d4302d52320e3d77b02006/" />
+  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/03292b0925f8d8d5e1d4302d52320e3d77b02006/" />
+  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/03292b0925f8d8d5e1d4302d52320e3d77b02006/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -200,7 +200,7 @@ Pairing DESI with transmission Raman spectroscopy was of particular interest due
 Classification of tablets based on both active ingredients and excipients has the potential to be used for in-line quality control measures during pharmaceutical manufacturing, and for rapid counterfeit testing. 
 As such we have tested a range of classification algorithms on their capability to differentiate these tablets using a range of pre-processing methods to determine the best approaches to use in different applications. 
 
-## Experimnental
+## Experimental
 
 ### Samples
 
@@ -241,7 +241,7 @@ Cosmic ray removal was performed automatically by Renishaw Wire (version 5.3) an
 
 ### Classification 
 
-Spectra were collated into a 10-fold cross validation 1 with 10 repeats in a 4/1/5 (train/test/total) split.  To remove highly co-variate polymer peak sequences leading to overfitting, highly correlating variables (Pearson correlation > 0.9) were removed from DESI MSI data. Data were centered around the arithmetic mean and scaled to have a standard deviation of one. Underrepresented classes (for DESI MSI, the background class) were up sampled. Each training fold was applied to a range of classification algorithms using the tidymodels package. All models were implemented with their default parameters beyond setting to classification mode. The functions, engines and default parameters used for each model are provided in supplementary table 1. These models were then used to predict each testing fold. For each fold the F1 score was calculated. For DESI MSI the algorithm with the highest F1 score, a support vector machine with a polynomial kernel was selected for further model tuning on a single 4/1/5 validation split of the training data. For transmission Raman data a LDA model was selected. A final model was fitted on all the training data. These models were used to predict the test independent test sets. Cosine similarity between spectra were calculated using the cosine function from the coop package [@https://cran.r-project.org/package=coop]. Considering the angle between vectors, rather than magnitude, cosine similarity provides a useful and robust measure of spectral similarity for highly multivariate datasets [@doi:10.1021/acs.analchem.6b02139] 
+Spectra were collated into a 10-fold cross validation 1 with 10 repeats in a 4/1/5 (train/test/total) split.  To remove highly co-variate polymer peak sequences leading to overfitting, highly correlating variables (Pearson correlation > 0.9) were removed from DESI MSI data. Data were centered around the arithmetic mean and scaled to have a standard deviation of one. Underrepresented classes (for DESI MSI, the background class) were up sampled. Each training fold was applied to a range of classification algorithms using the tidymodels package. All models were implemented with their default parameters beyond setting to classification mode. The functions, engines and default parameters used for each model are provided in supplementary table 1. These models were then used to predict each testing fold. For each fold the F1 score was calculated. For DESI MSI the algorithm with the highest F1 score, a support vector machine with a polynomial kernel was selected for further model tuning on a single 4/1/5 validation split of the training data. For transmission Raman data a LDA model was selected. A final model was fitted on all the training data. These models were used to predict the test independent test sets. Cosine similarity between spectra were calculated using the cosine function from the coop package [@"https://cran.r-project.org/package=coop"]. Considering the angle between vectors, rather than magnitude, cosine similarity provides a useful and robust measure of spectral similarity for highly multivariate datasets [@doi:10.1021/acs.analchem.6b02139] 
 
 ## Results and discussion
 

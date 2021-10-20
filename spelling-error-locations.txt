@@ -118,7 +118,6 @@ content/02.introduction.md:75:DESI
 content/02.introduction.md:75:Raman
 content/02.introduction.md:76:excipients
 content/02.introduction.md:77:pre
-content/03.experimental.md:1:Experimnental
 content/03.experimental.md:5:excipients
 content/03.experimental.md:5:MHRA
 content/03.experimental.md:8:excipients
