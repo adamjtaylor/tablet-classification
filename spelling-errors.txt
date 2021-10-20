@@ -7,7 +7,7 @@ backscattered
 BEIS
 Belsey
 Bionetworks
-Boxplots
+boxplots
 Caterina
 Centre
 centroid
@@ -27,7 +27,7 @@ datasets
 deployable
 DESI
 desorbs
-Desorption
+desorption
 Dimitrios
 DT
 electroflow
@@ -95,7 +95,7 @@ PID
 plc
 PLS
 polymorphs
-povidone
+Povidone
 prcma
 pre
 pregelatinised
