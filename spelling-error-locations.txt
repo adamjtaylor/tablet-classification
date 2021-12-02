@@ -22,6 +22,8 @@ content/02.introduction.md:13:desorption
 content/02.introduction.md:13:desorption
 content/02.introduction.md:13:electrospray
 content/02.introduction.md:13:ionisation
+content/02.introduction.md:13:ionisation
+content/02.introduction.md:13:ionisation
 content/02.introduction.md:13:spectrometry
 content/02.introduction.md:18:DESI
 content/02.introduction.md:18:FTIR
@@ -29,12 +31,14 @@ content/02.introduction.md:18:MDMA
 content/02.introduction.md:18:NIR
 content/02.introduction.md:19:Raman
 content/02.introduction.md:19:Raman
+content/02.introduction.md:20:miniaturisation
 content/02.introduction.md:22:ionisation
 content/02.introduction.md:22:spectrometry
 content/02.introduction.md:24:desorbs
 content/02.introduction.md:24:Desorption
 content/02.introduction.md:24:electrospray
 content/02.introduction.md:24:electrospray
+content/02.introduction.md:24:ionisation
 content/02.introduction.md:24:spectrometry
 content/02.introduction.md:27:DESI
 content/02.introduction.md:27:MSI
@@ -42,6 +46,7 @@ content/02.introduction.md:28:DESI
 content/02.introduction.md:28:loratadine
 content/02.introduction.md:28:melatonin
 content/02.introduction.md:29:DESI
+content/02.introduction.md:29:Optimisation
 content/02.introduction.md:30:artesunate
 content/02.introduction.md:30:DESI
 content/02.introduction.md:30:MDMA
@@ -61,6 +66,7 @@ content/02.introduction.md:41:proteomics
 content/02.introduction.md:42:ScilsLab
 content/02.introduction.md:42:spectrometry
 content/02.introduction.md:44:evaporative
+content/02.introduction.md:44:ionisation
 content/02.introduction.md:45:REIMS
 content/02.introduction.md:45:speciation
 content/02.introduction.md:46:spectrometry

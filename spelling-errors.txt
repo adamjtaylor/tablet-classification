@@ -7,7 +7,7 @@ backscattered
 BEIS
 Belsey
 Bionetworks
-boxplots
+Boxplots
 Caterina
 Centre
 centroid
@@ -59,7 +59,7 @@ kernlab
 KNN
 kV
 labelled
-Labelling
+labelling
 LD
 LDA
 Leica
@@ -77,6 +77,7 @@ methylcellulose
 MHRA
 microcrystalline
 Minelli
+miniaturisation
 misclassification
 misclassifications
 misclassified
@@ -91,6 +92,7 @@ neighbours
 NIR
 NPL
 NPL’s
+Optimisation
 overfitting
 PID
 plc
