@@ -1,8 +1,10 @@
 Acknowledgements
+AJT
 Anadin
 analysed
 Ariadna
 artesunate
+arxiv
 backscattered
 BEIS
 Belsey
@@ -30,6 +32,7 @@ DESI
 desorbs
 desorption
 Dimitrios
+discriminent
 DT
 electroflow
 electrospray
@@ -39,7 +42,7 @@ excipients
 fibre
 findPeaks
 Frankilin
-FTIR
+Fransson
 gastro
 GlaxoSmithKline
 Gloucestershire
@@ -64,6 +67,7 @@ LD
 LDA
 Leica
 licence
+lineiar
 loratadine
 LTS
 macrogol
@@ -74,11 +78,10 @@ melatonin
 metabolomics
 metapackages
 methylcellulose
+Methylenedioxymethamphetamine
 MHRA
 microcrystalline
 Minelli
-miniaturisation
-misclassification
 misclassifications
 misclassified
 MPa
@@ -90,17 +93,14 @@ mzR
 naïve
 neighbours
 NIR
-normalised
 NPL
 NPL’s
-Optimisation
-overfitting
 PID
 plc
 PLS
 polymorphs
-povidone
-prcma
+Povidone
+pracma
 pre
 pregelatinised
 preprocessing
@@ -112,7 +112,6 @@ quadrupoles
 quartiles
 Qun
 Raman
-ransson
 recalibrated
 REIMS
 renin
