@@ -254,10 +254,8 @@ content/04.results.md:22:DESI
 content/04.results.md:22:excipients
 content/04.results.md:22:Raman
 content/04.results.md:24:DESI
-content/04.results.md:24:MSI
 content/04.results.md:24:Raman
 content/04.results.md:26:DESI
-content/04.results.md:26:MSI
 content/04.results.md:26:Raman
 content/04.results.md:29:comparision
 content/04.results.md:30:Colour
@@ -266,7 +264,6 @@ content/04.results.md:30:DESI
 content/04.results.md:30:DESI
 content/04.results.md:30:DESI
 content/04.results.md:30:LDA
-content/04.results.md:30:MSI
 content/04.results.md:30:Raman
 content/04.results.md:30:Raman
 content/04.results.md:30:Raman
@@ -274,8 +271,8 @@ content/04.results.md:30:SFM
 content/04.results.md:35:DESI
 content/04.results.md:35:Raman
 content/04.results.md:35:spectrometric
+content/04.results.md:35:summarises
 content/04.results.md:37:DESI
-content/04.results.md:37:MSI
 content/04.results.md:37:SVM
 content/04.results.md:39:DESI
 content/04.results.md:39:LDA

@@ -99,7 +99,7 @@ PID
 plc
 PLS
 polymorphs
-Povidone
+povidone
 prcma
 pre
 pregelatinised
@@ -127,6 +127,7 @@ spectrometry
 stearate
 stearic
 Stevenage
+summarises
 SVM
 Synapt
 tarch
