@@ -6,7 +6,7 @@ keywords:
 - solid oral dosage form
 - classification
 lang: en-US
-date-meta: '2021-10-20'
+date-meta: '2021-12-02'
 author-meta:
 - Adam J Taylor
 - Dimitrios Tsikritsis
@@ -24,8 +24,8 @@ header-includes: |-
   <meta name="citation_title" content="Complementary classification of solid oral dosage forms in ambient conditions by desorption electrospray ionization mass spectrometry and transmission Raman spectroscopy" />
   <meta property="og:title" content="Complementary classification of solid oral dosage forms in ambient conditions by desorption electrospray ionization mass spectrometry and transmission Raman spectroscopy" />
   <meta property="twitter:title" content="Complementary classification of solid oral dosage forms in ambient conditions by desorption electrospray ionization mass spectrometry and transmission Raman spectroscopy" />
-  <meta name="dc.date" content="2021-10-20" />
-  <meta name="citation_publication_date" content="2021-10-20" />
+  <meta name="dc.date" content="2021-12-02" />
+  <meta name="citation_publication_date" content="2021-12-02" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -54,9 +54,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://adamjtaylor.github.io/tablet-classification/" />
   <meta name="citation_pdf_url" content="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/3a75529eb19d384798ef7f2c4224352f8ff9a7fa/" />
-  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/3a75529eb19d384798ef7f2c4224352f8ff9a7fa/" />
-  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/3a75529eb19d384798ef7f2c4224352f8ff9a7fa/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/afd757955f1eb0e5b069173a605aa28889d83515/" />
+  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/afd757955f1eb0e5b069173a605aa28889d83515/" />
+  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/afd757955f1eb0e5b069173a605aa28889d83515/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -119,7 +119,7 @@ manubot-clear-requests-cache: false
 
 Discrepancies or defects in active ingredients, excipients and coatings that form solid oral dosage forms can both impact product quality and provide hallmarks of off-brand or counterfeit products. There is therefore a need for rapid and continuous analytical techniques that can assess and classify product differences of intact samples at- or near the production line, or in analytical labs, ideally without resorting to product dissolution.  
 
-Here we test the ability of two rapid ambient chemical characterization methods to discriminate between solid dosage forms: desorption electrospray ionization mass spectrometry and transmission Raman spectroscopy. These two techniques are highly complementary, offering greater sensitivity to the analysis of the surface and the tablet bulk, respectively. The data sets generated were then used to test a variety of classification algorithms including linear discriminate analysis, tree-based methods, a simple neural network, and support vector machines (SVM). The highest performing algorithms for DESI-MSI were the SVM, with an additional performance boost when used with a polynomial kernel. For transmission Raman data, a linear discriminant analysis (LDA) model was found to be the most effective. 
+Here we test the ability of two rapid ambient chemical characterisation methods to discriminate between solid dosage forms: desorption electrospray ionization mass spectrometry (DESI MS) and transmission Raman spectroscopy. These two techniques are highly complementary, offering greater sensitivity to the analysis of the surface and the tablet bulk, respectively. The data sets generated were then used to test a variety of classification algorithms including linear discriminate analysis, tree-based methods, a simple neural network, and support vector machines (SVM). The highest performing algorithms for DESI MS were the SVM, with an additional performance boost when used with a polynomial kernel. For transmission Raman data, a linear discriminant analysis (LDA) model was found to be the most effective. 
 
 
 ## Introduction
