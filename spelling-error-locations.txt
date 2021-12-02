@@ -189,6 +189,7 @@ content/03.experimental.md:24:Renishaw
 content/03.experimental.md:24:Wotton
 content/03.experimental.md:26:Raman
 content/03.experimental.md:26:Renishaw
+content/03.experimental.md:30:analysed
 content/03.experimental.md:30:LTS
 content/03.experimental.md:30:metapackages
 content/03.experimental.md:30:preprocessing
@@ -213,6 +214,7 @@ content/03.experimental.md:36:preprocessing
 content/03.experimental.md:36:Raman
 content/03.experimental.md:38:centroid
 content/03.experimental.md:38:msbackadj
+content/03.experimental.md:38:normalised
 content/03.experimental.md:38:Raman
 content/03.experimental.md:38:Raman
 content/03.experimental.md:38:Raman

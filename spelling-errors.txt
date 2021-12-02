@@ -90,6 +90,7 @@ mzR
 naïve
 neighbours
 NIR
+normalised
 NPL
 NPL’s
 Optimisation
@@ -98,7 +99,7 @@ PID
 plc
 PLS
 polymorphs
-povidone
+Povidone
 prcma
 pre
 pregelatinised
