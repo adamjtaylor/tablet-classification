@@ -6,7 +6,7 @@ keywords:
 - solid oral dosage form
 - classification
 lang: en-US
-date-meta: '2021-12-02'
+date-meta: '2021-12-03'
 author-meta:
 - Adam J Taylor
 - Dimitrios Tsikritsis
@@ -24,8 +24,8 @@ header-includes: |-
   <meta name="citation_title" content="Classification of tablet formulations by desorption electrospray ionisation mass spectrometry and transmission Raman spectroscopy" />
   <meta property="og:title" content="Classification of tablet formulations by desorption electrospray ionisation mass spectrometry and transmission Raman spectroscopy" />
   <meta property="twitter:title" content="Classification of tablet formulations by desorption electrospray ionisation mass spectrometry and transmission Raman spectroscopy" />
-  <meta name="dc.date" content="2021-12-02" />
-  <meta name="citation_publication_date" content="2021-12-02" />
+  <meta name="dc.date" content="2021-12-03" />
+  <meta name="citation_publication_date" content="2021-12-03" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,19 +44,20 @@ header-includes: |-
   <meta name="citation_author_institution" content="Current affiliation: GlaxoSmithKline, Stevenage, UK" />
   <meta name="citation_author" content="Josephine Bunch" />
   <meta name="citation_author_institution" content="National Physical Laboratory, Teddington, UK" />
-  <meta name="citation_author_institution" content="Imperial College London, London, UK" />
+  <meta name="citation_author_institution" content="Department of Metabolism, Digestion and Reproduction, Imperial College London, London, UK" />
   <meta name="citation_author_institution" content="The Rosalind Frankilin Insitute, Harwell, UK" />
   <meta name="citation_author" content="Natalie A Belsey" />
   <meta name="citation_author_institution" content="National Physical Laboratory, Teddington, UK" />
+  <meta name="citation_author_institution" content="Department of Chemical and Process Engineering, University of Surrey, Guildford, UK" />
   <link rel="canonical" href="https://adamjtaylor.github.io/tablet-classification/" />
   <meta property="og:url" content="https://adamjtaylor.github.io/tablet-classification/" />
   <meta property="twitter:url" content="https://adamjtaylor.github.io/tablet-classification/" />
   <meta name="citation_fulltext_html_url" content="https://adamjtaylor.github.io/tablet-classification/" />
   <meta name="citation_pdf_url" content="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/f3376dffe695003e2a0086ac695cb80ddc0b7434/" />
-  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/f3376dffe695003e2a0086ac695cb80ddc0b7434/" />
-  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/f3376dffe695003e2a0086ac695cb80ddc0b7434/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/79089120d90d068a4359449a68c93c25fc4cf2f8/" />
+  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/79089120d90d068a4359449a68c93c25fc4cf2f8/" />
+  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/79089120d90d068a4359449a68c93c25fc4cf2f8/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -104,13 +105,13 @@ manubot-clear-requests-cache: false
 
 + **Josephine Bunch**<br><br>
   <small>
-     National Physical Laboratory, Teddington, UK; Imperial College London, London, UK; The Rosalind Frankilin Insitute, Harwell, UK
+     National Physical Laboratory, Teddington, UK; Department of Metabolism, Digestion and Reproduction, Imperial College London, London, UK; The Rosalind Frankilin Insitute, Harwell, UK
   </small>
 
 + **Natalie A Belsey**<br>
     [natalie.belsey@npl.co.uk]("mailto:natalie.belsey@npl.co.uk")<br>
   <small>
-     National Physical Laboratory, Teddington, UK
+     National Physical Laboratory, Teddington, UK; Department of Chemical and Process Engineering, University of Surrey, Guildford, UK
   </small>
 
 

@@ -20,7 +20,7 @@ Colour
 comparision
 complementarity
 compositional
-confocal
+Confocal
 croscarmellose
 crystallinity
 datacube
@@ -46,6 +46,7 @@ Fransson
 gastro
 GlaxoSmithKline
 Gloucestershire
+Guildford
 Harwell
 HPLC
 hydroxypropyl
@@ -99,7 +100,7 @@ PID
 plc
 PLS
 polymorphs
-Povidone
+povidone
 pracma
 pre
 pregelatinised
