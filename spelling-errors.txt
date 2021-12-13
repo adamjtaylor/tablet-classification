@@ -2,14 +2,13 @@ Acknowledgements
 AJT
 Anadin
 analysed
+APIs
 Ariadna
 artesunate
-arxiv
 backscattered
-BEIS
 Belsey
 Bionetworks
-Boxplots
+boxplots
 Caterina
 Centre
 centroid
@@ -20,7 +19,7 @@ Colour
 comparision
 complementarity
 compositional
-Confocal
+confocal
 croscarmellose
 crystallinity
 datacube
@@ -37,6 +36,7 @@ DT
 electroflow
 electrospray
 evaporative
+excipeient
 excipient
 excipients
 fibre
@@ -53,6 +53,7 @@ hydroxypropyl
 hydroxypropylcellulose
 hyperparameters
 IM
+IMM
 Insitute
 interquartile
 InVia
@@ -63,7 +64,7 @@ kernlab
 KNN
 kV
 labelled
-labelling
+Labelling
 LD
 LDA
 Leica
@@ -94,8 +95,8 @@ mzR
 naïve
 neighbours
 NIR
+NMS
 NPL
-NPL’s
 PID
 plc
 PLS
@@ -119,6 +120,7 @@ renin
 Renishaw
 reproducibility
 RStudio
+Scienticic
 ScilsLab
 SFM
 speciation
@@ -142,5 +144,6 @@ uncoated
 Untargeted
 wavenumber
 wavenumbers
+Wetzlar
 Wotton
 Zheng

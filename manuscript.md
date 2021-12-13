@@ -6,7 +6,7 @@ keywords:
 - solid oral dosage form
 - classification
 lang: en-US
-date-meta: '2021-12-03'
+date-meta: '2021-12-13'
 author-meta:
 - Adam J Taylor
 - Dimitrios Tsikritsis
@@ -24,8 +24,8 @@ header-includes: |-
   <meta name="citation_title" content="Classification of tablet formulations by desorption electrospray ionisation mass spectrometry and transmission Raman spectroscopy" />
   <meta property="og:title" content="Classification of tablet formulations by desorption electrospray ionisation mass spectrometry and transmission Raman spectroscopy" />
   <meta property="twitter:title" content="Classification of tablet formulations by desorption electrospray ionisation mass spectrometry and transmission Raman spectroscopy" />
-  <meta name="dc.date" content="2021-12-03" />
-  <meta name="citation_publication_date" content="2021-12-03" />
+  <meta name="dc.date" content="2021-12-13" />
+  <meta name="citation_publication_date" content="2021-12-13" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -33,21 +33,21 @@ header-includes: |-
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
   <meta name="citation_author" content="Adam J Taylor" />
-  <meta name="citation_author_institution" content="National Physical Laboratory, Teddington, UK" />
-  <meta name="citation_author_institution" content="Current affiliation: Sage Bionetworks, Seattle, WA, USA" />
+  <meta name="citation_author_institution" content="Department of Chemical and Biological Sciences, National Physical Laboratory, Teddington, UK" />
+  <meta name="citation_author_institution" content="Current affiliation: Scienticic Communication and Community Engagement, Sage Bionetworks, Seattle, WA, USA" />
   <meta name="citation_author" content="Dimitrios Tsikritsis" />
-  <meta name="citation_author_institution" content="National Physical Laboratory, Teddington, UK" />
+  <meta name="citation_author_institution" content="Department of Chemical and Biological Sciences, National Physical Laboratory, Teddington, UK" />
   <meta name="citation_author" content="Alex Dexter" />
-  <meta name="citation_author_institution" content="National Physical Laboratory, Teddington, UK" />
+  <meta name="citation_author_institution" content="Department of Chemical and Biological Sciences, National Physical Laboratory, Teddington, UK" />
   <meta name="citation_author" content="Amy Burton" />
-  <meta name="citation_author_institution" content="National Physical Laboratory, Teddington, UK" />
+  <meta name="citation_author_institution" content="Department of Chemical and Biological Sciences, National Physical Laboratory, Teddington, UK" />
   <meta name="citation_author_institution" content="Current affiliation: GlaxoSmithKline, Stevenage, UK" />
   <meta name="citation_author" content="Josephine Bunch" />
-  <meta name="citation_author_institution" content="National Physical Laboratory, Teddington, UK" />
+  <meta name="citation_author_institution" content="Department of Chemical and Biological Sciences, National Physical Laboratory, Teddington, UK" />
   <meta name="citation_author_institution" content="Department of Metabolism, Digestion and Reproduction, Imperial College London, London, UK" />
   <meta name="citation_author_institution" content="The Rosalind Frankilin Insitute, Harwell, UK" />
   <meta name="citation_author" content="Natalie A Belsey" />
-  <meta name="citation_author_institution" content="National Physical Laboratory, Teddington, UK" />
+  <meta name="citation_author_institution" content="Department of Chemical and Biological Sciences, National Physical Laboratory, Teddington, UK" />
   <meta name="citation_author_institution" content="Department of Chemical and Process Engineering, University of Surrey, Guildford, UK" />
   <link rel="canonical" href="https://adamjtaylor.github.io/tablet-classification/" />
   <meta property="og:url" content="https://adamjtaylor.github.io/tablet-classification/" />
@@ -55,9 +55,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://adamjtaylor.github.io/tablet-classification/" />
   <meta name="citation_pdf_url" content="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/79089120d90d068a4359449a68c93c25fc4cf2f8/" />
-  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/79089120d90d068a4359449a68c93c25fc4cf2f8/" />
-  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/79089120d90d068a4359449a68c93c25fc4cf2f8/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/5d48fff13e843b48bcfb4ebc235c6d2f9863e462/" />
+  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/5d48fff13e843b48bcfb4ebc235c6d2f9863e462/" />
+  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/5d48fff13e843b48bcfb4ebc235c6d2f9863e462/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -85,33 +85,33 @@ manubot-clear-requests-cache: false
 
 + **Adam J Taylor**<br><br>
   <small>
-     National Physical Laboratory, Teddington, UK; Current affiliation: Sage Bionetworks, Seattle, WA, USA
+     Department of Chemical and Biological Sciences, National Physical Laboratory, Teddington, UK; Current affiliation: Scienticic Communication and Community Engagement, Sage Bionetworks, Seattle, WA, USA
   </small>
 
 + **Dimitrios Tsikritsis**<br><br>
   <small>
-     National Physical Laboratory, Teddington, UK
+     Department of Chemical and Biological Sciences, National Physical Laboratory, Teddington, UK
   </small>
 
 + **Alex Dexter**<br><br>
   <small>
-     National Physical Laboratory, Teddington, UK
+     Department of Chemical and Biological Sciences, National Physical Laboratory, Teddington, UK
   </small>
 
 + **Amy Burton**<br><br>
   <small>
-     National Physical Laboratory, Teddington, UK; Current affiliation: GlaxoSmithKline, Stevenage, UK
+     Department of Chemical and Biological Sciences, National Physical Laboratory, Teddington, UK; Current affiliation: GlaxoSmithKline, Stevenage, UK
   </small>
 
 + **Josephine Bunch**<br><br>
   <small>
-     National Physical Laboratory, Teddington, UK; Department of Metabolism, Digestion and Reproduction, Imperial College London, London, UK; The Rosalind Frankilin Insitute, Harwell, UK
+     Department of Chemical and Biological Sciences, National Physical Laboratory, Teddington, UK; Department of Metabolism, Digestion and Reproduction, Imperial College London, London, UK; The Rosalind Frankilin Insitute, Harwell, UK
   </small>
 
 + **Natalie A Belsey**<br>
     [natalie.belsey@npl.co.uk]("mailto:natalie.belsey@npl.co.uk")<br>
   <small>
-     National Physical Laboratory, Teddington, UK; Department of Chemical and Process Engineering, University of Surrey, Guildford, UK
+     Department of Chemical and Biological Sciences, National Physical Laboratory, Teddington, UK; Department of Chemical and Process Engineering, University of Surrey, Guildford, UK
   </small>
 
 
@@ -120,16 +120,16 @@ manubot-clear-requests-cache: false
 
 Discrepancies or defects in active ingredients, excipients and coatings that form solid oral dosage forms can both impact product quality and provide hallmarks of off-brand or counterfeit products. There is therefore a need for rapid and continuous analytical techniques that can assess and classify product differences of intact samples at- or near the production line, or in analytical labs, ideally without resorting to product dissolution.  
 
-Here we test the ability of two rapid ambient chemical characterisation methods to discriminate between solid dosage forms: desorption electrospray ionization mass spectrometry (DESI MS) and transmission Raman spectroscopy. These two techniques are highly complementary, offering greater sensitivity to the analysis of the surface and the tablet bulk, respectively. The data sets generated were then used to test a variety of classification algorithms including linear discriminate analysis, tree-based methods, a simple neural network, and support vector machines (SVM). The highest performing algorithms for DESI MS were the SVM, with an additional performance boost when used with a polynomial kernel. For transmission Raman data, a linear discriminant analysis (LDA) model was found to be the most effective. 
+Here we test the ability of two rapid ambient chemical characterisation methods to discriminate between solid dosage forms: desorption electrospray ionization mass spectrometry (DESI MS) and transmission Raman spectroscopy. These two techniques are highly complementary, offering greater sensitivity to the analysis of the surface and the tablet bulk, respectively. The data sets generated were then used to test a variety of classification algorithms including linear discriminate analysis (LDA), tree-based methods, a simple neural network, and support vector machines (SVM). The highest performing algorithms for DESI MS were the SVM, with an additional performance boost when used with a polynomial kernel. For transmission Raman data, an LDA model was found to be the most effective. 
 
 
 ## Introduction
-Inconsistencies in active ingredients, excipients, the thickness and integrity of coatings and the presence of impurities in solid oral dosage forms all negatively affect their performance. 
+Variability in active ingredients, excipients, the thickness and integrity of coatings and the presence of impurities in solid oral dosage forms all negatively affect product performance. 
 Inferior quality attributes can be useful to identify off-brand or counterfeit products. 
 There is a need for rapid and continuous analytical techniques that can assess and classify product differences of intact samples at- or near the production line, or in analytical labs, ideally without resorting to product dissolution [@doi:10.1016/j.xphs.2016.11.011]. 
-Rapid measurement tools are particularly important to enable continuous monitoring, necessary to support the change from batch to continuous manufacturing. 
-Analytical methods are required to monitor both the actives, coatings and consistency of the product: For example, in addition to the total active pharmaceutical ingredient (API) content, insight is also needed on degradation products, impurities, (co-) crystallinity/presence of polymorphs, and content uniformity. 
-The ability to monitor tablet coating thickness and integrity is of great importance, particularly for functional coatings, such gastro-resistance, which would be compromised by insufficient thickness, or the occurrence of cracks in the film [@doi:10.1016/j.ijpharm.2013.01.062]. 
+Rapid measurement tools are particularly important to enable continuous monitoring, including necessary to support the change from batch to continuous manufacturing, and high-throughput batch release processes.
+Analytical methods are required to monitor both the actives, coatings and consistency of the product: For example, in addition to the total active pharmaceutical ingredient (API) content, insight is also needed on degradation products, impurities, (co-)crystallinity/presence of polymorphs, and content uniformity. 
+The ability to monitor excipeient deviations in tablet coatings is of great importance, particularly for functional coatings, such gastro-resistance [@doi:10.1016/j.ijpharm.2013.01.062]. 
 
 Quantitative analysis of pharmaceutical tablets is routinely performed by high-pressure liquid chromatography (HPLC) which offers accurate and sensitive measurements of the active ingredient(s) and excipients, in addition to the presence of any contaminants. 
 However, solution-based analytical methods are destructive and labor-intensive.  
@@ -138,9 +138,9 @@ Mass spectrometric methods can provide unlabeled identification, both of expecte
 Ambient ionisation mass spectrometry approaches including DESI (desorption electrospray ionisation) and DART (direct analysis in real time) facilitate the desorption and ionisation from the surface of samples at atmospheric conditions, without dissolution or additional sample preparation. 
 They are therefore potentially useful tools for rapid assessment of solid oral dosage forms 
 
-Optical spectroscopy techniques offer rapid, non-destructive analysis, including polymorphic identification [@doi:10.1039/c0an00352b], and are also able to measure insoluble ingredients. 
+Optical spectroscopy techniques offer rapid, non-destructive analysis, including polymorphic identification [@doi:10.1039/c0an00352b], and are also able to measure insoluble ingredients that may not be readily detected in dissolution testing.
 They have consequently been exploited for in-line process analytical testing and as quality control tools [@doi:10.1016/j.xphs.2016.11.011]. 
-For example, infra-red-based techniques such as Fourier-transform infrared spectroscopy and DESI MS [@doi:10.1007/s00216-006-0950-z]; and infrared spectroscopy classification of 3,4-Methylenedioxymethamphetamine (MDMA) containing tablets [@doi:10.1016/j.talanta.2018.11.027].
+For example, infra-red-based techniques such as Fourier-transform infrared spectroscopy [@doi:10.1007/s00216-006-0950-z]; and infrared spectroscopy classification of 3,4-Methylenedioxymethamphetamine (MDMA) containing tablets [@doi:10.1016/j.talanta.2018.11.027].
 Near-infrared spectroscopy (NIR) is one of the most commonly used process analytical tool [@doi:10.1016/j.xphs.2016.11.011], however Raman spectroscopy provides complementary information and has grown in popularity in recent years, since it provides more distinct spectral features, and is better-suited to analysis in aqueous environments owing to the relatively weak strength of the Raman O-H band. 
 Technological advancements have facilitated miniaturization, increased speed and reduced cost, resulting in more widespread implementation [@doi:10.1016/j.addr.2015.04.003]. 
 
@@ -152,18 +152,18 @@ As this process takes place at ambient pressure and with a flexible geometry, th
 
 In one of the early applications of DESI MS, Chen *et al.* demonstrated the use of DESI MS to profile tablets containing loratadine, folic acid, acetaminophen (paracetamol), aspirin, melatonin or caffeine [@doi:10.1021/ac050989d]. 
 Optimization of DESI parameters including voltage, solvent delivery and capillary temperature facilitated analysis at up to three scans per second.  
-Subsequent studies using DESI MS of tablets have focused on targeted analysis for active ingredients. For example, the identification of MDMA and amphetamine derivatives in ecstasy tablets [@doi:10.1002/rcm.2280], counterfeit artesunate antimalarial tablets [@doi:10.1007/s00216-006-0950-z; @doi:10.1016/j.jasms.2007.11.016] and antiviral capsules [@doi:10.1039/b809471c].
+Subsequent studies using DESI MS of tablets have focused on targeted analysis for APIs. For example, the identification of MDMA and amphetamine derivatives in ecstasy tablets [@doi:10.1002/rcm.2280], counterfeit artesunate antimalarial tablets [@doi:10.1007/s00216-006-0950-z; @doi:10.1016/j.jasms.2007.11.016] and antiviral capsules [@doi:10.1039/b809471c].
 
 For ambient mass spectrometry to be deployable in the field for counterfeiting applications, or in manufacturing environments for quality assurance and quality control (QA/QC), the mass spectrometer must be compact. 
 Several designs for small field-deployable mass spectrometers have been demonstrated with DESI MS sources [@doi:10.1039/b517357d; @doi:10.1021/acs.analchem.9b00520].
 
-Each of these applications has targeted expected components of the tablet of interest, predominantly active ingredients or excipients. 
-However, in manufacturing QA/QC and counterfeit-detection applications, additional information on unexpected changes in active or excipient source or quality, as well as the introduction of contaminants may be of importance. 
+Each of these applications has targeted expected components of the tablet of interest, predominantly APIs or excipients. 
+However, in manufacturing QA/QC and counterfeit-detection applications, additional information on unexpected changes in API or excipient source or quality, as well as the introduction of contaminants may be of importance. 
 Untargeted multivariate and machine learning approaches are therefore of interest to determine differences between samples using all spectral information. 
 
 Classification approaches for mass spectrometry applications are proving powerful in a range of applications. The two most widespread applications of classification in mass spectrometry are in disease diagnosis and determination of bacterial type [@doi:10.1016/j.aca.2014.03.039]. 
 A range of classification algorithms have been applied to mass spectrometry and spectroscopy data. Partial least squares discriminant analysis (PLS-DA) is most commonly reported, although a range of algorithms including neural networks, and support vector machines [@doi:10.1007/s00521-016-2736-3; @doi:10.1109/SSCI.2017.8285223] have been reported. 
-Several publications have evaluated different classification algorithms but unsurprisingly the optimal algorithm depends greatly on the nature of the input data. A summary of classification and other data analysis for proteomics can be found here [@doi:10.1016/j.csbj.2020.07.009] and for metabolomics here [@doi:10.1007/s11306-017-1242-7]. 
+Several publications have evaluated different classification algorithms for mass spectrometry in proteomics[@doi:10.1016/j.csbj.2020.07.009] and metabolomics applications [@doi:10.1007/s11306-017-1242-7], but unsurprisingly the optimal algorithm depends greatly on the nature of the input data.
 Classification approaches are becoming more accessible through modeling tools with consistent grammar and data structure, and their integration into mass spectrometry software [ScilsLab,Waters software] [@doi:10.1007/s11306-017-1242-7]. 
 
 
@@ -174,14 +174,14 @@ Classification approaches have also been widely employed in mass spectrometry im
 ### Raman spectroscopy analysis of tablets
 
 Raman spectroscopy exploits the inelastic scattering of light by the sample to reveal valuable chemical and structural information. Information can be obtained from the sample in a non-destructive manner, making it a popular process analytical technology tool. 
-Raman spectroscopy can be performed in a variety of sampling configurations/geometries, the most appropriate depending on the application. 
+Raman spectroscopy can be performed in a variety of sampling configurations/geometries to suit different applications.
 Confocal Raman microscopy can provide detailed chemical mapping with high spatial resolution, however this is generally reserved for forensic investigation rather than continuous monitoring, since it requires lengthy acquisition times. 
 Sub-sampling issues associated with conventional backscattered Raman can be overcome by strategies such as sample rotation in conjunction with spectral averaging, or simultaneous wide angle illumination [@doi:10.1039/C3AN36843B].  
 
 Matousek et al demonstrated the ability of transmission Raman spectroscopy to probe deep into turbid materials such as pharmaceutical tablets [@doi:10.1366/000370206779321463] and provide information on their bulk properties [@doi:10.1016/j.jpba.2010.10.029]. 
-In contrast to conventional backscattered Raman, in transmission Raman spectroscopy the beam passes through the full thickness of the tablet, sampling a much larger volume of the material, and consequently provides more representative sampling [@doi:10.1366/000370207782597085].
+In contrast to conventional backscattered Raman, in transmission Raman spectroscopy the beam passes through the full thickness of the tablet, sampling a much larger volume of the material, and consequently provides more representative sampling of the chemical composition of the sample [@doi:10.1366/000370207782597085].
  Although Raman scattering intensity is linear with concentration within the same confocal plane, transmission Raman signal intensity is slightly biased towards the bulk of the tablet relative to the exterior due to internal scattering [@doi:10.1366/11-06259]. 
- In contrast, DESI MS sampling is biased towards the surface/coating composition. Therefore, in combination, these two techniques should provide a powerful toolkit with which to assess compositional differences between pharmaceutical tablet formulations.  
+ In contrast, DESI MS sampling is biased towards the surface/coating composition. Therefore, in combination, these two techniques provide a powerful toolkit with which to assess compositional differences between pharmaceutical tablet formulations.  
 
 Raman spectra of complex mixtures such as solid dosage forms often have complicated spectra with overlapping peaks. 
 For this reason, multivariate techniques are often applied to help identify the components of interest and changes in chemistry. 
@@ -207,7 +207,7 @@ As such we have tested a range of classification algorithms on their capability 
 
 ### Samples
 
-Samples were selected from commercially available of-the-shelf products and purchased from a local supplier. Their names, active ingredients, listed excipients and Medicines and Healthcare Products Regulatory Agency (MHRA) product license numbers are included in Table @tbl:samples.
+Samples were selected from commercially available off-the-shelf products and purchased from a local supplier. Their names, active ingredients, listed excipients and UK Medicines and Healthcare Products Regulatory Agency (MHRA) product license numbers are included in Table @tbl:samples.
 
 
 | Type | Product name | Active ingredients| Listed excipients | MHRA licence |
@@ -222,14 +222,14 @@ Table: Details of the tablet types analysed. Letter codes for each type are used
 
 ### DESI MS
 
-DESI MS measurements were performed on a Synapt G2-Si Q-IM-ToF mass spectrometer (Waters Corp). The instrument was operated in ‘resolution mode’. The ion mobility cell was not used. Positive ion mode spectra were collected with a scan time of 1 second across a mass range of *m/z* 50 to *m/z* 1200. The instrument was fitted with a prototype DESI source (Waters Corp), with the sprayer configured for electroflow focusing with a fused silica capillary sitting approximately 1 mm behind a 200 µm steel orifice. Methanol with 5% water by volume was delivered at 2 µl/m by a pressure pump (Dolomite). Nitrogen gas was delivered at 0.2 MPa. The spray voltage was set at 5 kV. A heated inlet capillary was set to a calibrated temperature of 400°C using a PID (Waters Research Centre, Hungary). Tablets were sampled by holding the tablet 1-2 mm away from the DESI spray head using plastic tweezers. For training data, acquisition was started with the tablet already under the spray head, such that only data from the tablet surface was acquired, while validation data was collected continuously. 
+DESI MS measurements were performed on a Synapt G2-Si Q-IM-ToF mass spectrometer (Waters Corp, Milford, MA, USA). The instrument was operated in ‘resolution mode’. The ion mobility cell was not used. Positive ion mode spectra were collected with a scan time of 1 second across a mass range of *m/z* 50 to *m/z* 1200. The instrument was fitted with a prototype DESI source (Waters Corp, Milford, MA, USA), with the sprayer configured for electroflow focusing with a fused silica capillary sitting approximately 1 mm behind a 200 µm steel orifice. Methanol with 5 % water by volume was delivered at 2 µl/m by a pressure pump (Dolomite). Nitrogen gas was delivered at 0.2 MPa. The spray voltage was set at 5 kV. A heated inlet capillary was set to a calibrated temperature of 400 °C using a PID (Waters Research Centre, Budapest, Hungary). Tablets were sampled by holding the tablet 1-2 mm away from the DESI spray head using plastic tweezers. For training data, acquisition was started with the tablet already under the spray head, such that only data from the tablet surface was acquired, while validation data was collected continuously. 
 
 
 ### Transmission Raman spectroscopy 
 
-Transmission Raman spectra were acquired using a Renishaw InVia Qontor Raman microscope equipped with a 830 nm excitation source fibre-coupled to an InVia transmission Raman accessory (Renishaw plc, Wotton-under-Edge, Gloucestershire), in a temperature controlled environment. Light was collected in transmission with the x5 air objective lens (0.12 NA, N-PLAN, Leica). Tablets were carefully placed onto a flat silicon sample support with a hole just smaller than the tablet dimensions, so that the excitation beam was able to pass through the tablet but not the sample support. Six tablets were analysed of each type in pseudo-random order. Three measurement replicates were acquired, each complete data set was collected on three separate days.  
+Transmission Raman spectra were acquired using a Renishaw InVia Qontor Raman microscope equipped with a 830 nm excitation source fibre-coupled to an InVia transmission Raman accessory (Renishaw plc, Wotton-under-Edge, Gloucestershire), in a temperature controlled environment. Light was collected in transmission with the 5x air objective lens (0.12 NA, N-PLAN, Leica, Wetzlar, Germany). Tablets were carefully placed onto a flat silicon sample support with a hole just smaller than the tablet dimensions, so that the excitation beam was able to pass through the tablet but not the sample support. Six tablets were analysed of each type. Three measurement replicates were acquired, each complete data set was collected on three separate days.  
 
-For all tablets, extended spectra were acquired using Renishaw Wire (version 5.3) software for the spectral range of 50 to 1800 cm^-1^, with an acquisition time of 30 seconds, and 5 accumulations. Laser power was set to 100% which has been measured at the sample to be approximately 117 mW. An internal silicon calibration reference spectrum was acquired each day to correct the Raman shift of the data.
+For all tablets, extended spectra were acquired using Renishaw Wire (version 5.3) software for the spectral range of 50 to 1800 cm^-1^, with an acquisition time of 30 seconds, and 5 accumulations. Laser power was set to 100 % which has been measured at the sample to be approximately 117 mW. An internal silicon calibration reference spectrum was acquired each day to correct the Raman shift of the data.
 
 ### Data analysis 
 
@@ -237,7 +237,7 @@ All data were analyzed in R version 3.6.2 (2019-12-12) "Dark and Stormy Night" a
 
 ### DESI preprocessing 
 
-For model development and comparison, data were converted from Waters *raw* format to *mzML* format using ProteoWizard MSConvert version 3.0.19239-0ae547798 [@doi:10.1002/0471250953.bi1324s46]. These were read into R using the *mzR* package [@doi:10.1038/nbt.2377; @url:http://bioconductor.org/packages/release/bioc/html/mzR.html]. All spectra were re-binned onto the same mass axis with a bin width of *m/z* 0.01. A mean spectrum of all training data was peak picked using the findPeaks function from the practical numerical math functions (pracma) package [@url:https://cran.r-project.org/web/packages/pracma/index.html] with a peak intensity threshold of three times the median intensity of the spectrum. 1217 peaks were found. Each spectrum was then individually integrated across the found peak widths to form a datacube. Each scan of the validation dataset was similarly integrated across the peak widths from the training dataset. Reduced peak datacubes were generated by filtering for the top n most intense peaks. Down-binning to simulate reduced mass resolving power was performed by rounding m/z values and summing intensities within each rounded *m/z* bin. 
+For model development and comparison, data were converted from Waters *raw* format to *mzML* format using ProteoWizard MSConvert version 3.0.19239-0ae547798 [@doi:10.1002/0471250953.bi1324s46]. These were read into R using the *mzR* package [@doi:10.1038/nbt.2377; @url:http://bioconductor.org/packages/release/bioc/html/mzR.html]. All spectra were re-binned onto the same mass axis with a bin width of *m/z* 0.01. A mean spectrum of all training data was peak picked using the findPeaks function from the practical numerical math functions (pracma) package [@url:https://cran.r-project.org/web/packages/pracma/index.html] with a peak intensity threshold of three times the median intensity of the spectrum. 1217 peaks were found. Each spectrum was then individually integrated across the found peak widths to form a datacube. Each scan of the validation dataset was similarly integrated across the peak widths from the training dataset. Reduced peak datacubes were generated by filtering for the top 1207 most intense peaks. Down-binning to simulate reduced mass resolving power was performed by rounding m/z values and summing intensities within each rounded *m/z* bin. 
 
 ### Transmission Raman spectroscopy preprocessing 
 
@@ -245,7 +245,8 @@ Cosmic ray removal was performed automatically by Renishaw Wire (version 5.3) an
 
 ### Classification 
 
-Spectra were collated into a V-fold validation with 10 partitions and 10 repeats in a 9/1/10 (train/test/total) split. Highly correlating variables (Pearson correlation > 0.9) were removed from DESI MS data. Data were centered around the arithmetic mean and scaled to have a standard deviation of one. Underrepresented classes (for DESI MSI, the background class) were up-sampled to have the same frequency as the most occurring level. Each training fold was applied to a range of classification algorithms using the tidymodels package. All models were implemented with their default parameters beyond setting to classification mode. The functions, engines and default parameters used for each model are provided in supplementary table 1. These models were then used to predict each testing fold. For each fold the F1 score was calculated. For DESI MS the algorithm with the highest F1 score, a support vector machine with a polynomial kernel was selected for further model tuning on a single random sample (without replacement) of 10% the training data. For transmission Raman data a LDA model was selected. A final model was fitted on all the training data. These models were used to predict the test independent test sets. Cosine similarity between spectra were calculated using the cosine function from the coop package [@url:https://cran.r-project.org/package=coop]. Considering the angle between vectors, rather than magnitude, cosine similarity provides a useful and robust measure of spectral similarity for highly multivariate datasets [@doi:10.1021/acs.analchem.6b02139]. 
+Spectra were collated into a V-fold validation with 10 partitions and 10 repeats in a 9/1/10 (train/test/total) split. Highly correlating variables (Pearson correlation > 0.9) were removed from DESI MS data. Data were centered around the arithmetic mean and scaled to have a standard deviation of one. Underrepresented classes (for DESI MS, the background class) were up-sampled to have the same frequency as the most occurring level. Each training fold was applied to a range of classification algorithms using the tidymodels package. All models were implemented with their default parameters beyond setting to classification mode. The functions, engines and default parameters used for each model are provided in supplementary table 1. These models were then used to predict each testing fold. For each fold the F1 score was calculated. For DESI MS the algorithm with the highest F1 score, a support vector machine with a polynomial kernel was selected for further model tuning on a single random sample (without replacement) of 10 % the training data. For transmission Raman data a LDA model was selected. A final model was fitted on all the training data. These models were used to predict the test independent test sets. Cosine similarity between spectra were calculated using the cosine function from the coop package [@url:https://cran.r-project.org/package=coop]. Considering the angle between vectors, rather than magnitude, cosine similarity provides a useful and robust measure of spectral similarity for highly multivariate datasets [@doi:10.1021/acs.analchem.6b02139]. 
+
 
 ## Results and discussion
 
@@ -254,7 +255,7 @@ Spectra were collated into a V-fold validation with 10 partitions and 10 repeats
 Rich mass spectra were rapidly obtained from each tablet type when held under the DESI sprayer and MS inlet capillary (Figure 1A). DESI MS spectra from tablet types A and D are dominated by repeating polymeric peaks above *m/z* ~700, indicating the presence of a polymer film coating while spectra from tablet types B and C are less complex, being dominated by  peaks below *m/z* 700. The maximum intensity of the spectra collected in the absence of a tablet (“background”) is lower than for spectra where a tablet is present. 
 
 
-The polymeric peak sequences observed in tablet type A and D above *m/z* 700 are distinct from one another with several different peak sequences observed (Figure 1B). Tablet types A and D both exhibit a clear sequence of peaks spaced by *m/z* ~44 the a signally charged unit difference from \[C~2~H~4~O]^+^. For both tablet types peaks above *m/z* 1000 are most intense. In tablet type A this predominantly consists of isotope clusters separated by *m/z* ~14.68, with peaks separated by *m/z* 0.33, indicating a 3+ charge state of the loss of \[C2H4O]. Conversely, in tablet type D the isotope clusters are separated by *m/z* ~11.01 with peak spacing of *m/z* ~0.25, indicating a 4+ charge state and the loss of \[C~2~H~4~O]. This indicates that while both are coated with a polyethylene glycol (PEG) polymer, the molecular weight or coating application may differ between the brand name (Type A) and generic product (Type D). 
+The polymeric peak sequences observed in tablet type A and D above *m/z* 700 are distinct from one another with several different peak sequences observed (Figure 1B). Tablet types A and D both exhibit a clear sequence of peaks spaced by *m/z* 44 the a signally charged unit difference from \[C~2~H~4~O]^+^. For both tablet types peaks above *m/z* 1000 are most intense. In tablet type A this predominantly consists of isotope clusters separated by *m/z* 14.68, with peaks separated by *m/z* 0.33, indicating a 3+ charge state of the loss of \[C2H4O]. Conversely, in tablet type D the isotope clusters are separated by *m/z* 11.01 with peak spacing of *m/z* 0.25, indicating a 4+ charge state and the loss of \[C~2~H~4~O]. This indicates that while both are coated with a polyethylene glycol (PEG) polymer, the molecular weight or coating application may differ between the brand name (Type A) and generic product (Type D). 
 
 All three active ingredients were annotated from a mean spectrum within 15 ppm mass accuracy. Boxplots of single scan intensity show distinct differences in active intensity between types (Figure 1C, 1D, 1E). Caffeine is present in tablet types A, B and D and absent from type C. Median intensity is highest for the uncoated tablet type B. Intensity for tablet type C is similar to that in the background. While aspirin is present in tablet types A and D, the detected intensity in type B is high. This may represent an isobaric compound also present in type B or carry over from sampling tablet type A. Paracetamol is present in, and detected in all tablet types, although is most intense in tablets without a film-coating (types B and C) which may otherwise mask signal from the underlying bulk material. Variance for all actives and tablet types was high, indicating the need for consistent sampling procedures and robust classification approaches. 
 
@@ -265,7 +266,7 @@ Mean transmission Raman spectra for each tablet type (Figure 1F) show very simil
 ![
 **Representative spectra from DESI MS and transmission Raman spectroscopy analysis of solid-oral dosage forms**
 (A-C) DESI MS results. (A) Mean spectra for tablet types A, B, C & D and background. (B) Mean spectra for tablet types A (teal) and D (pink) for mass range *m/z* 1065 to *m/z* 1090. (C-E) Boxplots for peaks assigned as caffeine (C), aspirin (D) and paracetamol (E) for each tablet type and background. (F-L) Transmission Raman spectroscopy results. (F) Mean spectra for tablet type A-D from training data. Peaks for the active ingredients shown in G-L are highlighted with a vertical line.  (G-L) Mean spectra and (J-L) boxplots for peaks annotated as active ingredients (G & J)  Caffeine, 541 cm^-1^, (H & K) Paracetamol, 847 cm^-1^, and (I & L) Aspirin, 1181 cm^-1^). Boxplots show median (horizontal line), interquartile range (box) and range excluding outliers (whiskers). Points show single scan intensities. 
-](https://github.com/adamjtaylor/tablet-classification/raw/main/content/figures/fig1.png "Figure 1"){#fig:spectra}
+](https://github.com/adamjtaylor/tablet-classification/raw/main/content/figures/fig1_long.png "Figure 1"){#fig:spectra}
 
 ### Relative spectral similarity
 
@@ -278,7 +279,7 @@ The visible differences between mean spectra and differences in cosine similarit
 
 ![
 **Relative spectral similarity and classification performance comparision**
-(top row) Cosine similarity matrix for each scan of the training dataset from (A) DESI MS or (B) transmission Raman spectroscopy. (middle row) Cross validation F1 measures for (B) DESI MS and (E) transmission Raman spectroscopy. Bars and labels show mean +/- 1 SD for 10-folds with 10 repeats. (bottom row) Confusion matrix for the test set for (A) DESI MS classified by a SFM with polynomial kernel or (F) transmission Raman Spectroscopy classified LDA. Colour and labels show proportion of correct classifications. 
+(top row) Cosine similarity matrix for each scan of the training dataset from (A) DESI MS or (D) transmission Raman spectroscopy. (middle row) Cross validation F1 measures for (B) DESI MS and (E) transmission Raman spectroscopy. Bars and labels show mean +/- 1 SD for 10-folds with 10 repeats. (bottom row) Confusion matrix for the test set for (C) DESI MS classified by a SFM with polynomial kernel or (F) transmission Raman Spectroscopy classified LDA. Colour and labels show proportion of correct classifications. 
 ](https://github.com/adamjtaylor/tablet-classification/raw/main/content/figures/fig2.png "Figure 2"){#fig:similarity width="75%"}
 
 ### Assessment of different classification algorithms
@@ -298,7 +299,7 @@ The best performing models for each analytical technique (DESI MS: SVM-poly, Tra
 
 As a support vector machine with a polynomial kernel provided the highest classification performance in the cross-validation of the training set, a model based on this algorithm was trained using the entire training set. This model preserved 410 variables. This model was used to predict tablet type from each scan of an independent test set. The test set was acquired 1 week after the training set was collected, with the instrument in active use and recalibrated in the intervening period. In the test set, tablets not seen in the training set, but from the same type and batch were held under the DESI source for approximately 5 seconds. Scans were individually annotated for known tablet type based on known acquisition order and in reference to the total ion chromatogram (Figure S4A).  
 
-The trained SVM model was then used to predict the classification of each scan (Figure S4B). The classification algorithm performed well on the test set with an F1 score of 0.956. A confusion matrix for the ground truth vs. the predicted class (Figure 2C) shows the shows that all misclassifications are between the background and each tablet type. Selected correctly predicted spectra (Figure S4E) show notable characteristics, particularly in the polymer peak envelopes seen for tablet types A and D. Highlighting misclassifications on the total ion chromatogram (Figure S3C), shows that most misclassifications occur at the end of a tablet being presented to the mass spectrometer. Selected spectra from scans incorrectly predicted as background (Figure S4F, scans 184 and 380) show intense peaks at *m/z* 217.11 and 309.10 which are also seen in the mean spectra of the background (Figure S1A), highlighting the importance of accurate ground truth annotation in the assessment of classification models. 
+The trained SVM model was then used to predict the classification of each scan (Figure S4B). The classification algorithm performed well on the test set with an F1 score of 0.956. A confusion matrix for the ground truth vs. the predicted class (Figure 2C) shows that all misclassifications are between the background and each tablet type. Selected correctly predicted spectra (Figure S4E) show notable characteristics, particularly in the polymer peak envelopes seen for tablet types A and D. Highlighting misclassifications on the total ion chromatogram (Figure S3C), shows that most misclassifications occur at the end of a tablet being presented to the mass spectrometer. Selected spectra from scans incorrectly predicted as background (Figure S4F, scans 184 and 380) show intense peaks at *m/z* 217.11 and 309.10 which are also seen in the mean spectra of the background (Figure S1A), highlighting the importance of accurate ground truth annotation in the assessment of classification models. 
 
 #### Transmission Raman  
 
@@ -309,7 +310,7 @@ LDA trained on the whole Transmission Raman training set was used to classify an
 
 #### DESI MS
 
-When assessing the classification performance of algorithms on multidimensional data it is useful to assess the variables that the model has placed importance on. Unlike some classification algorithms such as tree-based methods, support vector machines do not inherently provide a measure of variable importance. We therefore calculated a variance-based variable importance using a feature importance ranking measure (FIRM) approach [arxiv:1805.04755;@doi:10.1007/978-3-030-43823-4_18], based on quantifying the relative flatness of each feature. Most variables are seen to have relatively low importance to the model (importance < 0.05), although several variables are prominent in a spectrum of variable importance (Figure 3A). The 30 variables with the highest importance were selected and boxplots of their single scan intensity per tablet type plotted (Figure S5B). Several of these import variables show high intensity for a single class over all others. These include peaks characteristic of the background (*m/z* 588.42 & *m/z* 309.20), tablet type B (*m/z* 693.18, *m/z* 164.13). Other important variables may be of greater intensity in two types (e/g *m/z* 821.8 in A and D, *m/z* 445.04 and B and C), or be present in all but one tablet type (e.g *m/z* 1013.59). 
+When assessing the classification performance of algorithms on multidimensional data it is useful to assess the variables that the model has placed importance on. Unlike some classification algorithms such as tree-based methods, support vector machines do not inherently provide a measure of variable importance. We therefore calculated a variance-based variable importance using a feature importance ranking measure (FIRM) approach [@arxiv:1805.04755;@doi:10.1007/978-3-030-43823-4_18], based on quantifying the relative flatness of each feature. Most variables are seen to have relatively low importance to the model (importance < 0.05), although several variables are prominent in a spectrum of variable importance (Figure 3A). The 30 variables with the highest importance were selected and boxplots of their single scan intensity per tablet type plotted (Figure S5B). Several of these import variables show high intensity for a single class over all others. These include peaks characteristic of the background (*m/z* 588.42 & *m/z* 309.20), tablet type B (*m/z* 693.18, *m/z* 164.13). Other important variables may be of greater intensity in two types (e/g *m/z* 821.8 in A and D, *m/z* 445.04 and B and C), or be present in all but one tablet type (e.g *m/z* 1013.59). 
 
 Considering the importance of each variable and the relative intensity in each class enables and understanding of how the SVM charts a path to accurately divide the classes in multivariate space. 
 
@@ -321,9 +322,9 @@ Considering the importance of each variable and the relative intensity in each c
 
 #### Transmission Raman spectroscopy 
 
-The variable importance of the LDA model was assessed by inspection of the LDA scaling values per wavenumber and component (Figure 3B and S5) and the LDA scores of the training set (Figure 3C). LD1 (proportion of trace: 98.8%) provides wide separation of coated tablet types A and D from uncoated tablets B and C. LD2 (proportion of trace: 0.9 %) broadly separates types C and D from one another. LD3 (proportion of trace: 0.2%) provides some separation between types A and D, although this separation is less distinct.  
+The variable importance of the LDA model was assessed by inspection of the LDA scaling values per wavenumber and component (Figure 3B and S5) and the LDA scores of the training set (Figure 3C). LD1 (proportion of trace: 98.8 %) provides wide separation of coated tablet types A and D from uncoated tablets B and C. LD2 (proportion of trace: 0.9 %) broadly separates types C and D from one another. LD3 (proportion of trace: 0.2 %) provides some separation between types A and D, although this separation is less distinct.  
 
-LDA scaling spectra highlight key features in the transmission Raman spectra that contribute to the classification. Features with a broad range of Raman shifts contribute to each component. Most of the LDA scaling spectral features are consistent with key active ingredient Raman peaks. For example, the highest scoring peak in LD1 occurs at 1159 cm-1 which corresponds to aspirin C-H ring bending [@doi:10.1016/j.molstruc.2014.10.079]. LD1 provides separation of tablet types A and D from B and C, and since A and D contain aspirin and B and C do not, strong weighting on wavenumbers consistent with aspirin Raman peaks would be expected. Several other LDA scaling spectral features are consistent with aspirin peak positions, such as 380, 786 and 1221 cm-1. Other LDA scaling spectral features are consistent with Raman peaks of several ingredients, for example 1555 cm-1 (LD3) which could correspond with spectral features present in all three active ingredients, paracetamol, aspirin, and caffeine, which have peaks centered at 1560, 1557, and 1554 cm-1 respectively [@doi:10.1016/j.vibspec.2007.12.016; @doi:10.3390/pharmaceutics6040651; @doi:10.1016/j.molstruc.2014.10.079].
+LDA scaling spectra highlight key features in the transmission Raman spectra that contribute to the classification. Features with a broad range of Raman shifts contribute to each component. Most of the LDA scaling spectral features are consistent with key active ingredient Raman peaks. For example, the highest scoring peak in LD1 occurs at 1159 cm^-1^ which corresponds to aspirin C-H ring bending [@doi:10.1016/j.molstruc.2014.10.079]. LD1 provides separation of tablet types A and D from B and C, and since A and D contain aspirin and B and C do not, strong weighting on wavenumbers consistent with aspirin Raman peaks would be expected. Several other LDA scaling spectral features are consistent with aspirin peak positions, such as 380, 786 and 1221 cm^-1^. Other LDA scaling spectral features are consistent with Raman peaks of several ingredients, for example 1555 cm^-1^ (LD3) which could correspond with spectral features present in all three active ingredients, paracetamol, aspirin, and caffeine, which have peaks centered at 1560, 1557, and 1554 cm^-1^ respectively [@doi:10.1016/j.vibspec.2007.12.016; @doi:10.3390/pharmaceutics6040651; @doi:10.1016/j.molstruc.2014.10.079].
 
 ### Repeatability and reproducibility of DESI MS 
 
@@ -336,7 +337,7 @@ Additional analysis (Supplementary information A) comparing DESI MSI cross-valid
 
 ## Conclusions
 
-DESI mass spectrometry and transmission Raman spectroscopy are effective methods to acquire characteristic spectral information from solid oral dosage forms containing information about active ingredients and tablet coating components. 
+DESI mass spectrometry and transmission Raman spectroscopy are effective methods to acquire characteristic spectral information from solid oral dosage forms containing information about API and tablet coating components. 
 These tools provide complementary information: transmission Raman is slightly biased in sensitivity towards the bulk of the tablet, whereas DESI MS provides sensitive analysis of the surface coating. 
 A range of machine learning algorithms were found to be capable of classifying tablet type with a strong F-score performance. 
 Of these, support vector machines showed the strongest performance for DESI MS, while LDA was the most effective for transmission Raman data.  
@@ -350,11 +351,11 @@ Classification performance was retained on datasets of reduced peak number and s
 
 ## Acknowledgements 
 
-The authors thank Ariadna Gonzalez, Caterina Minelli and Spencer Thomas (NPL) for helpful discussion and guidance throughout the project. This work was funded by the UK Government’s Department for Business, Energy, and Industrial Strategy (BEIS), and the National Measurement System as part of NPL’s internal cross-theme project “Innovative Medicines Manufacturing.”  
+The authors thank Ariadna Gonzalez, Caterina Minelli and Spencer Thomas (NPL) for helpful discussion and guidance throughout the project. This work was funded by the UK Department of Business, Energy and Industrial Strategy through the projects NMS/IMM19 and NMS/IMM20 of the UK National Measurement System.
 
 ## Contributions 
 
-AJT, JB and NAB conceived and planned the experiments. AT and AB acquired DESI MS data. NAB acquired transmission Raman spectroscopy data. AJT performed preprocessing of DESI MS data. DT performed preprocessing of transmission Raman data. AJT performed the classification and variable importance analysis. AJT, DT, NAB and JB interpreted the results. AJT, AD, DT, JB and NAB wrote the manuscript. All authors discussed the results contributed to the final manuscript.
+AJT, JB and NAB conceived and planned the experiments. AJT and AB acquired DESI MS data. NAB acquired transmission Raman spectroscopy data. AJT performed preprocessing of DESI MS data. DT performed preprocessing of transmission Raman data. AJT performed the classification and variable importance analysis. AJT, DT, NAB and JB interpreted the results. AJT, AD, DT, JB and NAB wrote the manuscript. All authors read, discussed and approved the final manuscript.
 
 ## References {.page_break_before}
 
@@ -392,7 +393,7 @@ Model tuning grid for SVM-polynomial kernel for DESI MS data.
 
 ![
 **Classification of an independent test set of tablets by DESI MS and an SVM**  
- (a) Total ion chromatogram (TIC) plot showing the ground truth labelling per scan for four sampling events per tablet type. Labelling was performed manually in reference to known sampling order and TIC. (b) TIC plot showing tablet type predicted by the SVM for each scan. (c) TIC plot highlighting prediction accuracy per scan (correct: green circles, incorrect: pink triangles). (d) Confusion matrix for each scan of the test set, classified by the SVM. Colour and labels show proportion of correct classifications. (e-f) Spectra for selected scans (labelled in c) that are correctly (e). or incorrectly classified (f).](https://github.com/adamjtaylor/tablet-classification/raw/main/content/figures/fig_desi_validation_supplementary.png "S4"){#fig:tuning tag="S4" width="75%" .page_break_before}
+ (A) Total ion chromatogram (TIC) plot showing the ground truth labelling per scan for four sampling events per tablet type. Labelling was performed manually in reference to known sampling order and TIC. (B) TIC plot showing tablet type predicted by the SVM for each scan. (C) TIC plot highlighting prediction accuracy per scan (correct: green circles, incorrect: pink triangles). (D) Confusion matrix for each scan of the test set, classified by the SVM. Colour and labels show proportion of correct classifications. (E-F) Spectra for selected scans (labelled in C) that are correctly (E). or incorrectly classified (F).](https://github.com/adamjtaylor/tablet-classification/raw/main/content/figures/fig_desi_validation_supplementary.png "S4"){#fig:tuning tag="S4" width="75%" .page_break_before}
 
 ![
 Cosine similarity matrix for DESI MS sampling of tablet type A from two batches on two days of analysis.
