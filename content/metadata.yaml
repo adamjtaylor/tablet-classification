@@ -9,30 +9,34 @@ lang: en-US
 authors:
   - name: Adam J Taylor
     initials: AJT
+    orcid: 0000-0003-0501-8886 
     affiliations:
-      - Department of Chemical and Biological Sciences, National Physical Laboratory, Teddington, UK
-      - "Current affiliation: Scienticic Communication and Community Engagement, Sage Bionetworks, Seattle, WA, USA"
+      - Chemical and Biological Sciences Department, National Physical Laboratory, Teddington, UK
+ #     - "Current affiliation: Scienticic Communication and Community Engagement, Sage Bionetworks, Seattle, WA, USA"
   - name: Dimitrios Tsikritsis
     initials: DT
     affiliations:
-      - Department of Chemical and Biological Sciences, National Physical Laboratory, Teddington, UK
+      - Chemical and Biological Sciences Department, National Physical Laboratory, Teddington, UK
   - name: Alex Dexter
     initials: AD
     affiliations:
-      - Department of Chemical and Biological Sciences, National Physical Laboratory, Teddington, UK
+      - Chemical and Biological Sciences Department, National Physical Laboratory, Teddington, UK
   - name: Amy Burton
     initials: AB
+    orcid: 0000-0002-6970-1492
     affiliations:
-      - Department of Chemical and Biological Sciences, National Physical Laboratory, Teddington, UK
-      - "Current affiliation: GlaxoSmithKline, Stevenage, UK"
+      - Chemical and Biological Sciences Department, National Physical Laboratory, Teddington, UK
+ #     - "Current affiliation: GlaxoSmithKline, Stevenage, UK"
   - name: Josephine Bunch
     initials: JB
+    orcid: 0000-0002-4257-1296
     affiliations:
-      - Department of Chemical and Biological Sciences, National Physical Laboratory, Teddington, UK
+      - Chemical and Biological Sciences Department, National Physical Laboratory, Teddington, UK
       - Department of Metabolism, Digestion and Reproduction, Imperial College London, London, UK
       - The Rosalind Frankilin Insitute, Harwell, UK
   - name: Natalie A Belsey
     initials: NAB
+    orcid: 0000-0001-7773-0966
     email: natalie.belsey@npl.co.uk
     affiliations:
       - Department of Chemical and Biological Sciences, National Physical Laboratory, Teddington, UK
