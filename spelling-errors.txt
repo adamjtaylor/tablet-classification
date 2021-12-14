@@ -7,7 +7,6 @@ Ariadna
 artesunate
 backscattered
 Belsey
-Bionetworks
 boxplots
 Caterina
 Centre
@@ -44,7 +43,6 @@ findPeaks
 Frankilin
 Fransson
 gastro
-GlaxoSmithKline
 Gloucestershire
 Guildford
 Harwell
@@ -64,7 +62,7 @@ kernlab
 KNN
 kV
 labelled
-Labelling
+labelling
 LD
 LDA
 Leica
@@ -120,7 +118,6 @@ renin
 Renishaw
 reproducibility
 RStudio
-Scienticic
 ScilsLab
 SFM
 speciation
@@ -128,7 +125,6 @@ spectrometric
 spectrometry
 stearate
 stearic
-Stevenage
 summarises
 SVM
 Synapt

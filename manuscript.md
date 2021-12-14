@@ -6,7 +6,7 @@ keywords:
 - solid oral dosage form
 - classification
 lang: en-US
-date-meta: '2021-12-13'
+date-meta: '2021-12-14'
 author-meta:
 - Adam J Taylor
 - Dimitrios Tsikritsis
@@ -24,8 +24,8 @@ header-includes: |-
   <meta name="citation_title" content="Classification of tablet formulations by desorption electrospray ionisation mass spectrometry and transmission Raman spectroscopy" />
   <meta property="og:title" content="Classification of tablet formulations by desorption electrospray ionisation mass spectrometry and transmission Raman spectroscopy" />
   <meta property="twitter:title" content="Classification of tablet formulations by desorption electrospray ionisation mass spectrometry and transmission Raman spectroscopy" />
-  <meta name="dc.date" content="2021-12-13" />
-  <meta name="citation_publication_date" content="2021-12-13" />
+  <meta name="dc.date" content="2021-12-14" />
+  <meta name="citation_publication_date" content="2021-12-14" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -33,31 +33,33 @@ header-includes: |-
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
   <meta name="citation_author" content="Adam J Taylor" />
-  <meta name="citation_author_institution" content="Department of Chemical and Biological Sciences, National Physical Laboratory, Teddington, UK" />
-  <meta name="citation_author_institution" content="Current affiliation: Scienticic Communication and Community Engagement, Sage Bionetworks, Seattle, WA, USA" />
+  <meta name="citation_author_institution" content="Chemical and Biological Sciences Department, National Physical Laboratory, Teddington, UK" />
+  <meta name="citation_author_orcid" content="0000-0003-0501-8886" />
   <meta name="citation_author" content="Dimitrios Tsikritsis" />
-  <meta name="citation_author_institution" content="Department of Chemical and Biological Sciences, National Physical Laboratory, Teddington, UK" />
+  <meta name="citation_author_institution" content="Chemical and Biological Sciences Department, National Physical Laboratory, Teddington, UK" />
   <meta name="citation_author" content="Alex Dexter" />
-  <meta name="citation_author_institution" content="Department of Chemical and Biological Sciences, National Physical Laboratory, Teddington, UK" />
+  <meta name="citation_author_institution" content="Chemical and Biological Sciences Department, National Physical Laboratory, Teddington, UK" />
   <meta name="citation_author" content="Amy Burton" />
-  <meta name="citation_author_institution" content="Department of Chemical and Biological Sciences, National Physical Laboratory, Teddington, UK" />
-  <meta name="citation_author_institution" content="Current affiliation: GlaxoSmithKline, Stevenage, UK" />
+  <meta name="citation_author_institution" content="Chemical and Biological Sciences Department, National Physical Laboratory, Teddington, UK" />
+  <meta name="citation_author_orcid" content="0000-0002-6970-1492" />
   <meta name="citation_author" content="Josephine Bunch" />
-  <meta name="citation_author_institution" content="Department of Chemical and Biological Sciences, National Physical Laboratory, Teddington, UK" />
+  <meta name="citation_author_institution" content="Chemical and Biological Sciences Department, National Physical Laboratory, Teddington, UK" />
   <meta name="citation_author_institution" content="Department of Metabolism, Digestion and Reproduction, Imperial College London, London, UK" />
   <meta name="citation_author_institution" content="The Rosalind Frankilin Insitute, Harwell, UK" />
+  <meta name="citation_author_orcid" content="0000-0002-4257-1296" />
   <meta name="citation_author" content="Natalie A Belsey" />
   <meta name="citation_author_institution" content="Department of Chemical and Biological Sciences, National Physical Laboratory, Teddington, UK" />
   <meta name="citation_author_institution" content="Department of Chemical and Process Engineering, University of Surrey, Guildford, UK" />
+  <meta name="citation_author_orcid" content="0000-0001-7773-0966" />
   <link rel="canonical" href="https://adamjtaylor.github.io/tablet-classification/" />
   <meta property="og:url" content="https://adamjtaylor.github.io/tablet-classification/" />
   <meta property="twitter:url" content="https://adamjtaylor.github.io/tablet-classification/" />
   <meta name="citation_fulltext_html_url" content="https://adamjtaylor.github.io/tablet-classification/" />
   <meta name="citation_pdf_url" content="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/5d48fff13e843b48bcfb4ebc235c6d2f9863e462/" />
-  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/5d48fff13e843b48bcfb4ebc235c6d2f9863e462/" />
-  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/5d48fff13e843b48bcfb4ebc235c6d2f9863e462/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/dfcfd3bd6f3f0bccaaa46d7adf770e455fa2abae/" />
+  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/dfcfd3bd6f3f0bccaaa46d7adf770e455fa2abae/" />
+  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/dfcfd3bd6f3f0bccaaa46d7adf770e455fa2abae/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -83,32 +85,40 @@ manubot-clear-requests-cache: false
 
 
 
-+ **Adam J Taylor**<br><br>
++ **Adam J Taylor**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0003-0501-8886](https://orcid.org/0000-0003-0501-8886)<br>
   <small>
-     Department of Chemical and Biological Sciences, National Physical Laboratory, Teddington, UK; Current affiliation: Scienticic Communication and Community Engagement, Sage Bionetworks, Seattle, WA, USA
+     Chemical and Biological Sciences Department, National Physical Laboratory, Teddington, UK
   </small>
 
 + **Dimitrios Tsikritsis**<br><br>
   <small>
-     Department of Chemical and Biological Sciences, National Physical Laboratory, Teddington, UK
+     Chemical and Biological Sciences Department, National Physical Laboratory, Teddington, UK
   </small>
 
 + **Alex Dexter**<br><br>
   <small>
-     Department of Chemical and Biological Sciences, National Physical Laboratory, Teddington, UK
+     Chemical and Biological Sciences Department, National Physical Laboratory, Teddington, UK
   </small>
 
-+ **Amy Burton**<br><br>
++ **Amy Burton**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-6970-1492](https://orcid.org/0000-0002-6970-1492)<br>
   <small>
-     Department of Chemical and Biological Sciences, National Physical Laboratory, Teddington, UK; Current affiliation: GlaxoSmithKline, Stevenage, UK
+     Chemical and Biological Sciences Department, National Physical Laboratory, Teddington, UK
   </small>
 
-+ **Josephine Bunch**<br><br>
++ **Josephine Bunch**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-4257-1296](https://orcid.org/0000-0002-4257-1296)<br>
   <small>
-     Department of Chemical and Biological Sciences, National Physical Laboratory, Teddington, UK; Department of Metabolism, Digestion and Reproduction, Imperial College London, London, UK; The Rosalind Frankilin Insitute, Harwell, UK
+     Chemical and Biological Sciences Department, National Physical Laboratory, Teddington, UK; Department of Metabolism, Digestion and Reproduction, Imperial College London, London, UK; The Rosalind Frankilin Insitute, Harwell, UK
   </small>
 
 + **Natalie A Belsey**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0001-7773-0966](https://orcid.org/0000-0001-7773-0966)
     [natalie.belsey@npl.co.uk]("mailto:natalie.belsey@npl.co.uk")<br>
   <small>
      Department of Chemical and Biological Sciences, National Physical Laboratory, Teddington, UK; Department of Chemical and Process Engineering, University of Surrey, Guildford, UK
