@@ -6,7 +6,7 @@ keywords:
 - solid oral dosage form
 - classification
 lang: en-US
-date-meta: '2021-12-14'
+date-meta: '2021-12-28'
 author-meta:
 - Adam J Taylor
 - Dimitrios Tsikritsis
@@ -24,8 +24,8 @@ header-includes: |-
   <meta name="citation_title" content="Classification of tablet formulations by desorption electrospray ionisation mass spectrometry and transmission Raman spectroscopy" />
   <meta property="og:title" content="Classification of tablet formulations by desorption electrospray ionisation mass spectrometry and transmission Raman spectroscopy" />
   <meta property="twitter:title" content="Classification of tablet formulations by desorption electrospray ionisation mass spectrometry and transmission Raman spectroscopy" />
-  <meta name="dc.date" content="2021-12-14" />
-  <meta name="citation_publication_date" content="2021-12-14" />
+  <meta name="dc.date" content="2021-12-28" />
+  <meta name="citation_publication_date" content="2021-12-28" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -57,9 +57,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://adamjtaylor.github.io/tablet-classification/" />
   <meta name="citation_pdf_url" content="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/dfcfd3bd6f3f0bccaaa46d7adf770e455fa2abae/" />
-  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/dfcfd3bd6f3f0bccaaa46d7adf770e455fa2abae/" />
-  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/dfcfd3bd6f3f0bccaaa46d7adf770e455fa2abae/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/51cd1cc64486e3f7c05daf5caf8d70ef535bb640/" />
+  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/51cd1cc64486e3f7c05daf5caf8d70ef535bb640/" />
+  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/51cd1cc64486e3f7c05daf5caf8d70ef535bb640/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -359,9 +359,12 @@ Classification performance was retained on datasets of reduced peak number and s
 
 
 
+## Conflicts of Interest
+There are no conflicts of interest to declare.
+
 ## Acknowledgements 
 
-The authors thank Ariadna Gonzalez, Caterina Minelli and Spencer Thomas (NPL) for helpful discussion and guidance throughout the project. This work was funded by the UK Department of Business, Energy and Industrial Strategy through the projects NMS/IMM19 and NMS/IMM20 of the UK National Measurement System.
+The authors thank Ariadna Gonzalez, Caterina Minelli and Spencer Thomas (NPL) for helpful discussion and guidance throughout the project. This work was funded by the UK Department of Business, Energy and Industrial Strategy through the projects NMS/IMM19 and NMS/IMM20 of the UK National Measurement System. This work was supported by the Community for Analytical Measurement Science through a 2020 CAMS Fellowship Award to NAB funded by the Analytical Chemistry Trust Fund.  
 
 ## Contributions 
 
