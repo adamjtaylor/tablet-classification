@@ -7,7 +7,7 @@ Ariadna
 artesunate
 backscattered
 Belsey
-boxplots
+Boxplots
 Caterina
 Centre
 centroid
@@ -19,7 +19,7 @@ Colour
 comparision
 complementarity
 compositional
-confocal
+Confocal
 croscarmellose
 crystallinity
 datacube
@@ -66,7 +66,7 @@ klaR
 KNN
 kV
 labelled
-Labelling
+labelling
 LD
 LDA
 Leica
@@ -106,7 +106,7 @@ PID
 plc
 PLS
 polymorphs
-povidone
+Povidone
 pracma
 pre
 pregelatinised
@@ -135,7 +135,7 @@ spectrometry
 stearate
 stearic
 summarises
-SVM
+svm
 Synapt
 tarch
 Teddington
