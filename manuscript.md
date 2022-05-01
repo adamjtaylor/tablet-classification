@@ -6,7 +6,7 @@ keywords:
 - solid oral dosage form
 - classification
 lang: en-US
-date-meta: '2021-12-28'
+date-meta: '2022-05-01'
 author-meta:
 - Adam J Taylor
 - Dimitrios Tsikritsis
@@ -24,8 +24,8 @@ header-includes: |-
   <meta name="citation_title" content="Classification of tablet formulations by desorption electrospray ionisation mass spectrometry and transmission Raman spectroscopy" />
   <meta property="og:title" content="Classification of tablet formulations by desorption electrospray ionisation mass spectrometry and transmission Raman spectroscopy" />
   <meta property="twitter:title" content="Classification of tablet formulations by desorption electrospray ionisation mass spectrometry and transmission Raman spectroscopy" />
-  <meta name="dc.date" content="2021-12-28" />
-  <meta name="citation_publication_date" content="2021-12-28" />
+  <meta name="dc.date" content="2022-05-01" />
+  <meta name="citation_publication_date" content="2022-05-01" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -57,9 +57,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://adamjtaylor.github.io/tablet-classification/" />
   <meta name="citation_pdf_url" content="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/51cd1cc64486e3f7c05daf5caf8d70ef535bb640/" />
-  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/51cd1cc64486e3f7c05daf5caf8d70ef535bb640/" />
-  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/51cd1cc64486e3f7c05daf5caf8d70ef535bb640/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/428ff1b8ed499de3c5e504b25304deaa740e5d14/" />
+  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/428ff1b8ed499de3c5e504b25304deaa740e5d14/" />
+  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/428ff1b8ed499de3c5e504b25304deaa740e5d14/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -220,14 +220,14 @@ As such we have tested a range of classification algorithms on their capability 
 Samples were selected from commercially available off-the-shelf products and purchased from a local supplier. Their names, active ingredients, listed excipients and UK Medicines and Healthcare Products Regulatory Agency (MHRA) product license numbers are included in Table @tbl:samples.
 
 
-| Type | Product name | Active ingredients| Listed excipients | MHRA licence |
-|:-----|:------------:|:------------------:|:----------------:|:------------:|
-| A | Anadin Extra Tablets | 300 mg Aspirin, 200 mg Paracetamol, 45 mg Caffeine | Maize starch, microcrystalline cellulose (E460), hydrogenated vegetable oil, hydroxypropyl methylcellulose (E464), polyethylene glycol, pregelatinised starch and povidone  | PL 00165/5013R |
-| B | Tesco Paracetamol Extra Tablets | 500 mg Paracetamol, 65 mg Caffeine |tarch, povidone k-30, povidone k-90, croscarmellose sodium, talc, stearic acid and magnesium stearate | PL 08977/0025 |
-| C | Tesco Paracetamol Tablets | 500 mg Paracetamol | Potato Starch, pregelatinised starch, magnesium stearate, povidone, stearic acid and talc | PL 08977/0014 |
-| D | Tesco Extra Power Pain Control Tablets | 300 mg Aspirin, 200 mg Paracetamol, 45 mg Caffeine | Povidone, hydroxypropylcellulose, stearic acid, microcrystalline cellulose, maize starch, pregelatinised starch, hydroxypropyl methylcellulose 5cPs, hydroxypropyl methylcellulose 15cPs, macrogol 4000 | PL 29831/0164 
+| Type | Product name | Active ingredients | Listed excipients | Tablet mass| MHRA licence |
+|:-----|:------------:|:------------------:|:----------------:|:------------:|:------------:|
+| A | Anadin Extra Tablets | 300 mg Aspirin, 200 mg Paracetamol, 45 mg Caffeine | Maize starch, microcrystalline cellulose (E460), hydrogenated vegetable oil, hydroxypropyl methylcellulose (E464), polyethylene glycol, pregelatinised starch and povidone | 662 ± 11 mg | PL 00165/5013R |
+| B | Tesco Paracetamol Extra Tablets | 500 mg Paracetamol, 65 mg Caffeine |tarch, povidone k-30, povidone k-90, croscarmellose sodium, talc, stearic acid and magnesium stearate | 607 ± 6 mg | PL 08977/0025 |
+| C | Tesco Paracetamol Tablets | 500 mg Paracetamol | Potato Starch, pregelatinised starch, magnesium stearate, povidone, stearic acid and talc | 550 ± 3 mg | PL 08977/0014 |
+| D | Tesco Extra Power Pain Control Tablets | 300 mg Aspirin, 200 mg Paracetamol, 45 mg Caffeine | Povidone, hydroxypropylcellulose, stearic acid, microcrystalline cellulose, maize starch, pregelatinised starch, hydroxypropyl methylcellulose 5cPs, hydroxypropyl methylcellulose 15cPs, macrogol 4000 | 632 ± 6 mg | PL 29831/0164 
 
-Table: Details of the tablet types analysed. Letter codes for each type are used throughout
+Table: Details of the tablet types analysed. Letter codes for each type are used throughout. Active ingredient list shows mass per tablet as stated on product information sheet. Total mass shows mean ± 1 SD for n = 8 tablets (n=7 for type B).
 {#tbl:samples}
 
 ### DESI MS
@@ -251,11 +251,11 @@ For model development and comparison, data were converted from Waters *raw* form
 
 ### Transmission Raman spectroscopy preprocessing 
 
-Cosmic ray removal was performed automatically by Renishaw Wire (version 5.3) and spectra exported to .txt format. The Raman spectra were baseline corrected using the *msbackadj* Matlab function [@url:https://www.mathworks.com/help/bioinfo/ref/msbackadj.html]. The baseline was estimated within multiple shifted windows of width 20 separation units, then a spline approximation was used to regress the varying baseline to the window points. The estimated baseline for each spectrum was then subtracted from the corresponding original. The background subtracted spectra were read in R for subsequent processing and analysis. The data were normalized to total spectrum intensity and the Raman shift recalibrated using the weighted-mean centroid to the 520.7 cm^-1^ peak from the daily Si wafer sample spectrum as a reference. Extended spectra were truncated to a wavenumber range between 250 cm^-1^ and 1700 cm^-1^. Due to the limited number of wavenumber bins and the challenges of peak-picking Raman data, the continuous data were taken forward for classification. 
+Cosmic ray removal was performed automatically by Renishaw Wire (version 5.3) and spectra exported to .txt format. The Raman spectra were baseline corrected using the *msbackadj* Matlab function [@url:https://www.mathworks.com/help/bioinfo/ref/msbackadj.html]. The baseline was estimated within multiple shifted windows of width 20 separation units, then a spline approximation was used to regress the varying baseline to the window points. While a spline fitting may not be appropriate for Raman datasets where broad peaks are present and should be used with caution; in this study peaks were relatively sharp and spline fitting was seen to provide a small improvement in qualitative fit over polynomial and Mexican-hat methods. The estimated baseline for each spectrum was then subtracted from the corresponding original. The background subtracted spectra were read in R for subsequent processing and analysis. The data were normalized to total spectrum intensity and the Raman shift recalibrated using the weighted-mean centroid to the 520.7 cm^-1^ peak from the daily Si wafer sample spectrum as a reference. Extended spectra were truncated to a wavenumber range between 250 cm^-1^ and 1700 cm^-1^. Due to the limited number of wavenumber bins and the challenges of peak-picking Raman data, the continuous data were taken forward for classification. 
 
 ### Classification 
 
-Spectra were collated into a V-fold validation with 10 partitions and 10 repeats in a 9/1/10 (train/test/total) split. Highly correlating variables (Pearson correlation > 0.9) were removed from DESI MS data. Data were centered around the arithmetic mean and scaled to have a standard deviation of one. Underrepresented classes (for DESI MS, the background class) were up-sampled to have the same frequency as the most occurring level. Each training fold was applied to a range of classification algorithms using the tidymodels package. All models were implemented with their default parameters beyond setting to classification mode. The functions, engines and default parameters used for each model are provided in supplementary table 1. These models were then used to predict each testing fold. For each fold the F1 score was calculated. For DESI MS the algorithm with the highest F1 score, a support vector machine with a polynomial kernel was selected for further model tuning on a single random sample (without replacement) of 10 % the training data. For transmission Raman data a LDA model was selected. A final model was fitted on all the training data. These models were used to predict the test independent test sets. Cosine similarity between spectra were calculated using the cosine function from the coop package [@url:https://cran.r-project.org/package=coop]. Considering the angle between vectors, rather than magnitude, cosine similarity provides a useful and robust measure of spectral similarity for highly multivariate datasets [@doi:10.1021/acs.analchem.6b02139]. 
+Spectra were collated into a V-fold validation with 10 partitions and 10 repeats in a 9/1/10 (train/test/total) split. Highly correlating variables (Pearson correlation > 0.9) were removed from DESI MS data. Data were centered around the arithmetic mean and scaled to have a standard deviation of one. Underrepresented classes (for DESI MS, the background class) were up-sampled to have the same frequency as the most occurring level. Each training fold was applied to a range of classification algorithms using the tidymodels package. All models were implemented with their default parameters beyond setting to classification mode. The functions, engines and default parameters used for each model are provided in supplementary table 1. These models were then used to predict each testing fold. For each fold the F1 score was calculated. For DESI MS the algorithm with the highest F1 score, a support vector machine with a polynomial kernel was selected for further model tuning on a single random sample (without replacement) of 10 % the training data. For transmission Raman data a LDA model was selected. A final model was fitted on all the training data. These models were used to predict the test independent test sets. Cosine similarity between spectra were calculated using the cosine function from the coop package [@url:"https://cran.r-project.org/package=coop"]. Considering the angle between vectors, rather than magnitude, cosine similarity provides a useful and robust measure of spectral similarity for highly multivariate datasets [@doi:10.1021/acs.analchem.6b02139]. 
 
 
 ## Results and discussion
@@ -267,7 +267,7 @@ Rich mass spectra were rapidly obtained from each tablet type when held under th
 
 The polymeric peak sequences observed in tablet type A and D above *m/z* 700 are distinct from one another with several different peak sequences observed (Figure 1B). Tablet types A and D both exhibit a clear sequence of peaks spaced by *m/z* 44 the a signally charged unit difference from \[C~2~H~4~O]^+^. For both tablet types peaks above *m/z* 1000 are most intense. In tablet type A this predominantly consists of isotope clusters separated by *m/z* 14.68, with peaks separated by *m/z* 0.33, indicating a 3+ charge state of the loss of \[C2H4O]. Conversely, in tablet type D the isotope clusters are separated by *m/z* 11.01 with peak spacing of *m/z* 0.25, indicating a 4+ charge state and the loss of \[C~2~H~4~O]. This indicates that while both are coated with a polyethylene glycol (PEG) polymer, the molecular weight or coating application may differ between the brand name (Type A) and generic product (Type D). 
 
-All three active ingredients were annotated from a mean spectrum within 15 ppm mass accuracy. Boxplots of single scan intensity show distinct differences in active intensity between types (Figure 1C, 1D, 1E). Caffeine is present in tablet types A, B and D and absent from type C. Median intensity is highest for the uncoated tablet type B. Intensity for tablet type C is similar to that in the background. While aspirin is present in tablet types A and D, the detected intensity in type B is high. This may represent an isobaric compound also present in type B or carry over from sampling tablet type A. Paracetamol is present in, and detected in all tablet types, although is most intense in tablets without a film-coating (types B and C) which may otherwise mask signal from the underlying bulk material. Variance for all actives and tablet types was high, indicating the need for consistent sampling procedures and robust classification approaches. 
+All three active ingredients were annotated from a mean spectrum within 15 ppm mass accuracy. Boxplots of single scan intensity show distinct differences in active intensity between types (Figure 1C, 1D, 1E). Caffeine is present in tablet types A, B and D and absent from type C. Median intensity is highest for the uncoated tablet type B. Intensity for tablet type C is similar to that in the background. While aspirin is present in tablet types A and D, the detected intensity in type B is high. This may represent an isobaric compound also present in type B or carry over from sampling tablet type A. Paracetamol is present in, and detected in all tablet types, although is most intense in tablets without a film-coating (types B and C) which may otherwise mask signal from the underlying bulk material. Although tablets A and D contained similar paracetamol content, tablet A exhibited much lower DESI signals for paracetamol, relative to tablet D. This could be explained by a difference in the integrity between the film coatings of tablets A and D, their relative solubility in the DESI solvent, or potentially drug migration into the film coating, in the case of tablet D. Variance for all actives and tablet types was high, indicating the need for consistent sampling procedures and robust classification approaches. 
 
 ### Acquisition of Transmission Raman spectra from tablets 
 
@@ -282,7 +282,7 @@ Mean transmission Raman spectra for each tablet type (Figure 1F) show very simil
 
 It is notable that for both DESI MS and Transmission Raman data assessment of active ingredients or film coating, or excipients alone cannot robustly separate all tablet types. We can objectively assess the relative overall spectral similarity between and within tablet types by calculating the cosine distance of each spectrum of the same modality from one another. The cosine similarity matrix for DESI MS (Figure 2A) reveals that the highest cosine similarities are between spectra from tablet type D (D vs. D, 0.97 +/- 0.03) and between spectra from tablet type A (A vs. A, 0.96 +/- 0.02). The high value and low standard deviation of cosine similarity within these tablet types indicates the highly reproducible spectra achieved from these samples. Tablet types C and D have a lower mean cosine similarity and higher variance of similarity within their respective tablet types (B vs. B, 0.77 +/- 0.08. C vs. C 0.85 +/- 0.12). Tablet types B and C are relatively alike, with cosine similarity of 0.71. Conversely, tablet types A and D, are relatively dissimilar to one another (0.45 +/- 0.03). 
 
-For Transmission Raman spectroscopy, high cosine similarity is observed within tablet types (all greater than 0.97, Figure 2D), However, spectral similarity between tablets A & D is notably higher than for DESI MSI (0.97 +/- 0.01). This is also seen in the high similarity between tablet types B and C (0.99 +/- 0.01), where the only visible spectral difference is for Caffeine, (541, cm^-1^, present in B, absent in C). All other peaks are visibly identical contributing to the high similarity value. 
+For Transmission Raman spectroscopy, high cosine similarity is observed within tablet types (all greater than 0.97, Figure 2D), However, spectral similarity between tablets A & D is notably higher than for DESI MSI (0.97 +/- 0.01). This is also seen in the high similarity between tablet types B and C (0.99 +/- 0.01), where the only visible spectral difference is for Caffeine, (541, cm^-1^, present in B, absent in C). As this peak is narrow it does not contribute noticeably to the cosine similarity. All other peaks are visibly identical contributing to the high similarity value. 
 
 
 The visible differences between mean spectra and differences in cosine similarities suggest that this DESI MS may be amenable for the training of classification algorithms to classify unseen data, but that transmission Raman spectroscopy may be more challenging. 
@@ -313,7 +313,7 @@ The trained SVM model was then used to predict the classification of each scan (
 
 #### Transmission Raman  
 
-LDA trained on the whole Transmission Raman training set was used to classify an independently acquired test set of transmission Raman data from 24 tablets from the same batch. Classification performance was strong with an F1 score of 0.965 when using LDA (Figure 2F. Here classification is correct for tablet types B and C and A, which are classified correctly despite their high cosine similarity. However, in three cases tablet D misclassified as type A, and in one case type A misclassified as type D. This is somewhat unsurprising as they contain the same active ingredients and amounts, but differ in their film coating, as demonstrated by the notably different polymer profiles seen in the DESI MS data. 
+LDA trained on the whole Transmission Raman training set was used to classify an independently acquired test set of transmission Raman data from 24 tablets from the same batch. Classification performance was strong with an F1 score of 0.965 when using LDA (Figure 2F. Here classification is correct for tablet types B and C and A, which are classified correctly despite their high cosine similarity. However, in two cases tablet D misclassified as type A, and in one case type A misclassified as type D. While type A and D contain the same active ingredients and amounts, but differ in their film coating, as demonstrated by the notably different polymer profiles seen in the DESI MS data. This may contribute to altered peaks shape and or baseline in transmission Raman spectra potentially contributing to misclassification. We also note that the relatively low sample number in the test and train sets set used for cross-validation.
 
 
 ### Variable importance
@@ -355,6 +355,7 @@ Of these, support vector machines showed the strongest performance for DESI MS, 
 DESI-based classification was primarily based on differences in the tablet coatings, whereas transmission Raman was more sensitive to differences in the active pharmaceutical ingredients due to their higher total content. 
 Therefore, it may be advantageous to combine these two complementary analytical methods. 
 Raman spectroscopy’s non-destructive nature makes it potentially more suitable for in-line analysis than DESI MS, the destructive nature, even if minimally, of which makes it unsuitable for tablets remaining in the supply chain. 
+Future classfication efforts could also seek to combine their orthogonal analytical advantages with data fusion.
 Classification performance was retained on datasets of reduced peak number and simulated reduced mass resolving power, indicating the robustness of this approach and its potential applicability to compact mass spectrometers suitable for deployment in counterfeiting, QA/QC, or production line environments.  
 
 
@@ -391,6 +392,24 @@ The hyperparameters of the SVM were tuned on the validation split of the trainin
 For Transmission Raman data the best performing classification approach, a linear discriminant analysis, as implemented by the MASS package has no parameters to optimize beyond the prior which was here set to the equal type probability. This would influence the suitability of the LDA for applications in cases such as defect or counterfeit detection where class probability is expected to be unbalanced with an unknown prior. 
 
 ### Supplementary Figures {.page_break_before}
+
+
+### Supplementary Figures {.page_break_before}
+
+| Model                                                | Function          | Engine  |
+|------------------------------------------------------|-------------------|---------|
+| Logistic regression                                  | logistic_reg      | keras   |
+| naive Bayes                                          | naive_Bayes       | klaR    |
+| Nearest neighbour                                    | nearest_neighbour | kknn    |
+| Support vector machine\npolynomial kernel            | svm_poly          | kernlab |
+| Support vector machine\nradial basis function kernel | svm_rbf           | kernlab |
+| Decision tree                                        | decision_tree     | rpart   |
+| Boosted tree                                         | boost_tree        | xgboost |
+| Random forest                                        | rand_forest       | ranger  |
+| Neural network                                       | mlp               | keras   |
+
+Table: Functions and engines for models evaluated
+{#tbl:functions, tag = "S1"}
 
 ![
 Timings for 10-fold cross validation with 10 replicates for selected classification algorithms for DESI MS (red) and transmission Raman spectroscopy (teal) training data.
