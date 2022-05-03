@@ -7,7 +7,7 @@ Ariadna
 artesunate
 backscattered
 Belsey
-boxplots
+Boxplots
 Caterina
 Centre
 centroid
@@ -31,12 +31,10 @@ DESI
 desorbs
 desorption
 Dimitrios
-discriminent
 DT
 electroflow
 electrospray
 evaporative
-excipeient
 excipient
 excipients
 fibre
@@ -71,7 +69,6 @@ LD
 LDA
 Leica
 licence
-lineiar
 loratadine
 LTS
 macrogol
@@ -90,6 +87,7 @@ misclassification
 misclassifications
 misclassified
 mlp
+modelling
 MPa
 msbackadj
 MSConvert
@@ -106,7 +104,7 @@ PID
 plc
 PLS
 polymorphs
-Povidone
+povidone
 pracma
 pre
 pregelatinised
@@ -146,6 +144,7 @@ ToF
 Tsikritsis
 txt
 uncoated
+unlabelled
 Untargeted
 wavenumber
 wavenumbers

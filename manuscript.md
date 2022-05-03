@@ -6,7 +6,7 @@ keywords:
 - solid oral dosage form
 - classification
 lang: en-US
-date-meta: '2022-05-01'
+date-meta: '2022-05-03'
 author-meta:
 - Adam J Taylor
 - Dimitrios Tsikritsis
@@ -24,8 +24,8 @@ header-includes: |-
   <meta name="citation_title" content="Classification of tablet formulations by desorption electrospray ionisation mass spectrometry and transmission Raman spectroscopy" />
   <meta property="og:title" content="Classification of tablet formulations by desorption electrospray ionisation mass spectrometry and transmission Raman spectroscopy" />
   <meta property="twitter:title" content="Classification of tablet formulations by desorption electrospray ionisation mass spectrometry and transmission Raman spectroscopy" />
-  <meta name="dc.date" content="2022-05-01" />
-  <meta name="citation_publication_date" content="2022-05-01" />
+  <meta name="dc.date" content="2022-05-03" />
+  <meta name="citation_publication_date" content="2022-05-03" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -57,9 +57,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://adamjtaylor.github.io/tablet-classification/" />
   <meta name="citation_pdf_url" content="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/1b3862680d5af318c7d97ab97d5e4b193a0a4eb2/" />
-  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/1b3862680d5af318c7d97ab97d5e4b193a0a4eb2/" />
-  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/1b3862680d5af318c7d97ab97d5e4b193a0a4eb2/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/7b48cc656d00c8403f5ffbcc3e60220c2a520cc2/" />
+  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/7b48cc656d00c8403f5ffbcc3e60220c2a520cc2/" />
+  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/7b48cc656d00c8403f5ffbcc3e60220c2a520cc2/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -139,12 +139,12 @@ Inferior quality attributes can be useful to identify off-brand or counterfeit p
 There is a need for rapid and continuous analytical techniques that can assess and classify product differences of intact samples at- or near the production line, or in analytical labs, ideally without resorting to product dissolution [@doi:10.1016/j.xphs.2016.11.011]. 
 Rapid measurement tools are particularly important to enable continuous monitoring, including necessary to support the change from batch to continuous manufacturing, and high-throughput batch release processes.
 Analytical methods are required to monitor both the actives, coatings and consistency of the product: For example, in addition to the total active pharmaceutical ingredient (API) content, insight is also needed on degradation products, impurities, (co-)crystallinity/presence of polymorphs, and content uniformity. 
-The ability to monitor excipeient deviations in tablet coatings is of great importance, particularly for functional coatings, such gastro-resistance [@doi:10.1016/j.ijpharm.2013.01.062]. 
+The ability to monitor excipient deviations in tablet coatings is of great importance, particularly for functional coatings, such gastro-resistance [@doi:10.1016/j.ijpharm.2013.01.062]. 
 
 Quantitative analysis of pharmaceutical tablets is routinely performed by high-pressure liquid chromatography (HPLC) which offers accurate and sensitive measurements of the active ingredient(s) and excipients, in addition to the presence of any contaminants. 
 However, solution-based analytical methods are destructive and labor-intensive.  
 
-Mass spectrometric methods can provide unlabeled identification, both of expected ingredients in known samples and of contaminants or components of unknown formulations. 
+Mass spectrometric methods can provide unlabelled identification, both of expected ingredients in known samples and of contaminants or components of unknown formulations. 
 Ambient ionisation mass spectrometry approaches including DESI (desorption electrospray ionisation) and DART (direct analysis in real time) facilitate the desorption and ionisation from the surface of samples at atmospheric conditions, without dissolution or additional sample preparation. 
 They are therefore potentially useful tools for rapid assessment of solid oral dosage forms 
 
@@ -174,7 +174,7 @@ Untargeted multivariate and machine learning approaches are therefore of interes
 Classification approaches for mass spectrometry applications are proving powerful in a range of applications. The two most widespread applications of classification in mass spectrometry are in disease diagnosis and determination of bacterial type [@doi:10.1016/j.aca.2014.03.039]. 
 A range of classification algorithms have been applied to mass spectrometry and spectroscopy data. Partial least squares discriminant analysis (PLS-DA) is most commonly reported, although a range of algorithms including neural networks, and support vector machines [@doi:10.1007/s00521-016-2736-3; @doi:10.1109/SSCI.2017.8285223] have been reported. 
 Several publications have evaluated different classification algorithms for mass spectrometry in proteomics[@doi:10.1016/j.csbj.2020.07.009] and metabolomics applications [@doi:10.1007/s11306-017-1242-7], but unsurprisingly the optimal algorithm depends greatly on the nature of the input data.
-Classification approaches are becoming more accessible through modeling tools with consistent grammar and data structure, and their integration into mass spectrometry software [ScilsLab,Waters software] [@doi:10.1007/s11306-017-1242-7]. 
+Classification approaches are becoming more accessible through modelling tools with consistent grammar and data structure, and their integration into mass spectrometry software [ScilsLab,Waters software] [@doi:10.1007/s11306-017-1242-7]. 
 
 
 Notably, classification of rapid evaporative ionisation MS enables real-time classification of tissue types during surgery [@doi:10.1038/s41416-018-0048-3]. 
@@ -200,7 +200,7 @@ The selection and use of unsupervised and/or supervised techniques on Raman spec
 As with mass spectrometry, classification of Raman spectroscopy data has been primarily focused on disease diagnostics [@doi:10.1002/jrs.882; @doi:10.1002/jbio.200810024; @doi:10.1155/2016/1603609] and bacterial analysis [@doi:10.1002/bip.20448; @doi:10.1002/jrs.5343]. Other noteworthy examples of the use of classification in Raman spectroscopy include differentiation of narcotics [@doi:10.1520/JFS15244J], pharmaceuticals [@doi:10.1016/j.talanta.2010.01.046], [@doi:10.1016/j.jpba.2006.01.033], and counterfeit tablets [@doi:10.1002/jrs.1621]. 
 
 There have been relatively few comparisons of different classification methods for Raman spectroscopy data. 
-Zheng et al. compared support vector machine (SVM), lineiar discriminent analysis (LDA) and k-nearest neighbours (KNN) methods to classify renin hypertension from Raman data from serum [@doi:10.1016/j.saa.2019.02.063]. 
+Zheng et al. compared support vector machine (SVM), linear discriminant analysis (LDA) and k-nearest neighbours (KNN) methods to classify renin hypertension from Raman data from serum [@doi:10.1016/j.saa.2019.02.063]. 
 They found that SVM and LDA performed similarly, and both outperformed the KNN algorithm.  Partial least squares (PLS) and PLS discriminant analysis are also commonly used methods in characterizing tablets. However, care is required depending on the data quantity and the pre-processing performed  [@doi:10.1002/cem.2609]. 
 Qun et al. tested the classification of expired drugs using PLS-DA, SVM and KNN, and reported that SVM gave the strongest performance [@doi:10.1016/j.jpba.2014.01.027].
 Fransson *et al.* tested the performance of multivariate methods including PLS, classical least squares (CLS) and multivariate curve resolution (MCR) for classification of pharmaceutical tablets [@doi:10.1002/cem.1330]. 
@@ -301,7 +301,9 @@ For DESI MS All tested algorithms performed well with mean F1 scores above 0.88.
 
 For transmission Raman data a linear discriminant analysis (LDA) model is most robust yielding a F1 measure greater than 0.95. Random forest, naïve Bayes and nearest neighbor models also performed well with F1 measures greater than 0.9 a similar level of performance. Unlike for DESI MS, here a SVM with a polynomial kernel performed less well with a F1 measure of 0.876. 
 
-The best performing models for each analytical technique (DESI MS: SVM-poly, Transmission Raman: LDA) were therefore taken forward for further exploration and testing. While not a limitation in the relatively small datasets demonstrated here it is worth noting the range of training times required for cross-validation, ranging from ~100 s for Transmission Raman with a boosted tree to ~500 s for DESI MS with naive Bayes (Figure S1). While a search grid for SVM hyperparameters (degree, cost and scale factor) was assessed, the default parameters proved optimal (Supplementary information B, Fig S3). There are no hyperparameters for the LDA. 
+Comparing the best performing models for each analytical technique (DESI MS: SVM-poly, Transmission Raman: LDA), LDA finds a hyperplane that best separates all data points, while an SVM searches for a hyperplane that best separates only those data points in the frontier between classes. In DESI MS many peaks may be less informative, relating to solvent background or molecular fragmentation. A SVM is able to place less priority on these peaks to focus on those forming the class boundaries. Whereas in transmission Raman spectroscopy all peaks are informative of the sample, if not all assignable. A LDA model therefore takes advantage of the full spectrum in discriminating the classes.
+
+These models were therefore taken forward for further exploration and testing. While not a limitation in the relatively small datasets demonstrated here it is worth noting the range of training times required for cross-validation, ranging from ~100 s for Transmission Raman with a boosted tree to ~500 s for DESI MS with naive Bayes (Figure S1). While a search grid for SVM hyperparameters (degree, cost and scale factor) was assessed, the default parameters proved optimal (Supplementary information B, Fig S3). There are no hyperparameters for the LDA. 
 
 ### Test set classification performance
 
