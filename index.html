@@ -10,7 +10,7 @@
   <meta name="author" content="Amy Burton" />
   <meta name="author" content="Josephine Bunch" />
   <meta name="author" content="Natalie A Belsey" />
-  <meta name="dcterms.date" content="2022-05-03" />
+  <meta name="dcterms.date" content="2022-05-25" />
   <meta name="keywords" content="desorption electrospray ionization mass spectrometry, transmission Raman spectroscopy, solid oral dosage form, classification" />
   <title>Classification of tablet formulations by desorption electrospray ionisation mass spectrometry and transmission Raman spectroscopy</title>
   <style>
@@ -52,8 +52,8 @@
   <meta name="citation_title" content="Classification of tablet formulations by desorption electrospray ionisation mass spectrometry and transmission Raman spectroscopy" />
   <meta property="og:title" content="Classification of tablet formulations by desorption electrospray ionisation mass spectrometry and transmission Raman spectroscopy" />
   <meta property="twitter:title" content="Classification of tablet formulations by desorption electrospray ionisation mass spectrometry and transmission Raman spectroscopy" />
-  <meta name="dc.date" content="2022-05-03" />
-  <meta name="citation_publication_date" content="2022-05-03" />
+  <meta name="dc.date" content="2022-05-25" />
+  <meta name="citation_publication_date" content="2022-05-25" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -85,9 +85,9 @@
   <meta name="citation_fulltext_html_url" content="https://adamjtaylor.github.io/tablet-classification/" />
   <meta name="citation_pdf_url" content="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://adamjtaylor.github.io/tablet-classification/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/2ad4ee72189577a385ec99b4e2f4c077b4944f40/" />
-  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/2ad4ee72189577a385ec99b4e2f4c077b4944f40/" />
-  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/2ad4ee72189577a385ec99b4e2f4c077b4944f40/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://adamjtaylor.github.io/tablet-classification/v/0861b055e0f0ffaefa35fe45125e75556296ee49/" />
+  <meta name="manubot_html_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/0861b055e0f0ffaefa35fe45125e75556296ee49/" />
+  <meta name="manubot_pdf_url_versioned" content="https://adamjtaylor.github.io/tablet-classification/v/0861b055e0f0ffaefa35fe45125e75556296ee49/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -307,8 +307,7 @@ As such we have tested a range of classification algorithms on their capability 
 <p>LDA trained on the whole Transmission Raman training set was used to classify an independently acquired test set of transmission Raman data from 24 tablets from the same batch. Classification performance was strong with an F1 score of 0.965 when using LDA (Figure 2F. Here classification is correct for tablet types B and C and A, which are classified correctly despite their high cosine similarity. However, in two cases tablet D misclassified as type A, and in one case type A misclassified as type D. While type A and D contain the same active ingredients and amounts, but differ in their film coating, as demonstrated by the notably different polymer profiles seen in the DESI MS data. This may contribute to altered peaks shape and or baseline in transmission Raman spectra potentially contributing to misclassification. We also note that the relatively low sample number in the test and train sets set used for cross-validation.</p>
 <h3 id="variable-importance">Variable importance</h3>
 <h4 id="desi-ms-2">DESI MS</h4>
-<p>When assessing the classification performance of algorithms on multidimensional data it is useful to assess the variables that the model has placed importance on. Unlike some classification algorithms such as tree-based methods, support vector machines do not inherently provide a measure of variable importance. We therefore calculated a variance-based variable importance using a feature importance ranking measure (FIRM) approach<span class="citation" data-cites="nt8c0OHC 3Nh3l2lO"><sup><a href="#ref-nt8c0OHC" role="doc-biblioref">58</a>,<a href="#ref-3Nh3l2lO" role="doc-biblioref">59</a></sup></span>, based on quantifying the relative flatness of each feature. Most variables are seen to have relatively low importance to the model (importance &lt; 0.05), although several variables are prominent in a spectrum of variable importance (Figure 3A). The 30 variables with the highest importance were selected and boxplots of their single scan intensity per tablet type plotted (Figure S5B). Several of these import variables show high intensity for a single class over all others. These include peaks characteristic of the background (<em>m/z</em> 588.42 &amp; <em>m/z</em> 309.20), tablet type B (<em>m/z</em> 693.18, <em>m/z</em> 164.13). Other important variables may be of greater intensity in two types (e/g <em>m/z</em> 821.8 in A and D, <em>m/z</em> 445.04 and B and C), or be present in all but one tablet type (e.g <em>m/z</em> 1013.59).</p>
-<p>Considering the importance of each variable and the relative intensity in each class enables and understanding of how the SVM charts a path to accurately divide the classes in multivariate space.</p>
+<p>When assessing the classification performance of algorithms on multidimensional data it is useful to assess the variables that the model has placed importance on. Unlike some classification algorithms such as tree-based methods, support vector machines do not inherently provide a measure of variable importance. We therefore calculated a variance-based variable importance using a feature importance ranking measure (FIRM) approach<span class="citation" data-cites="nt8c0OHC 3Nh3l2lO"><sup><a href="#ref-nt8c0OHC" role="doc-biblioref">58</a>,<a href="#ref-3Nh3l2lO" role="doc-biblioref">59</a></sup></span>, based on quantifying the relative flatness of each feature. Most variables are seen to have relatively low importance to the model (importance &lt; 0.05), although several variables are prominent in a spectrum of variable importance (Figure 3A). The 30 variables with the highest importance were selected and boxplots of their single scan intensity per tablet type plotted (Figure S5B). Several of these import variables show high intensity for a single class over all others. These include peaks characteristic of the background (<em>m/z</em> 588.42 &amp; <em>m/z</em> 309.20), tablet type B (<em>m/z</em> 693.18, <em>m/z</em> 164.13). Other important variables may be of greater intensity in two types (e/g <em>m/z</em> 821.8 in A and D, <em>m/z</em> 445.04 and B and C), or be present in all but one tablet type (e.g <em>m/z</em> 1013.59). Examination of variable importance, and the relative intensity of important peaks, enables an understandinbg of how the SVM charts a path in multivariate space to accurately classify the different tablet types.</p>
 <div id="fig:variable-importance" class="fignos">
 <figure>
 <img src="https://github.com/adamjtaylor/tablet-classification/raw/main/content/figures/fig3.png" style="width:75.0%" alt="Figure 3: Variable importance for selected classification models (A) FIRM variable importance for SVM-poly classification of DESI MS data. 5 peaks with highest importance are highlighted. (B) Scaling values for each discriminant from LDA of transmission Raman data. Highest absolute loading variables are highlighted with red circles. (B) Boxplots showing LDA scores for the spectra from the transmission Raman training set." /><figcaption aria-hidden="true"><span>Figure 3:</span> <strong>Variable importance for selected classification models</strong>
@@ -483,7 +482,7 @@ Classification performance was retained on datasets of reduced peak number and s
 <div class="csl-left-margin">(47) </div><div class="csl-right-inline">Wickham, H.; Averick, M.; Bryan, J.; Chang, W.; McGowan, L.; François, R.; Grolemund, G.; Hayes, A.; Henry, L.; Hester, J.; Kuhn, M.; Pedersen, T.; Miller, E.; Bache, S.; Müller, K.; Ooms, J.; Robinson, D.; Seidel, D.; Spinu, V.; Takahashi, K.; Vaughan, D.; Wilke, C.; Woo, K.; Yutani, H. Welcome to the Tidyverse. <em>Journal of Open Source Software</em> <strong>2019</strong>, <em>4</em> (43), 1686. https://doi.org/<a href="https://doi.org/10.21105/joss.01686">10.21105/joss.01686</a>.</div>
 </div>
 <div id="ref-4zds2yP" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">(48) </div><div class="csl-right-inline">Tidymodels <a href="https://www.tidymodels.org/">https://www.tidymodels.org/</a> (accessed 2022 -05 -03).</div>
+<div class="csl-left-margin">(48) </div><div class="csl-right-inline"><em>Tidymodels</em>. <a href="https://www.tidymodels.org/">https://www.tidymodels.org/</a> (accessed 2022-05-25).</div>
 </div>
 <div id="ref-SQTX4pUo" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">(49) </div><div class="csl-right-inline">Holman, J. D.; Tabb, D. L.; Mallick, P. Employing ProteoWizard to Convert Raw Mass Spectrometry Data. <em>Current Protocols in Bioinformatics</em> <strong>2014</strong>, <em>46</em> (1). https://doi.org/<a href="https://doi.org/10.1002/0471250953.bi1324s46">10.1002/0471250953.bi1324s46</a>.</div>
@@ -498,7 +497,7 @@ Classification performance was retained on datasets of reduced peak number and s
 <div class="csl-left-margin">(52) </div><div class="csl-right-inline">Borchers, H. W. <em><a href="https://CRAN.R-project.org/package=pracma">Pracma: Practical Numerical Math Functions</a></em>; 2022.</div>
 </div>
 <div id="ref-xdyIO3ue" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">(53) </div><div class="csl-right-inline">Correct baseline of signal with peaks - MATLAB msbackadj <a href="https://www.mathworks.com/help/bioinfo/ref/msbackadj.html">https://www.mathworks.com/help/bioinfo/ref/msbackadj.html</a> (accessed 2022 -05 -03).</div>
+<div class="csl-left-margin">(53) </div><div class="csl-right-inline"><em>Correct baseline of signal with peaks - MATLAB msbackadj</em>. <a href="https://www.mathworks.com/help/bioinfo/ref/msbackadj.html">https://www.mathworks.com/help/bioinfo/ref/msbackadj.html</a> (accessed 2022-05-25).</div>
 </div>
 <div id="ref-XgRF2vnB" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">(54) </div><div class="csl-right-inline">Dexter, A.; Race, A. M.; Styles, I. B.; Bunch, J. Testing for Multivariate Normality in Mass Spectrometry Imaging Data: A Robust Statistical Approach for Clustering Evaluation and the Generation of Synthetic Mass Spectrometry Imaging Data Sets. <em>Analytical Chemistry</em> <strong>2016</strong>, <em>88</em> (22), 10893–10899. https://doi.org/<a href="https://doi.org/10.1021/acs.analchem.6b02139">10.1021/acs.analchem.6b02139</a>.</div>
