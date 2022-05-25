@@ -7,7 +7,7 @@ Ariadna
 artesunate
 backscattered
 Belsey
-boxplots
+Boxplots
 Caterina
 Centre
 centroid
@@ -64,7 +64,7 @@ klaR
 KNN
 kV
 labelled
-labelling
+Labelling
 LD
 LDA
 Leica
@@ -104,7 +104,7 @@ PID
 plc
 PLS
 polymorphs
-Povidone
+povidone
 pracma
 pre
 pregelatinised
@@ -144,6 +144,7 @@ ToF
 Tsikritsis
 txt
 uncoated
+understandinbg
 unlabelled
 Untargeted
 wavenumber
